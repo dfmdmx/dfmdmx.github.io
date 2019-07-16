@@ -8,6 +8,6 @@
 layout: home
 ---
 
-dfmdmx its a personal attempt to share some of the scripts derived from the solutions I had implemented in previous proyects as standalone open-source drawing tools. 
+dfmdmx its a personal attempt to share some of the tools derived from the solutions I had implemented in previous proyects as standalone open-source programs.  
 
 

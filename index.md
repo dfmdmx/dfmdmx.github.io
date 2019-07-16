@@ -6,6 +6,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 layout: home
+Title: dfmdmx
 ---
 
 dfmdmx its a personal attempt to share some of the tools derived from the solutions I had implemented in previous proyects as standalone open-source programs. It also host's my work as an Architect and some of my ideas on the way I aproach desig through coding.

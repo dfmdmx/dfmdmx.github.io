@@ -4,15 +4,18 @@ title: Work
 permalink: /work/
 ---
 
-## 2017
+## 2010
 
-### Bug Fixes
+### Noobs
 
- * Add `jekyll-feed` plugin in config (#228)
+ * Wrote first `Hello World!` in python.
+
+## 2016
 
 ### Minor Enhancements
 
- * Stick footer for short posts (#223)
- * Consolidate trigger SVG paths (#148)
+ * Wrote first `Hello World!` in python server.
+ * Consolidate trigger between design and code.
+ * Made first fashionable generative design model. 
 
-## 2.4.1
+

@@ -1,4 +1,10 @@
-## 2.5.0
+---
+layout: page
+title: Work
+permalink: /work/
+---
+
+## 2017
 
 ### Bug Fixes
 

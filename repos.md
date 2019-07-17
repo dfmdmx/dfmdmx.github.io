@@ -17,14 +17,3 @@ This is a list of my public repositories
     <li><a href="{{ repository.html_url }}">{{ repository.full_name }}</a></li>
   {% endfor %}
 </ul>
-
-```
-{% raw %}
-<ul>
-  {% for repository in site.github.public_repositories %}
-    <li><a href="{{ repository.html_url }}">{{ repository.full_name }}</a></li>
-  {% endfor %}
-</li>
-{% endraw %}
-```
-

@@ -4,7 +4,7 @@ title: Open-source
 permalink: /open-source/
 ---
 
-These are some of the current design tools hosted on GitHub so far. They are also available in my github profile [dfmdmx](https://github.com/dfmdmx).
+These are some of the current design tools hosted on GitHub so far. They are also available in my github profile [**https://github.com/dfmdmx**](https://github.com/dfmdmx).
 
 ## Repositories
 

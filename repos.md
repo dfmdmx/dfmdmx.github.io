@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Work
-permalink: /work/
+title: Repositories
+permalink: /repos/
 ---
 
 ## Welcome to DFMDMX!

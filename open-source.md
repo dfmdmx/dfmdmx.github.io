@@ -1,7 +1,7 @@
 ---
 layout: page
-title: DFMDMX
-permalink: /dfmdmx/
+title: open-source
+permalink: /open-source/
 ---
 
 You can visit **dfmdmx** for contact information and proyects at [https://dfmdmx.github.io](https://dfmdmx.github.io) or go to directly to my github [https://github.com/dfmdmx](https://github.com/dfmdmx).

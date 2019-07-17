@@ -11,6 +11,6 @@ These are some of the current design tools hosted on GitHub so far. They are als
 <ul>
   {% for repository in site.github.public_repositories %}
     <li><b>{{ repository.name }}</b>
-      <a href="{{ repository.html_url }}">{{ repository.full_name }}</a><br><small>{{repository.description}}</small></li>
+      <a href="{{ repository.html_url }}">{{ repository.full_name }}</a><br><small>{{repository.description}}</small></li><br>
   {% endfor %}
 </ul>

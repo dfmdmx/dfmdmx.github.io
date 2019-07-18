@@ -4,14 +4,14 @@ title: Open-source
 permalink: /open-source/
 ---
 
-Parametric design often involves integrating thousand of different parts together into a single design. This is why working in an automated environment becomes a fundamental part in the digital manufacturing process. Most of my workshop development software its focused on solving this problem. The current solution is a cloud hosting file server with the ability to remotely control CNC machines. These CNC machines are shared among users and users have the ability to share their production files as well.
+Most of my workshop development software its focused on the automation part of the manufacturing process. The current working solution is a cloud hosting file server with the ability to remotely control CNC machines. These CNC machines are shared among users and users have the ability to share their production files as well.
 
 Some of the advantages for these approach are:
  - Parallel batch production between multiple coordinated machines.
  - Multiple users sharing the same machine.
  - Community based production.
 
-The Production Cloud Server has become the basis for manufacturing almost all of my current projects. Apart from been a practical tool it has allowed me to focus on the development of form finding algorithms that could integrate into this production model.
+The Production Cloud Server has become the basis for manufacturing almost all of my current projects. Apart from been a practical tool it has allowed me to focus on the development of form finding algorithms and paneling solutions that could integrate into this model.
 
 ## Production Cloud Server
 The Production Cloud Server hosts all the manufacturing files needed to integrate a design into a digital automated production line. The production line is seen as a list of IOT CNC machines each with its own client. The server feeds g-code files to this remote machines allowing them to work together in the same design.

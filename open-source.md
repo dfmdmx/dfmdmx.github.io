@@ -4,20 +4,20 @@ title: Open-source
 permalink: /open-source/
 ---
 
-Most of my workshop development software its focused on the automation part of the manufacturing process. The current working solution is a cloud hosting file server with the ability to remotely control CNC machines. These CNC machines are shared among users and users have the ability to share their production files as well.
+Most of my workshop development software is focused on the automation part of the manufacturing process. The current working solution is a cloud hosting file server with the ability to remotely control CNC machines. These CNC machines are shared among users who have the ability to share their production files as well.
 
-Some of the advantages for these approach are:
- - Parallel batch production between multiple coordinated machines.
- - Multiple users sharing the same machine.
- - Community based production.
+Some of the advantages for this approach are:
+ - Parallel batch production between multiple coordinated machines
+ - Multiple users sharing the same machine
+ - Community based production
 
-The Production Cloud Server has become the basis for manufacturing almost all of my current projects. Apart from been a practical tool it has allowed me to focus on the development of form finding algorithms and paneling solutions that takes advantage of this model.
+The Production Cloud Server has become the basis for manufacturing almost all of my current projects. Apart from been a practical tool it has allowed me to focus on the development of form finding algorithms and paneling solutions that take advantage of this production model.
 
 ## Production Cloud Server
-The Production Cloud Server hosts all the manufacturing files needed to integrate a design into a digital automated production line. The production line is seen as a list of IOT CNC machines each with its own client. The server feeds g-code files to this remote machines allowing them to work together in the same design.
+The Production Cloud Server hosts all the manufacturing files needed to integrate a design into a digital automated production line. The production line is seen as a list of IOT CNC machines each with its own client. The server feeds g-code files to these remote machines allowing them to work together in the same design.
 
 ### Cloud
-The Cloud part of the servers lets the users share their products and IOT CNC machines. This allows the production line to be extend seamlessly into other workshops or some student's garage near you.
+The Cloud part of the server enables the users to share their products and IOT CNC machines. This allows the production line to be extended seamlessly into other workshops or some student's garage near you.
 
 ### Machine client
 The client can be understood as a g-code file queue container installed on a local machine that can perform certain tasks remotely from the production server, such as:
@@ -27,7 +27,7 @@ The client can be understood as a g-code file queue container installed on a loc
 
 ## Repositories
 
-These are my public Repositories hosted on GitHub. They are also available on my GitHub profile [https://github.com/dfmdmx](https://github.com/dfmdmx).
+These are my public repositories hosted on GitHub. They are also available on my GitHub profile [https://github.com/dfmdmx](https://github.com/dfmdmx).
 
 <ul>
   {% for repository in site.github.public_repositories %}

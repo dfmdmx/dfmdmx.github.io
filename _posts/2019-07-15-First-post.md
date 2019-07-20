@@ -5,6 +5,8 @@ You’ll find this post in your `_posts directory. Go ahead and edit it and re-b
 
 {% include image.html name="new_image.png" caption="Sharing my blog" %}
 
+![hellow](https://raw.githubusercontent.com/dfmdmx/dfmdmx.github.io/{{ imagePath }})
+
 Hello
 
 {% highlight ruby %}

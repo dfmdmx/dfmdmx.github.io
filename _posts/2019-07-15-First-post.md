@@ -5,6 +5,8 @@ You’ll find this post in your `_posts directory. Go ahead and edit it and re-b
 
 {% include image name="new_image.png" caption="Sharing my blog" %}
 
+Hello
+
 {% highlight ruby %}
 def print_hi(name)
   puts "Hi, #{name}"

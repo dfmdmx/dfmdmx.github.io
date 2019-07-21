@@ -1,5 +1,5 @@
 title: dfmdmx
-author: dfmdmx ®
+author: daniel
 email: daniel@dfmd.mx
 description: > # this means to ignore newlines until "show_excerpts:"
   Professional board aimed to find practical applications for
@@ -23,7 +23,6 @@ github_username:  dfmdmx
 #   instance: example.com
 # - username: jekyll2
 #   instance: example.com
-
 
 show_excerpts: false # set to true to show excerpts on the homepage
 

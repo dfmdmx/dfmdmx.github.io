@@ -27,7 +27,6 @@ The client can be understood as a g-code file queue container installed on a loc
  - USB hub for file transfer (all g-code files in queue are copied to an external USB when inserted into the host computer)
 
 ## Repositories
-
 These are my public repositories hosted on GitHub. They are also available on my GitHub profile [https://github.com/dfmdmx](https://github.com/dfmdmx).
 
 <ul>
@@ -35,3 +34,6 @@ These are my public repositories hosted on GitHub. They are also available on my
     <li><a href="{{ repository.html_url }}">{{ repository.name }}</a><br>{{repository.description}}</li><br>
   {% endfor %}
 </ul>
+
+## Development Team
+The software development was created and its currently maintained by Daniel Fernández and Saúl Pilatowsky.

@@ -11,7 +11,7 @@ Production cloud based workshops.
 ### Linarand
 Linarand is one the leading Mexican companies in the conveyor belt industry. It has been the main supporter for the development of most of my research and the implementation of the work derived from it. Apart from the technical knowledge acquired from them they have set my standards into how to understand a company as whole that starts and ends in the people that sustain it.  
 
-They sponsored the research for an aluminum based low cost open-source CNC machine and hosted the manufacturing process of a self-sustained mesh structure project that lead to the beginning of the Production Cloud Server. This set the foundations for the workshops to come.
+They sponsored the research for an aluminum based low cost open-source CNC machine for drilling some of their belts. I started to work on automating some of their processes and started to use these machines to manufacture my parametric designed structures. This and the need to extend Linarand's CNC workshops into other cities lead to the beginning of the Production Cloud Server and set the foundations for the workshops to come.
 
 They have been my head quarters for the last four years and a launching platform for future enterprises.
 

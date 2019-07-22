@@ -20,8 +20,6 @@ They have been my head quarters for the last four years and a launching platform
 ### SPK
 SPK stands for Sputnik, as in first attempt.
 
-![Image Workshop Linarand](https://raw.githubusercontent.com/dfmdmx/dfmdmx.github.io/master/assets/images/open_source_machine.png)
-
 ## Featured development in progress
 
 ### 4t Industries

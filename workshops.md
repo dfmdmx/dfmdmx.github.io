@@ -6,18 +6,18 @@ permalink: /workshops/
 
 Production cloud based workshops.
 
-# Up and running
+## Up and running
 
-## Linarand
+### Linarand
 Conveyor belt industries.
 
-## SPK
+### SPK
 SPK stand for Sputnik, as in first attempt.
 
-# Featured Development 2020
+## Featured Development 2020
 
-## 4t Industries
+### 4t Industries
 New local mini-workshop's with the goal of re-dignifying Mexico's low income housing through digital designed and automated manufactured furniture.
 
-## DFMD Industries
+### DFMD Industries
 Specialized industrial CNC machining.

@@ -33,8 +33,11 @@ minima:
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
-#header_pages:
-# - about.html
+header_pages:
+ - open-source.md
+ - workshops.md
+ - gallery.md
+ - about.md
 
 # Build settings
 theme: minima

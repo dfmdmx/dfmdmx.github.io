@@ -36,4 +36,4 @@ These are my public repositories hosted on GitHub. They are also available on my
 </ul>
 
 ### Development Team
-The software was created and its currently maintained by Daniel Fernández and Saúl Pilatowsky.
+The software was created and its currently maintained by **Daniel Fernández** and **Saúl Pilatowsky**.

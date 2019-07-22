@@ -5,7 +5,7 @@ You’ll find this post in your `_posts directory. Go ahead and edit it and re-b
 
 {% include data.html %}
 
-![some image]({{imagePath}}new_image.png)
+![some image]({{imagePath}}/new_image.png)
 
 {% highlight ruby %}
 def print_hi(name)

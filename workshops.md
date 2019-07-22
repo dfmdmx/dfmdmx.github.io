@@ -13,14 +13,14 @@ Linarand is one the leading Mexican companies in the conveyor belt industry. It 
 
 They sponsored the research for an aluminum based low cost open-source CNC machine and hosted the manufacturing process of a self-sustained mesh structure project that lead to the beginning of the Production Cloud Server. This set the foundations for the workshops to come.
 
-![Image Workshop Linarand](https://raw.githubusercontent.com/dfmdmx/dfmdmx.github.io/master/assets/images/open_source_machine.png)
-
 They have been my head quarters for the last four years and a launching platform for future enterprises.
 
 ![Image Workshop Linarand](https://raw.githubusercontent.com/dfmdmx/dfmdmx.github.io/master/assets/images/workshop_linarand.jpg)
 
 ### SPK
 SPK stands for Sputnik, as in first attempt.
+
+![Image Workshop Linarand](https://raw.githubusercontent.com/dfmdmx/dfmdmx.github.io/master/assets/images/open_source_machine.png)
 
 ## Featured development in progress
 

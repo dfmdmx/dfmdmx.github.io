@@ -16,6 +16,10 @@ Linarand has been my head quarters for the last four years and a launching platf
 
 ![Image Workshop Linarand](https://raw.githubusercontent.com/dfmdmx/dfmdmx.github.io/master/assets/images/workshop_linarand.jpg)
 
+{% include image.html title='open_source_machine.png' description='hellow' %}
+
+include
+
 ### SPK
 SPK stands for Sputnik, as in first attempt.
 

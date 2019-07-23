@@ -16,8 +16,6 @@ Linarand has been my head quarters for the last four years and a launching platf
 
 {% include image.html name='workshop_linarand.jpg' description='Linarand's Warehouse Tpz-1. 2019' %}
 
-include
-
 ### SPK
 SPK stands for Sputnik, as in first attempt.
 

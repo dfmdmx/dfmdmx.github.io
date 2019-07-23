@@ -21,7 +21,7 @@ SPK stands for Sputnik, as in first attempt.
 
 ## Featured development in progress
 
-### [MX Industries](/mxindustires.html)
+### [MX Industries](/mx-industries/)
 Local mini-workshop's with the goal of re-dignifying Mexico's low income housing through digital parametric designed and automated industrial manufactured furniture.
 
 ### DFMD Industries

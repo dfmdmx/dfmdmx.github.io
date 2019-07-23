@@ -14,7 +14,7 @@ Once I had a proper CNC machine and a warehouse at my disposal I started working
 
 Linarand has been my head quarters for the last four years and a launching platform for all my enterprises. Apart from the technical knowledge acquired from them they helped me to understand a company as a whole that starts and ends in the people that sustain it.
 
-{% include image.html name='workshop_linarand.jpg' description='Warehouse at Linarand Tpz-1. 2019' %}
+{% include image.html name='workshop_linarand.jpg' caption='Warehouse at Linarand Tpz-1. 2019' %}
 
 ### SPK
 SPK stands for Sputnik, as in first attempt.

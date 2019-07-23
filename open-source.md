@@ -26,7 +26,7 @@ The client can be understood as a g-code file queue container installed on a loc
  - Remote USB emulator for non compatible machines (client must be installed on [rpi zero](https://www.raspberrypi.org/products/raspberry-pi-zero-w/))
  - USB hub for file transfer (all g-code files in queue are copied to an external USB when inserted into the host computer)
 
-## Software Download
+## Software Downloads
 These are my public repositories hosted on GitHub. They are also available on my GitHub profile [https://github.com/dfmdmx](https://github.com/dfmdmx).
 
 <ul>

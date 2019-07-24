@@ -12,4 +12,4 @@ Title: dfmdmx
 
 Thinking about Architecture as some intrinsic or emergent part of the universe allows us to reduce some of its properties into fundamental variables that can be understood through mathematics and then be shaped by the laws of science. The scale we have reach as humanity and the amount of information we have gathered about ourselves and our surroundings allows us to use some of the most advance problem solving techniques such as genetic algorithms and neural networks into real practical design applications.
 
-> **Note** *{{site.time}}* : This is a site under development and most of its written content is considered a draft.
+> **Note** {{site.time}}: This is a site under development and most of its written content is considered a draft.

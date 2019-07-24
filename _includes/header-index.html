@@ -3,26 +3,25 @@
 <script>
   $(document).ready(function() {
     var contentsTitle = "Table of Contents"; // Set your title here, to avoid making a heading for it later
-  	var ToC = "<h2>"+contentsTitle+"</h2>";
-      ToC += "<nav role='navigation' class='table-of-contents'><ul>";
+  	var ToC = '<h2>'+contentsTitle+'</h2>';
+      ToC += '<nav role="navigation" class="table-of-contents"><ul>';
       var first = false;
-  	$("h2,h3").each(function() {
+  	$('h2,h3').each(function() {
   		var el = $(this);
           if (first === false) {
           	first = true;
               $('<span id="dynamictoc"></span>').insertBefore(el);
           }
           var title = el.text();
-  		var link = "#" + el.attr("id");
-          if (el.is("h2")) {
-  			ToC += "<li><a href='" + link + "'>" + title + "</a></li>";
+  		var link = '#' + el.attr('id');
+          if (el.is('h2')) {
+  			ToC += '<li><a href="' + link + '">' + title + '</a></li>';
           } else if (el.is("h3")) {
-          	ToC += "<li style='margin-left:2em'><a href='" + link + "'>" + title + "</a></li>";
+          	ToC += '<li style='margin-left:2em'><a href="' + link + '">' + title + '</a></li>';
           }
   	});
-  	ToC += "</ul></nav>";
+  	ToC += '</ul></nav>';
       console.log(ToC);
-      var newtoc = unescape(encodeURIComponent(ToC));
-  	$("#dynamictoc").html(newtoc);
+  	$("#dynamictoc").html(ToC);
   });
 </script>

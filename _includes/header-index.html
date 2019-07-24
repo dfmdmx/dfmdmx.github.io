@@ -22,6 +22,7 @@
   	});
   	ToC += "</ul></nav>";
       console.log(ToC);
-  	$("#dynamictoc").html(ToC);
+      var newtoc = unescape(encodeURIComponent(ToC));
+  	$("#dynamictoc").html(newtoc);
   });
 </script>

@@ -34,7 +34,8 @@ The initial list:
   * Working desk/table
   * Door internal
   * Door external
-  * Panel wall
+  * Panel wall - Exterior
+  * Lightweight self standing wall - Interior
   * Table (not parametric)
   * Chair (not parametric)
 

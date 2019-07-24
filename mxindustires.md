@@ -68,41 +68,46 @@ Sales and Assembly does not properly belongs to this workflow and its coordinate
 
 ## Internal structure
 
-* **Management** - The management team will be the same for all workshops and sales teams. They will all be integrated through the production cloud server.
+**Management** - The management team will be the same for all workshops and sales teams. They will all be integrated through the production cloud server.
+
 
   * Tasks:
     * Accounting
     * Internal task management
     * Retail purchases and stock control
-    * IT  
+    * IT
+
   * Job titles:
     * Director (Senior)
     * Accountant (Senior or outsourced)
     * Auxiliary Accountant (Junior)
 
-  * **Sales** - Involves sales outside the storefront services and works alongside the workshop team. Its was originally thought as a separate side department and still open for debate.
+**Sales** - Involves sales outside the storefront services and works alongside the workshop team. Its was originally thought as a separate side department and still open for debate.
 
-    * Tasks:
-      * Sales
-      * Shipping
-      * Assembly and Installation (if needed will be provided by an external team)
-      * Client service
-    * Job titles:
-      * Salesperson (Senior)
 
-  * **Workshop** - This team is the backbone of the manufacturing process.
+  * Tasks:
+    * Sales
+    * Shipping
+    * Assembly and Installation (if needed will be provided by an external team)
+    * Client service  
 
-    * Tasks:
-      * Storefront services
-      * Drawing
-      * Cutting
-      * Edge banding
-      * Packaging
-    * Job titles:
-      * Workshop manager (Senior)
-      * Designer or similar (Junior)
-      * CNC operator (Junior)
-      * Manufacturing Auxiliary (Junior)
+  * Job titles:
+    * Salesperson (Senior)
+
+**Workshop** - This team is the backbone of the manufacturing process.
+
+  * Tasks:
+    * Storefront services
+    * Drawing
+    * Cutting
+    * Edge banding
+    * Packaging
+
+  * Job titles:
+    * Workshop manager (Senior)
+    * Designer or similar (Junior)
+    * CNC operator (Junior)
+    * Manufacturing Auxiliary (Junior)
 
 ## Workspace
 

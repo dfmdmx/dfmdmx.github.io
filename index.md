@@ -9,7 +9,7 @@ layout: home
 Title: dfmdmx
 ---
 
-> **Note:** This is still a draft. But I don't mind sharing its growth. Comments are more than welcome.
+> **Pre-release note:** This is a site under development and most of its written content is considered a draft.
 
 **dfmdmx** shares some of the tools derived from the solutions I had implemented in previous projects as standalone open-source programs. It also hosts my work as an Architect and some of my ideas on the way I approach design through coding.
 

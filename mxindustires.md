@@ -24,6 +24,11 @@ The services must be performed on site.
   * CNC machining
   * Semi-automatic PVC edge banding for laminated plywood
 
+**Web services:**  
+Online store interactions.
+  * Requests simple machining job and upload drawing files (hosted in the cloud server)
+  * Online parametric store for initial products (external web-app for e-commerce)
+
 ## Initial products
 The first approach will be to start with some of the most utilitarian home furniture. It should be designed only with the materials and production methods provided by the workshop. All of these initial product will be delivered as parametric files ready to be lived adjusted for the client and ready to send from the Sales department directly into Manufacturing.  
 
@@ -49,20 +54,66 @@ Machines needed:
   * 1 - Sanding machine +- 450cm cube
   * ........
 
-## Workflow
+## Product workflow
 The workflow divided into manageable segments:
-  * **Sales** -  Creates the initial product in the cloud with the design request.
-  * **Drawing** - Sees the request from the sales team and returns the product ready for manufacturing including cutting time, processes involved and materials needed. This is only done when a non parametric product is been generated. For example the products in the Initial Products list above go directly from Sales into Cutting.
-  * **Cutting** - This team is the one in charge of machining the g-codes created by the drawing team and preparing the machined parts for the next team.
-  * **Edge banding** - This process is only used for some laminated plywood projects.
-  * **Packaging** - Involves protecting the work of the others teams for further integration or mailing.  
-  * **Assembly** - If necessary this team is the one in charge of assembly and Installation. Assembly depends on Sales.
 
-## Team
-The team should be compose of people that reside nearby the workshop and who are capable of performing and improving their job.
+  * **Sales** - Creates the initial product in the cloud with the design request.
+  * **Drawing** - Sees the request from the sales team and returns the product ready for manufacturing including cutting time, processes involved and materials needed.
+  * **Cutting** - This team is the one in charge of machining the g-codes created by the drawing team and preparing the manufactured parts for the next team.
+  * **Edge banding** - This process is only used for some laminated plywood projects.
+  * **Packaging** - Involves protecting the work done for further integration or shipping.  
+  * **Assembly** - If necessary this team is the one in charge of Assembly and Installation. Assembly depends on Sales.
+
+Sales and Assembly does not properly belongs to this workflow and its coordinated by a separate department.
+
+## Internal structure
+
+  * **Management** - The management team will be the same for all workshops and sales teams. They will all be integrated through the production cloud server.
+
+  Tasks:
+    * Accounting
+    * Internal task management
+    * Retail purchases and stock control
+    * IT
+
+  Job titles:
+    * Director (Senior)
+    * Accountant (Senior or outsourced)
+    * Auxiliary Accountant (Junior)
+
+  * **Sales** - Involves sales outside the storefront services and works alongside the workshop team. Its was originally thought as a separate side department and still open for debate.
+
+  Tasks:
+    * Sales
+    * Shipping
+    * Assembly and Installation (if needed will be provided by an external team)
+    * Client service
+
+  Job titles:
+    * Salesperson (Senior)
+
+  * **Workshop** - This team is the backbone of the manufacturing process.
+
+  Tasks:
+    * Storefront services
+    * Drawing
+    * Cutting
+    * Edge banding
+    * Packaging
+
+  Job titles:
+    * Workshop manager (Senior)
+    * Designer or similar (Junior)
+    * CNC operator (Junior)
+    * Manufacturing Auxiliary (Junior)
 
 ## Workspace
 
-## Location
+## Responsibility
+We need to understand that making this project community based is not enough to justify the materials involved in the production process. *There is no point in dignifying low income housing if Earth is inhabitable.* This project cannot be understood without a future phase in which the materials used are also self manufactured. This will allow for the waste product of the machining process to be recycled.
+
+We still need to further plan this strategy but its main goal is to **#MakePeaceWithBillNye**.
 
 ## Investment
+
+## Projection

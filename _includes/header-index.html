@@ -13,7 +13,7 @@
           }
   		var title = el.textContent;
   		var link = "#" + el.id;
-          ToC += '<a href="' + link + '">' + title + '</a>';
+          ToC += '<a href="' + link + '">' + title + '</a><br>';
       });
       var tocDiv = document.getElementById('dynamictocnative');
       tocDiv.innerHTML = ToC;

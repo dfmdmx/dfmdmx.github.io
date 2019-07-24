@@ -9,8 +9,6 @@ Local mini-workshop's with the goal of re-dignifying Mexico's low income housing
 Mexico has long lost the ability to self maintain itself through localized production knowledge....
 
 ## Table of contents
-Simple table of contents:
-
 {% include header-index.html %}
 
 ## Materials and services

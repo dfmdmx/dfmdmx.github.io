@@ -1,17 +1,24 @@
-<span id='dynamictoc'></span>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+<span id='dynamictocnative'></span>
+
 <script>
-  $(document).ready(function() {
-  	var ToC = '<ul>';
-    //$('h2,h3').each(function() {
-  	$('h2').each(function() {
-  		var el = $(this);
-      var title = el.text();
-  		var link = '#' + el.attr('id');
-      ToC += '<li><a href=\"' + link + '\">'+ title + '</a></li><br>'
-  	});
-    ToC += '</ul>';
-    console.log(ToC);
-  	$("#dynamictoc").html(ToC);
-  });
+  var contentsTitle = "Table of Contents";
+	var ToC = '<h2>'+contentsTitle+'</h2>';
+    ToC += '<nav role="navigation:" class="table-of-contents"><ul>';
+    var first = false;
+
+    document.querySelectorAll('h2').forEach(function(el,index) {
+        if (first === false) {
+        	first = true;
+            var newSpan = document.createElement('SPAN');
+            newSpan.id='dynamictocnative';
+            el.parentNode.insertBefore(newSpan, el);
+        }
+		var title = el.textContent;
+		var link = "#" + el.id;
+        ToC += '<li><a href="' + link + '">' + title + '</a></li>';
+    });
+
+	ToC += '</ul></nav>';
+    var tocDiv = document.getElementById('dynamictocnative');
+    tocDiv.innerHTML = ToC;
 </script>

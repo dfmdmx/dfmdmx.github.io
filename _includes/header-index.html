@@ -13,9 +13,9 @@
           }
   		var title = el.textContent;
   		var link = "#" + el.id;
-      if (['dfmdmx', 'About', 'Table of contents'].indexOf(title) >= 0)  {
+      if (['dfmdmx', 'About', 'Table of contents'].indexOf(title) == -1)  {
           ToC += '<a href="' + link + '">' + title + '</a><br>';
-        }
+        };
       });
       var tocDiv = document.getElementById('dynamictocnative');
       tocDiv.innerHTML = ToC;

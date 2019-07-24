@@ -12,6 +12,8 @@ Some of the advantages for this approach are:
 
 The Production Cloud Server has become the basis for manufacturing almost all of my current projects. Apart from been a practical tool it has allowed me to focus on the development of form finding algorithms and paneling solutions that take advantage of this production model.
 
+{% include header-index.html %}
+
 ![Production Cloud Server](https://raw.githubusercontent.com/dfmdmx/dfmdmx.github.io/master/assets/images/production_cloud_server_concept.png)
 
 ## Production Cloud Server

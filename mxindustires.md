@@ -70,7 +70,6 @@ Sales and Assembly does not properly belongs to this workflow and its coordinate
 
 **Management** - The management team will be the same for all workshops and sales teams. They will all be integrated through the production cloud server.
 
-
   * Tasks:
     * Accounting
     * Internal task management
@@ -84,12 +83,11 @@ Sales and Assembly does not properly belongs to this workflow and its coordinate
 
 **Sales** - Involves sales outside the storefront services and works alongside the workshop team. Its was originally thought as a separate side department and still open for debate.
 
-
   * Tasks:
     * Sales
     * Shipping
     * Assembly and Installation (if needed will be provided by an external team)
-    * Client service  
+    * Client service
 
   * Job titles:
     * Salesperson (Senior)

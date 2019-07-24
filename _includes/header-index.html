@@ -6,7 +6,6 @@
   	var ToC = '<h2>'+contentsTitle+'</h2>';
       ToC += '<nav role="navigation:" class="table-of-contents"><ul>';
       var first = false;
-
       document.querySelectorAll('h2').forEach(function(el,index) {
           if (first === false) {
           	first = true;
@@ -18,7 +17,6 @@
   		var link = "#" + el.id;
           ToC += '<li><a href="' + link + '">' + title + '</a></li>';
       });
-
   	ToC += '</ul></nav>';
       var tocDiv = document.getElementById('dynamictocnative');
       tocDiv.innerHTML = ToC;

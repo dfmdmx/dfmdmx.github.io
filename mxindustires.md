@@ -19,12 +19,14 @@ The list of materials should be as short as possible, they all need to be panel 
 
 **Storefront services:**  
 The services must be performed on site.
+  * Live adjustment of parametric products and rendering
   * 2D CAD/CAM g-code file creation
   * CNC machining
   * Semi-automatic PVC edge banding for laminated plywood
 
 ## Initial products
 The first approach will be to start with some of the most utilitarian home furniture. It should be designed only with the materials and production methods provided by the workshop. All of these initial product will be delivered as parametric files ready to be lived adjusted for the client and ready to send from the Sales department directly into Manufacturing.  
+
 The initial list:
   * Closet
   * Bathroom/Kitchen sink cabinet
@@ -49,7 +51,7 @@ Machines needed:
 ## Workflow
 The workflow divided into manageable segments:
   * **Sales** -  Creates the initial product in the cloud with the design request.
-  * **Drawing** - Sees this request from the sales team and returns the cutting time, the process involved and the list of the materials needed. This is only done when a non parametric product is been generated. For example the Initial Products listed above go directly from Sales into Cutting.
+  * **Drawing** - Sees the request from the sales team and returns the product ready for manufacturing including cutting time, processes involved and materials needed. This is only done when a non parametric product is been generated. For example the products in the Initial Products list above go directly from Sales into Cutting.
   * **Cutting** - This team is the one in charge of machining the g-codes created by the drawing team and preparing the machined parts for the next team.
   * **Edge banding** - This process is only used for some laminated plywood projects.
   * **Packaging** - Involves protecting the work of the others teams for further integration or mailing.  

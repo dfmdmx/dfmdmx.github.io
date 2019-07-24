@@ -4,13 +4,6 @@
   function create_index() {
   	var ToC = '';
       var first = false;
-      document.querySelectorAll('h2').forEach(function(el,index) {
-          if (first === false) {
-          	first = true;
-              var newSpan = document.createElement('SPAN');
-              newSpan.id='dynamictocnative';
-              el.parentNode.insertBefore(newSpan, el);
-          }
   		var title = el.textContent;
   		var link = "#" + el.id;
       if (['dfmdmx', 'About', 'Table of contents'].indexOf(title) == -1)  {

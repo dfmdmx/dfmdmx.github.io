@@ -6,6 +6,8 @@ permalink: /mx-industries/
 Local mini-workshop's with the goal of re-dignifying Mexico's low income housing through digital parametric designed and automated industrial manufactured furniture.
 
 [Initial products](#initial-products)
+Index:
+{% include header-index.html %}
 
 ## About
 Mexico has long lost the ability to self maintain itself through localized production knowledge....

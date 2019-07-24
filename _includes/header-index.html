@@ -2,13 +2,15 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
 <script>
   $(document).ready(function() {
-  	var ToC = '<h2> Index </h2>';
-  	$('h2,h3').each(function() {
+  	var ToC = '<p><h2>Index</h2>';
+    //$('h2,h3').each(function() {
+  	$('h2').each(function() {
   		var el = $(this);
       var title = el.text();
   		var link = '#' + el.attr('id');
-      ToC += '[' + title + ']('+ link + ')\n'
+      ToC += '<a href=\"' + link + '\">'+ title + '</a><br>'
   	});
+    ToC += '</p>';
     console.log(ToC);
   	$("#dynamictoc").html(ToC);
   });

@@ -69,25 +69,23 @@ Sales and Assembly does not properly belongs to this workflow and its coordinate
 ## Internal structure
 
   * **Management** - The management team will be the same for all workshops and sales teams. They will all be integrated through the production cloud server.
-
-  Tasks:
-    * Accounting
-    * Internal task management
-    * Retail purchases and stock control
-    * IT
+   * Accounting
+   * Internal task management
+   * Retail purchases and stock control
+   * IT
 
   Job titles:
-    * Director (Senior)
-    * Accountant (Senior or outsourced)
-    * Auxiliary Accountant (Junior)
+   * Director (Senior)
+   * Accountant (Senior or outsourced)
+   * Auxiliary Accountant (Junior)
 
   * **Sales** - Involves sales outside the storefront services and works alongside the workshop team. Its was originally thought as a separate side department and still open for debate.
 
   Tasks:
-    * Sales
-    * Shipping
-    * Assembly and Installation (if needed will be provided by an external team)
-    * Client service
+  * Sales
+  * Shipping
+  * Assembly and Installation (if needed will be provided by an external team)
+  * Client service
 
   Job titles:
     * Salesperson (Senior)
@@ -110,7 +108,7 @@ Sales and Assembly does not properly belongs to this workflow and its coordinate
 ## Workspace
 
 ## Responsibility
-We need to understand that making this project community based is not enough to justify the materials involved in the production process. *There is no point in dignifying low income housing if Earth is inhabitable.* This project cannot be understood without a future phase in which the materials used are also self manufactured. This will allow for the waste product of the machining process to be recycled.
+We need to understand that making this project community based is not enough to justify the materials involved in the production process. *There is no point in dignifying low income housing if Earth is inhabitable.* This project cannot be understood without a future phase in which the materials used are also self manufactured. This will allow for the waste product of the machines to be recycled.
 
 We still need to further plan this strategy but its main goal is to **#MakePeaceWithBillNye**.
 

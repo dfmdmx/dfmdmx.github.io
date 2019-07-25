@@ -2,5 +2,5 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@import "{{site.theme}}";
-$base-font-family: Arial !important;
+@import "minima";
+$base-font-family: Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;

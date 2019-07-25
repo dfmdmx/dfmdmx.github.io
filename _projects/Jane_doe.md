@@ -1,6 +1,4 @@
 ---
-layout: page
-title: MXINC
 name: Jane Doe
 position: Developer
 ---

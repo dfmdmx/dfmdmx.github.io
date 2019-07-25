@@ -3,7 +3,6 @@ author: daniel
 email: daniel@dfmd.mx
 #Used for local development
 repository: dfmdmx/dfmdmx.github.io
-github: [metadata]
 
 collections:
   projects:

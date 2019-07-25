@@ -3,10 +3,11 @@
 ---
 
 @import "minima";
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
-h1, h2, h3 , h4 {
-  font-family: 'Montserrat', sans-serif;
+h1 {
+  font-family: 'Open Sans', sans-serif;
 }

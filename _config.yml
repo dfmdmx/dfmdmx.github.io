@@ -14,6 +14,8 @@ repository: dfmdmx/dfmdmx.github.io
 collections:
   projects:
     output: true
+disqus:
+    shortname: dfmd
 
 # social links
 # twitter_username: utitanka

@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 ---
 
 Future note in case I start selling personalized gene edited potato homes and a client start to pressure into coding extra benefits into his home's DNA.

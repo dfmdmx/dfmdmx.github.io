@@ -27,7 +27,7 @@ Acquiring social scientific data to allow the algorithms to shape its output acc
 
 ## Production workshops
 
-Production cloud based workshops.
+>The workshop as a dynamic place for manufacturing and learning through the use of new technologies and innovative solutions.  
 
 ### Linarand workshop
 Linarand is one the leading Mexican companies in the conveyor belt industry. It has been the main supporter of my research. I started working with them after they sponsored an aluminum CNC machine that I had been designing for a while. After building this machine I automated other manufacturing processes within the factory and was assigned a dedicated warehouse to work alongside their engineering teams.

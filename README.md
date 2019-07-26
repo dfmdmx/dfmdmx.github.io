@@ -1,4 +1,8 @@
 ## Welcome to DFMDMX!
 
-You can visit **dfmdmx** for contact information and projects at [https://dfmdmx.github.io](https://dfmdmx.github.io) or go to directly to my github [https://github.com/dfmdmx](https://github.com/dfmdmx).
+You can visit **dfmdmx** at:  
+ * [https://www.dfmd.mx/](https://www.dfmd.mx/)   
+ Copyright © 2016-2019 dfmd Inc. All rights reserved.  
 
+ * [https://github.com/dfmdmx](https://github.com/dfmdmx)  
+ GitHub user page

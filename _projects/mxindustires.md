@@ -2,14 +2,16 @@
 layout: page
 title: MX Industries
 permalink: /mx-industries/
+status: Development
 ---
-Local mini-workshop's with the goal of re-dignifying Mexico's low income housing through digital parametric designed and automated industrial manufactured furniture.
+
+Small scale and local workshop's with the goal of re-dignifying Mexico's low income housing through digital parametric designed and automated industrial manufactured furniture.
 
 ## About
 Mexico has long lost the ability to self maintain itself through localized production knowledge....
 
 ### Table of contents
-{% include header-index.html %}
+{% include index-headers.html %}
 
 ## Materials and services
 #### Materials:
@@ -135,4 +137,4 @@ We still need to further plan this strategy but its main goal is to **#MakePeace
 
 ## Projection
 
-## The Plan
+## Implementation

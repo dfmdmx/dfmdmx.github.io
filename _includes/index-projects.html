@@ -1,0 +1,9 @@
+{% for project in site.projects %}
+  <h2 class="post-list-heading"> Projects </h2>
+  <h3>
+    <a class="post-link" href="{{ project.url }}">
+      {{ project.title }}
+    </a>
+  </h3>
+  <p>{{ project.excerpt | markdownify }}</p>
+{% endfor %}

@@ -1,16 +1,17 @@
 title: dfmdmx
-author: Copyright 2016-2019 dfmd Inc.
+author: daniel
 email: daniel@dfmd.mx
+description: > # this means to ignore newlines until "show_excerpts:"
+  Professional board aimed to find practical applications for
+  computed assisted form finding and automated machine manufacturing.
+
 #Used for local development
 repository: dfmdmx/dfmdmx.github.io
-
+#Used for post like structures
 collections:
   projects:
     output: true
 
-description: > # this means to ignore newlines until "show_excerpts:"
-  Professional board aimed to find practical applications for
-  computed assisted form finding and automated machine manufacturing.
 # social links
 twitter_username: utitanka
 github_username:  dfmdmx
@@ -42,7 +43,6 @@ minima:
 # this and add the path to the pages in order as they should show up
 header_pages:
  - open-source.md
- - workshops.md
  - gallery.md
  - about.md
 

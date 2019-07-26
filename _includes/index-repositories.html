@@ -1,6 +1,7 @@
 <ul>
   {% for repository in site.github.public_repositories %}
-    <li><a class="important-link" href="{{ repository.html_url }}" target="_blank" >{{ repository.name }}</a><br>
+    <li>
+      <a class="important-link" href="{{ repository.html_url }}" target="_blank" >{{ repository.name }}</a><br>
       {{repository.description}}
     </li><br>
   {% endfor %}

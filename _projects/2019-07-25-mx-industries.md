@@ -1,10 +1,7 @@
 ---
 layout: page
-title: MX Industries
-permalink: /mx-industries/
 status: Development
 ---
-
 Small scale and local workshop's with the goal of re-dignifying Mexico's low income housing through digital parametric designed and automated industrial manufactured furniture.
 
 ## About

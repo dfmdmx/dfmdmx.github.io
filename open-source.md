@@ -30,10 +30,10 @@ The client can be understood as a g-code file queue container installed on a loc
 
 The machine client installation file is available at the [Software Downloads](/open-source/#software-downloads) section.
 
-## Software Downloads
+## Software downloads
 These are my public repositories hosted on GitHub. They are also available on my GitHub profile [https://github.com/dfmdmx](https://github.com/dfmdmx).
 
 {% include index-repositories.html %}
 
-### Development Team
+### Development team
 The software was created and its currently maintained by Daniel Fernández and Saúl Pilatowsky.

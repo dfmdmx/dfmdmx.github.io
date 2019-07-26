@@ -37,4 +37,10 @@ blockquote {
 
 #disqus_thread {
   filter: grayscale(1) opacity(.66);
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+#disqus_thread:hovered {
+  filter:opacity(1);
 }

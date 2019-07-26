@@ -15,7 +15,7 @@ collections:
   projects:
     output: true
 disqus:
-    shortname: dfmd
+  shortname: dfmd
 
 # social links
 # twitter_username: utitanka

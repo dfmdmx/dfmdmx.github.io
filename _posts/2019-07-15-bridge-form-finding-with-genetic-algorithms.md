@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: false
 ---
 
 The goal is to create a bridge like model that suffices these parameters in the most optimal way:

@@ -1,6 +1,7 @@
 ---
 layout: post
 status: Development
+comments: false
 ---
 Small scale and local workshop's with the goal of re-dignifying Mexico's low income housing through digital parametric designed and automated industrial manufactured furniture.
 

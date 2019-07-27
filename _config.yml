@@ -17,7 +17,7 @@ collections:
 disqus:
   shortname: dfmd
   comments: false
-
+remote_calls: https://www.ingenierialinarand.com/_back/remote-calls
 # social links
 # twitter_username: utitanka
 github_username:  dfmdmx

@@ -16,6 +16,7 @@ collections:
     output: true
 disqus:
   shortname: dfmd
+  comments: false
 
 # social links
 # twitter_username: utitanka

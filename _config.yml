@@ -18,14 +18,10 @@ disqus:
   shortname: dfmd
   comments: false
 
-#remote_calls: https://www.ingenierialinarand.com/_back/remote-calls
-
 # social links
 # twitter_username: utitanka
 github_username:  dfmdmx
 rss: rss
-# dribbble_username: jekyll
-# facebook_username: jekyll
 # flickr_username: jekyll
 # instagram_username: jekyll
 # linkedin_username: jekyll

@@ -16,7 +16,7 @@ function remoteCall(method,args){
 $(document).ready(function() {
   var method = 'handshake'
   remoteCall('handshake',{'name':'Jekyll'}).done(function(response){
-  		console.log(response.hello);
+  		console.log(response.greetings);
     }).fail(function(){
       console.log('error');
     }).always(function(){

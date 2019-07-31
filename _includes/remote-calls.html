@@ -1,10 +1,21 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 <script>
+
+function decodePayload(payload){
+	var decodedData = JSON.parse(payload);
+	return decodedData
+}
+
+function encodePayload(payload){
+	var encodedData = JSON.stringify(payload);
+	return encodedData
+}
+
 function remoteCall(method,args){
-	return $.get("{{site.data.callback.url}}"+method,JSON.stringify(args)).then(function(data){
+	return $.get("{{site.data.callback.url}}"+method,{'payload':encodePayload(args)}).then(function(data){
 		if(data.success){
-			return $.Deferred().resolve(JSON.parse(data.response)).promise();
+			return $.Deferred().resolve(decodePayload(data.payload)).promise();
 		}else{
 			return $.Deferred().reject(data.error).promise();
 		}
@@ -27,7 +38,7 @@ function handshake(name) {
 
 {% if site.data.callback.handshake %}
 	$(document).ready(function() {
-		handshake('Jekyll Willson');
+		handshake('Jekyll Williams');
 	});
 {% endif %}
 

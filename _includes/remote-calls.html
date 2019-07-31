@@ -2,7 +2,7 @@
 
 <script>
 function remoteCall(method,args){
-	return $.get("{{site.data.callback.url}}"+method,args).then(function(data){
+	return $.get("{{site.data.callback.url}}"+method,JSON.stringify(args)).then(function(data){
 		if(data.success){
 			return $.Deferred().resolve(JSON.parse(data.response)).promise();
 		}else{
@@ -23,11 +23,11 @@ function handshake(name) {
 	    }).always(function(){
 				console.log('...done.');
 	    });
-	}
+}
 
 {% if site.data.callback.handshake %}
 	$(document).ready(function() {
-		handshake('Jekyll');
+		handshake('Jekyll Willson');
 	});
 {% endif %}
 

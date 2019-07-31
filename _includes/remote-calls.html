@@ -15,11 +15,13 @@ function remoteCall(method,args){
 }
 $(document).ready(function() {
   var method = 'handshake'
+	console.log('handshake...');
   remoteCall('handshake',{'name':'Jekyll'}).done(function(response){
   		console.log(response.greetings);
     }).fail(function(){
       console.log('error');
     }).always(function(){
+			console.log('done...');
     });
 })
 </script>

@@ -1,6 +1,5 @@
-{% if site.data.callback.url %}
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
 <script>
 function remoteCall(method,args){
 	return $.get("{{site.data.callback.url}}"+method,args).then(function(data){
@@ -13,17 +12,25 @@ function remoteCall(method,args){
 		return $.Deferred().reject(status).promise();
 	})
 }
-$(document).ready(function() {
-  var method = 'handshake'
-	console.log('handshake...');
-  remoteCall('handshake',{'name':'Jekyll'}).done(function(response){
-  		console.log(response.greetings);
-    }).fail(function(){
-      console.log('error');
-    }).always(function(){
-			console.log('done...');
-    });
-})
+
+function handshake(name) {
+	  var method = 'handshake'
+		console.log('handshake...');
+	  remoteCall('handshake',{'name':name}).done(function(response){
+	  		console.log(response.greetings);
+	    }).fail(function(){
+	      console.log('error');
+	    }).always(function(){
+				console.log('...done.');
+	    });
+	}
+
+{% if site.data.callback.handshake %}
+	$(document).ready(function() {
+		handshake('Jekyll');
+	});
+{% endif %}
+
 </script>
 
 {% endif %}

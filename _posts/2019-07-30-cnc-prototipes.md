@@ -12,14 +12,15 @@ This is lightweight machine primarily design with [OpenBuilds](https://openbuild
 
 ## Aluminum Small CNC
 This is lightweight but smaller machine also design with [OpenBuilds](https://openbuildspartstore.com/) assembly parts and some custom CNC aluminum plates.
-### Open source
+### Open source hardware
 This is the [OpenBuilds](https://openbuildspartstore.com/) machine.
 {% include image-gallery.html folder="/assets/binder/2019-07-30-cnc-prototipes/as-cnc" %}
-### Proprietary linear rails
+{% include file-binder.html name='AluminumSmall-CNC' title='3D CAD files' %}
+### Proprietary hardware
 This CNC has been built upon proprietary industrial hardware. It show some of the functionalities for small machines.
-{% include image-gallery.html folder="/assets/binder/2019-07-30-cnc-prototipes/as-cnc-igus" %}
+{% include image-gallery.html folder="/assets/binder/2019-07-30-cnc-prototipes/ai-cnc" %}
 
-{% include file-binder.html name='AluminumSmall-CNC' title='3D CAD files' captions="This files are for the open source machine" %}
+
 
 ## Wood Small CNC
 This is lightweight but smaller machine also design with [OpenBuilds](https://openbuildspartstore.com/) assembly parts and some custom CNC aluminum plates.

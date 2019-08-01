@@ -3,9 +3,11 @@ layout: post
 status: Development
 comments: false
 ---
-Small scale and local workshop's with the goal of re-dignifying Mexico's low income housing through digital parametric designed and automated industrial manufactured furniture.
 
-## About
+## Pre-built business workshops
+Small scale and local manufacturing workshop's with the goal of re-dignifying Mexico's low income housing through digital parametric designed and ~~automated industrial manufactured~~ furniture.
+
+### About
 Mexico has long lost the ability to self maintain itself through localized production knowledge....
 
 ### Table of contents
@@ -132,6 +134,8 @@ We need to understand that making this project community based is not enough to 
 We still need to further plan this strategy but its main goal is to **#MakePeaceWithBillNye**.
 
 ## Investment
+
+## Become a partner
 
 ## Projection
 

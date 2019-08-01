@@ -1,28 +1,49 @@
 <style>
-    .download-menu {width:80%}
-    .download-menu a {margin-left: 20px;}
-    .download-menu blockquote {
+    .download-menu  {
       color: #828282;
       font-family: 'Inconsolata', monospace;
-      font-size: 14px;
+      font-size: 16px;
       letter-spacing: normal;
       font-style: normal;
       margin-top: 10px;
       margin-bottom: 10px;
+  }
+    .download-menu a {
+      font-size: 18px;
+      margin-left: 20px;
+    }
+    .download-menu .footer {
+      font-size: 12px;
+      margin-top: 10px;
+      font-weight: normal;
+    }
+    .download-menu .title {
+      font-size: 18px;
+      color: #212121
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-weight: normal;
+    }
+    .download-menu .caption {
+      font-size: 14px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-weight: normal;
+      font-family: 'Montserrat', sans-serif;
     }
 
 </style>
 
 {% capture downloadQuery %}{{ page.date | date: "%Y-%m-%d" }}-{{ page.title | slugify }}/{{ include.name }}{% endcapture %}
 <div class='download-menu'>
-  <blockquote>
-  <b>Notes</b> {{ include.caption }}<br>
+  <div class='title'>{{ include.title}}</div>
+  {% if include.caption %}<div class='caption'>{{ include.caption }}</div>{% endif %}
   {% for file in site.static_files %}
     {% if file.path contains downloadQuery %}
       {% assign filenameparts = file.path | split: "/" %}
       {% assign filename = filenameparts | last %}
-        <a class="important-link" href="{{ site.url }}/assets/binder/{{ filePath }}" download>{{ filename }}</a><br>
+        <a href="{{ site.url }}/assets/binder/{{ filePath }}" download>{{ filename }}</a> - Download from github.<br>
     {% endif %}
   {% endfor %}
-  </blockquote>
+  <div class='footer'><b>Note:</b> This files are shared as they are. With no specific intent.</div>
 </div>

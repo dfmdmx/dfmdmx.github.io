@@ -14,7 +14,7 @@ The Production Cloud Server has become the basis for manufacturing almost all of
 
 {% include index-headers.html %}
 
-![Production Cloud Server](https://raw.githubusercontent.com/dfmdmx/dfmdmx.github.io/master/assets/images/production_cloud_server_concept.png)
+![Production Cloud Server](/assets/images/production_cloud_server_concept.png)
 
 ## Production Cloud Server
 The Production Cloud Server hosts all the manufacturing files needed to integrate a design into a digital automated production line. The production line is seen as a list of IOT CNC machines each with its own client. The server feeds g-code files to these remote machines allowing them to work together in the same design.

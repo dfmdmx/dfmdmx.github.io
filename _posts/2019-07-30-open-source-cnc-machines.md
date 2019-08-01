@@ -2,6 +2,9 @@
 layout: post
 comments: false
 ---
+
+{% include liquid_data.html %}
+
 Some CNC machine designs inspired by the *maker movement* made between the years of 2016 and 2017.
 
 ## Aluminum Medium CNC

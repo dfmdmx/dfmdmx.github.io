@@ -42,7 +42,7 @@
     {% if file.path contains downloadQuery %}
       {% assign filenameparts = file.path | split: "/" %}
       {% assign filename = filenameparts | last %}
-        <a href="{{ site.url }}/assets/binder/{{ filePath }}" download>{{ filename }}</a> - Download from github.<br>
+        <a href="{{ file.path}}" download>{{ filename }}</a> - Download from github.<br>
     {% endif %}
   {% endfor %}
   <div class='footer'><b>Note:</b> This files are shared as they are. With no specific intent.</div>

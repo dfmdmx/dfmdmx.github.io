@@ -17,7 +17,7 @@ This is lightweight machine primarily design with [OpenBuilds](https://openbuild
 #### Renders
 {% include image-gallery.html name='am-cnc' %}
 #### Builds
-{% include image-gallery.html name='am-cnc-photos' %}
+{% include image-gallery.html name='photos-am-cnc' %}
 #### Download files
 {% include file-binder.html name='AluminumMedium-CNC' %}
 
@@ -33,7 +33,7 @@ This is the [OpenBuilds](https://openbuildspartstore.com/) machine.
 This CNC has been built upon proprietary industrial hardware. It show some of the functionalities for small machines.
 {% include image-gallery.html name='ai-cnc' %}
 
-## Mini Wood CNC
+## XSmall Wood CNC
 This is lightweight but smaller machine also design with [OpenBuilds](https://openbuildspartstore.com/) assembly parts and some custom CNC aluminum plates.
 
 {% include image-gallery.html name='ws-cnc' %}

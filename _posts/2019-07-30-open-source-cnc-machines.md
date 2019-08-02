@@ -12,6 +12,15 @@ If you are interested in a pre-built business workshop integration please check 
 
 ## Medium Aluminum CNC
 
+### Generation 2.0 Current
+This is lightweight machine primarily design with [OpenBuilds](https://openbuildspartstore.com/) assembly parts and some custom CNC aluminum plates.  
+#### Renders
+{% include image-gallery.html name='ob-cnc' %}
+#### Builds
+{% include image-gallery.html name='photos-ob-cnc' %}
+#### Download files
+{% include file-binder.html name='AluminumMedium-OpenBuilds-CNC' %}
+
 ### Generation 1.0
 This is lightweight machine primarily design with [OpenBuilds](https://openbuildspartstore.com/) assembly parts and some custom CNC aluminum plates.  
 #### Renders

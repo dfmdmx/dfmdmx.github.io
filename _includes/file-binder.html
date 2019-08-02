@@ -1,23 +1,20 @@
 <style>
     .download-menu  {
-      color: #828282;
-      font-family: 'Inconsolata', monospace;
-      font-size: 16px;
-      letter-spacing: normal;
-      font-style: normal;
       margin-top: 20px;
       margin-bottom: 20px;
   }
     .download-menu a {
+      font-family: 'Inconsolata', monospace;
       font-size: 18px;
       margin-left: 20px;
     }
     .download-menu .footer {
+      color: #828282;
       font-size: 12px;
       margin-top: 10px;
       font-weight: normal;
     }
-    .download-menu .title {
+    .download-menu .comment {
       font-size: 18px;
       color: #111;
       margin-top: 10px;
@@ -25,18 +22,16 @@
       font-weight: normal;
     }
     .download-menu .caption {
+      color: #828282;
       font-size: 14px;
       margin-top: 10px;
       margin-bottom: 10px;
-      font-weight: normal;
-      font-family: 'Montserrat', sans-serif;
     }
 
 </style>
 
 {% capture downloadQuery %}{{ page.date | date: "%Y-%m-%d" }}-{{ page.title | slugify }}/{{ include.name }}{% endcapture %}
 <div class='download-menu'>
-  <div class='title'>{{ include.title}}</div>
   {% if include.caption %}<div class='caption'>{{ include.caption }}</div>{% endif %}
   {% for file in site.static_files %}
     {% if file.path contains downloadQuery %}

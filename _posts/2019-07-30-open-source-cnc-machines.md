@@ -7,13 +7,21 @@ These are some of the machines I have designed for the workshop. They are base o
 
 If you are interested in a pre-built business workshop integration please check out [Mx Industries](/projects/2019-07-25-mx-industries.html).
 
-## Aluminum Medium CNC
-This is lightweight machine primarily design with [OpenBuilds](https://openbuildspartstore.com/) assembly parts and some custom CNC aluminum plates.
+#### Machine's Index
+{% include index-headers.html %}
 
+## Medium Aluminum CNC
+
+### Generation 1.0
+This is lightweight machine primarily design with [OpenBuilds](https://openbuildspartstore.com/) assembly parts and some custom CNC aluminum plates.  
+#### Renders
 {% include image-gallery.html name='am-cnc' %}
-{% include file-binder.html name='AluminumMedium-CNC' title='3D CAD files' %}
+#### Builds
+{% include image-gallery.html name='am-cnc-photos' %}
+#### Download files
+{% include file-binder.html name='AluminumMedium-CNC' %}
 
-## Aluminum Small CNC
+## Small Aluminum CNC
 This is lightweight but smaller machine also design with [OpenBuilds](https://openbuildspartstore.com/) assembly parts and some custom CNC aluminum plates.
 
 ### Open source hardware
@@ -25,12 +33,8 @@ This is the [OpenBuilds](https://openbuildspartstore.com/) machine.
 This CNC has been built upon proprietary industrial hardware. It show some of the functionalities for small machines.
 {% include image-gallery.html name='ai-cnc' %}
 
-## Wood Small CNC
+## Mini Wood CNC
 This is lightweight but smaller machine also design with [OpenBuilds](https://openbuildspartstore.com/) assembly parts and some custom CNC aluminum plates.
 
 {% include image-gallery.html name='ws-cnc' %}
 {% include file-binder.html name='WoodSmall-CNC' title='3D CAD files' %}
-
-## Prototype gallery
-Photos from previous builds of some of these designs.
-{% include image-gallery.html name='photos' %}

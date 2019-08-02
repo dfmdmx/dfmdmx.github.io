@@ -9,3 +9,7 @@ My start approach will be to use to use a mesh relaxation algorithm in Grasshopp
 
 {% include image-gallery.html name='hex_render' %}
 {% include file-binder.html name='HEX2.0' title='Concept files' %}
+
+This is the current state of the chair. Sorry for the bad photos, had a backup problem.
+
+{% include image-gallery.html name='hex_photos' %}

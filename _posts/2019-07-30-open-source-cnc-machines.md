@@ -30,3 +30,7 @@ This is lightweight but smaller machine also design with [OpenBuilds](https://op
 
 {% include image-gallery.html name='ws-cnc' %}
 {% include file-binder.html name='WoodSmall-CNC' title='3D CAD files' %}
+
+## Prototype gallery
+Photos from previous builds of some of these designs.
+{% include image-gallery.html name='photos' %}

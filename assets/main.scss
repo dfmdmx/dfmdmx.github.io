@@ -1,16 +1,14 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
+$base-font-family: 'Montserrat', sans-serif;
+$base-font-size:   14px !default;
+$background-color: #fff !default;
+$brand-color:      #2a7ae2 !default;
 
 @import "minima";
 @import url('https://fonts.googleapis.com/css?family=Inconsolata|Montserrat&display=swap');
-
-body {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
-  background: #fff;
-  fill: #fff;
-}
+@import url("https://unpkg.com/purecss@1.0.1/build/pure-min.css");
 
 h1, h2, h3, h4 {
   font-family: 'Inconsolata', monospace;
@@ -24,6 +22,10 @@ blockquote {
   font-style: normal;
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 .important-link {

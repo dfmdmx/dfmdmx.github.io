@@ -1,23 +1,26 @@
 <style>
-	.index_header {
-		margin-left: 20px;
-		margin-bottom: 20px;
-	}
+.custom-restricted-width {
+    /* To limit the menu width to the content of the menu: */
+    display: inline-block;
+    /* Or set the width explicitly: */
+    /* width: 10em; */
+}
 </style>
-
-<div class="index_header" id="index-headers"></div>
+<div class="pure-menu custom-restricted-width" id="index-headers"></div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
 <script>
 function create_index() {
-	var ToC = '';
+	var ToC = '<ul class="pure-menu-list">';
     var first = false;
     document.querySelectorAll('h2').forEach(function(el,index) {
   		var title = el.textContent;
   		var link = "#" + el.id;
       if (['dfmdmx', 'About', 'Table of contents'].indexOf(title) == -1)  {
-          ToC += '<a href="' + link + '">' + title + '</a><br>';
+          ToC += '<li class="pure-menu-item"><a class="pure-menu-link" href="' + link + '">' + title + '</a></li>';
         };
     });
+		ToC += '</ul>'
     var tocDiv = document.getElementById('index-headers');
     tocDiv.innerHTML = ToC;
   }

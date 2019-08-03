@@ -26,20 +26,17 @@ function remoteCall(method,args){
 
 function handshake(name) {
 	  var method = 'handshake'
-		console.log('handshake...');
 	  remoteCall('handshake',{'name':name}).done(function(response){
 	  		console.log(response.greetings);
 	    }).fail(function(){
-	      console.log('error');
+	      console.log('Handshake error!');
 	    }).always(function(){
-				console.log('...done.');
+				console.log('We are ready to serve.');
 	    });
 }
 
 {% if site.data.callback.handshake %}
-	$(document).ready(function() {
-		handshake('Jekyll Williams Turot');
-	});
+handshake('Jekyll Williams Turot');
 {% endif %}
 
 </script>

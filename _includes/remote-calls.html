@@ -26,6 +26,7 @@ function remoteCall(method,args){
 
 function handshake(name) {
 	  var method = 'handshake'
+		console.log('Sending greetings...');
 	  remoteCall('handshake',{'name':name}).done(function(response){
 	  		console.log(response.greetings);
 	    }).fail(function(){

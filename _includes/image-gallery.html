@@ -35,13 +35,10 @@ $(document).ready(function() {
 
   var args = {'urls':images}
   var method = 'crop_images'
-  console.log(method + ' started')
   remoteCall(method,args).done(function(response){
-      console.log(response.response);
     }).fail(function(){
       console.log(method + ' error');
     }).always(function(){
-      console.log( method + ' finished');
     });
 });
 </script>

@@ -5,7 +5,7 @@ comments: false
 ---
 
 ### Web-app for remotely automated CNC manufacturing
-The Production Cloud Server hosts all the manufacturing files and software to integrate a design into a digital automated production line.
+The Production Cloud Server hosts all the manufacturing files and software to integrate a design into a digital automated production line. It can be self implemented with the appropriate knowledge and hardware. For a pre-built business solution check our Mx Industries project.
 
 It has the ability to remotely control CNC machines, allowing for a centralized controlled production line. The production line is seen as a list of IOT CNC machines each with its own client. The server feeds g-code files to these remote machines allowing them to work together in the same design.
 
@@ -18,7 +18,7 @@ Some of the advantages for this approach are:
 
  ![Production Cloud Server](/assets/images/production_cloud_server_concept.png)
 
-## Cloud
+## Production Cloud
 The Cloud part of the server enables the users to share their products and IOT CNC machines. This allows the production line to be extended seamlessly into other workshops or some student's garage near you.
 
 ## Machine client
@@ -29,14 +29,6 @@ The client can be understood as a g-code file queue container installed on a loc
 
 The machine client installation file is available at the [Software Downloads](/open-source/#software-downloads) section.
 
-## Software downloads
-These are my public repositories hosted on GitHub. They are also available on my GitHub profile [https://github.com/dfmdmx](https://github.com/dfmdmx).
-
-{% include index-repositories.html %}
-
-### Development team
-The software was created and its currently maintained by Daniel Fernández and Saúl Pilatowsky.
-
 ## Compatible CNC machines
 
 ### Medium Aluminum CNC Generation 2.0 Current
@@ -46,3 +38,7 @@ This is lightweight machine primarily design with [OpenBuilds](https://openbuild
 {% include image-gallery.html name='am-cnc-openbuilds' %}
 #### Download files
 {% include file-binder.html name='AluminumMedium-OpenBuilds-CNC' %}
+
+## Workshop deployments
+  - SPK
+  - Linarand

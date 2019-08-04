@@ -5,10 +5,12 @@ comments: false
 ---
 
 ### Pre-built business workshops
-Small scale and local manufacturing workshop's with the goal of re-dignifying Mexico's low income housing through digital parametric designed and ~~automated industrial manufactured~~ furniture.
+Small scale and local manufacturing workshop's based on the Production Cloud Server with the goal of re-dignifying Mexico's low income housing through digital parametric designed and automated industrial manufactured ~~furniture~~.
 
 ### About
 Mexico has long lost the ability to self maintain itself through localized production knowledge....
+
+### Join
 
 ### Table of contents
 {% include index-headers.html %}

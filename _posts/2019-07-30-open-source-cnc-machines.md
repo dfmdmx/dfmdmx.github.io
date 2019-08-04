@@ -28,7 +28,7 @@ This is lightweight machine primarily design with [OpenBuilds](https://openbuild
 #### Builds
 {% include image-gallery.html name='photos-am-cnc' %}
 #### Download files
-{% include file-binder.html name='AluminumMedium-CNC' %}
+{% include file-binder.html name='AluminumMedium-CNC' caption='Crazy Wikileaks today' %}
 
 ## Small Aluminum CNC
 This is the [OpenBuilds](https://openbuildspartstore.com/) machine.

@@ -1,4 +1,40 @@
-<h2 class="post-list-heading">Projects</h2>
+<style>
+    .download-menu  {
+      margin: auto;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      text-align: center;
+      width: 80%;
+    }
+    .download-menu .repo {
+      margin-top: 60px;
+      margin-bottom: 60px;
+    }
+    .download-menu .menutitle {
+      font-size: 28px;
+      margin-bottom: 5px;
+      text-align: center;
+    }
+    .download-menu .description {
+      margin-bottom: 5px;
+    }
+    .download-menu a:visited {
+      color: #111
+    }
+</style>
+
+<div class='download-menu'>
+    {% for project in site.projects %}
+    <div class='repo'>
+      <div class='menutitle'>{{ project.title }}</div>
+      <div class='description'>
+        {{ project.excerpt | markdownify }}
+        <a class="pure-button pure-button-primary" href="{{ project.url }}">Open</a>
+      </div>
+    </div>
+    {% endfor %}
+</div>
+<!-- <h2 class="post-list-heading">Projects</h2>
 <ul class="post-list">
   {% for project in site.projects %}
   <li>
@@ -7,4 +43,4 @@
     <p>{{ project.excerpt | markdownify }}</p>
   </li>
   {% endfor %}
-</ul>
+</ul> -->

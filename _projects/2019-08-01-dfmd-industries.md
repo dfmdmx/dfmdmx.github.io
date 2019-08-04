@@ -4,8 +4,8 @@ status: Development
 comments: false
 ---
 
-## Generative designed self supporting refugee structures
-Lightweight geometric optimized structures for roofing and weather protection.
+## Generative designed refugee structures
+Lightweight geometric optimized self supporting structures for roofing and weather protection.
 
 ### About
 No idea...

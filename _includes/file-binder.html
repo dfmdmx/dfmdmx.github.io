@@ -1,25 +1,8 @@
 <style>
     .download-menu  {
       margin-top: 20px;
-      margin-bottom: 20px;
-  }
-    .download-menu a {
-      font-family: 'Inconsolata', monospace;
-      font-size: 18px;
-      margin-left: 20px;
-    }
-    .download-menu .footer {
-      color: #828282;
-      font-size: 12px;
-      margin-top: 10px;
-      font-weight: normal;
-    }
-    .download-menu .comment {
-      font-size: 18px;
-      color: #111;
-      margin-top: 10px;
-      margin-bottom: 10px;
-      font-weight: normal;
+      margin-bottom: 40px;
+      margin-left: 40px;
     }
     .download-menu .caption {
       color: #828282;
@@ -27,18 +10,25 @@
       margin-top: 10px;
       margin-bottom: 10px;
     }
-
+    .download-menu .files {
+      line-height: .3;
+    }
+    .download-menu .footer {
+      font-size: 11px;
+    }
 </style>
 
 {% capture downloadQuery %}{{ page.date | date: "%Y-%m-%d" }}-{{ page.title | slugify }}/{{ include.name }}{% endcapture %}
 <div class='download-menu'>
   {% if include.caption %}<div class='caption'>{{ include.caption }}</div>{% endif %}
+  <div class ='files'>
   {% for file in site.static_files %}
     {% if file.path contains downloadQuery %}
       {% assign filenameparts = file.path | split: "/" %}
       {% assign filename = filenameparts | last %}
-        <a href="{{ file.path}}" download>{{ filename }}</a> - Download from github.<br>
+        <a class="pure-button" href="{{ file.path}}" download><i class="fas fa-download"></i> Download from GitHub</a> - {{ filename }} <br><br>
     {% endif %}
   {% endfor %}
-  <div class='footer'><b>Note:</b> This files are shared as they are. With no specific intent.</div>
+  </div>
+  <div class='footer'><b>Note:</b>{% if include.note %}{{include.note}}{% else %}This files are shared as they are. With no specific intent.{% endif %}</div>
 </div>

@@ -4,7 +4,7 @@ status: Development
 comments: false
 ---
 
-## Pre-built business workshops
+### Pre-built business workshops
 Small scale and local manufacturing workshop's with the goal of re-dignifying Mexico's low income housing through digital parametric designed and ~~automated industrial manufactured~~ furniture.
 
 ### About

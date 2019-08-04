@@ -22,8 +22,16 @@ On the hardware side I work with multi-axis CNCs, lathes and 3D printers. I use 
 
 All of these machines are now treated as independent IOT clients that can be controlled through the [Production Cloud Server](/open-source/#production-cloud-server). The machine client installation file is available at the [Software Downloads](/open-source/#software-downloads) section.
 
-#### Future development
-Acquiring social scientific data to allow the algorithms to shape its output accordingly. In a urban scale. I don't believe social data per se exists so maybe the first approach is to measure our movements or the amount of energy we consume. Not sure where to start. Maybe I will try to approach the problem as information theory and entropy states just measuring the energy. I need to know more Math and rewrite this paragraph.
+## Production cloud
+
+Most of my workshop development software is focused on the automation part of the manufacturing process. The current working solution is a cloud hosting file server with the ability to remotely control CNC machines. These CNC machines are shared among users who have the ability to share their production files as well.  
+
+Some of the advantages for this approach are:
+ - Parallel batch production between multiple coordinated machines
+ - Multiple users sharing the same machine
+ - Community based production
+
+The Production Cloud Server has become the basis for manufacturing almost all of my current projects. Apart from been a practical tool it has allowed me to focus on the development of form finding algorithms and paneling solutions that take advantage of this production model.
 
 ## Production workshops
 
@@ -37,10 +45,10 @@ Linarand has been my head quarters for the last four years and a launching platf
 <!-- Once I had a proper CNC machine and a warehouse at my disposal I started working on my first parametric structures. Shortly after I realized that machines alone were not sufficient for this task. I needed to control multiple CNC machines from a single controlled unit so I could properly manage the thousands of different parts needed to integrate a parametric structure. This and the need to extend Linarand's new automated processes into their foreign workshops lead to the beginning of the Production Cloud Server and set the foundations for the workshops to come. -->
 
 
-
 ### SPK
 SPK stands for Sputnik, as in first attempt.
 
 ## Formal education
 
 ## Into the future
+Acquiring social scientific data to allow the algorithms to shape its output accordingly. In a urban scale. I don't believe social data per se exists so maybe the first approach is to measure our movements or the amount of energy we consume. Not sure where to start. Maybe I will try to approach the problem as information theory and entropy states just measuring the energy. I need to know more Math and rewrite this paragraph.

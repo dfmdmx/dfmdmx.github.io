@@ -20,7 +20,7 @@
       color: #111
     }
     .button-xsmall {
-      font-size: 80%;
+      font-size: 90%;
     }
 
 </style>
@@ -31,7 +31,7 @@
       <div class='menutitle'>{{ repository.name }}</div>
       <div class='description'>
         {{repository.description}}<br>
-        <a class="button-xsmall pure-button" href="{{ repository.html_url }}" target="_blank" >Open in GitHub <i class="fab fa-github"></i></a>
+        <a class="pure-button button-xsmall" href="{{ repository.html_url }}" target="_blank" >Open <i class="fab fa-github"></i></a>
       </div>
     </div>
     {% endfor %}

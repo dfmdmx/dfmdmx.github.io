@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 status: Development
 comments: false
 ---
@@ -36,3 +36,13 @@ These are my public repositories hosted on GitHub. They are also available on my
 
 ### Development team
 The software was created and its currently maintained by Daniel Fernández and Saúl Pilatowsky.
+
+## Compatible CNC machines
+
+### Medium Aluminum CNC Generation 2.0 Current
+This is lightweight machine primarily design with [OpenBuilds](https://openbuildspartstore.com/) assembly parts and some custom CNC aluminum plates.  
+
+#### Gallery
+{% include image-gallery.html name='am-cnc-openbuilds' %}
+#### Download files
+{% include file-binder.html name='AluminumMedium-OpenBuilds-CNC' %}

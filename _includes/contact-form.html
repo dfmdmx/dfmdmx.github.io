@@ -31,18 +31,19 @@
 
 {% include remote-calls.html %}
 
-<script src="https://www.google.com/recaptcha/api.js?render=6LcXRrEUAAAAACCOV88L3ru6UMwiiyUMAWAdbJ73"></script>
+<script src="https://www.google.com/recaptcha/api.js?render={{ site.data.callback.captchakey }}"></script>
 <script>
 $( ".contact-form" ).on('submit', function( event ) {
   event.preventDefault();
   grecaptcha.ready(function() {
-      grecaptcha.execute('6LcXRrEUAAAAACCOV88L3ru6UMwiiyUMAWAdbJ73', {action: 'contact_form'}).then(function(token) {
+      grecaptcha.execute("{{ site.data.callback.captchakey }}", {action: 'contact_form'}).then(function(token) {
          var method = 'contact_form';
          var args = $( ".contact-form" ).serializeFormJSON();
          args['token'] = token;
          console.log(args);
          remoteCall(method,args).done(function(response){
            console.log(response);
+           showDialog(response.dialogtitle,response.dialogmessage);
          });
 
       });

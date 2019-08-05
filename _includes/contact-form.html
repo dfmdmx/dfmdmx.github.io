@@ -36,8 +36,9 @@
 
   grecaptcha.ready(function() {
       $( ".contact-form" ).on( "submit", function( event ) {
-      grecaptcha.execute('6LcXRrEUAAAAACCOV88L3ru6UMwiiyUMAWAdbJ73', {action: 'homepage'}).then(function(token) {
-         console.log(token);
+        grecaptcha.execute('6LcXRrEUAAAAACCOV88L3ru6UMwiiyUMAWAdbJ73', {action: 'homepage'}).then(function(token) {
+          console.log(token);
+        });
       });
   });
 </script>

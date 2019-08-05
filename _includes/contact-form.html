@@ -33,13 +33,13 @@
 
 <script src="https://www.google.com/recaptcha/api.js?render=6LcXRrEUAAAAACCOV88L3ru6UMwiiyUMAWAdbJ73"></script>
 <script>
-$( ".contact-form" ).submit( function() {
+$( ".contact-form" ).on('submit', function() {
   event.preventDefault();
   grecaptcha.ready(function() {
       grecaptcha.execute('6LcXRrEUAAAAACCOV88L3ru6UMwiiyUMAWAdbJ73', {action: 'contact_form'}).then(function(token) {
-         console.log(token);
          var method = 'contact_form';
          var args = {'token':token};
+         console.log(args);
          remoteCall(method,args).done(function(response){
            console.log(response);
          });

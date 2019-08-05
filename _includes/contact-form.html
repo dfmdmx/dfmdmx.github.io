@@ -33,7 +33,9 @@
 
 <script>
   $( ".contact-form" ).on( "submit", function( event ) {
+    console.log('submited contact form');
     grecaptcha.execute('6LcXRrEUAAAAACCOV88L3ru6UMwiiyUMAWAdbJ73', {action: 'contactform'}).then(function(token) {
+      console.log('doing things');
       var form = $( this ).serializeFormJSON();
       console.log(token);
       $.extend(form,{'token':token});

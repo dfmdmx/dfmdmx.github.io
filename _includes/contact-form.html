@@ -32,18 +32,20 @@
 {% include remote-calls.html %}
 
 <script src="https://www.google.com/recaptcha/api.js?render=6LcXRrEUAAAAACCOV88L3ru6UMwiiyUMAWAdbJ73"></script>
-  <script>
-
+<script>
   grecaptcha.ready(function() {
-      $( ".contact-form" ).on( "submit", function( event ) {
-        grecaptcha.execute('6LcXRrEUAAAAACCOV88L3ru6UMwiiyUMAWAdbJ73', {action: 'homepage'}).then(function(token) {
-          console.log(token);
-        });
+      grecaptcha.execute('6LcXRrEUAAAAACCOV88L3ru6UMwiiyUMAWAdbJ73', {action: 'homepage'}).then(function(token) {
+         console.log(token);
+         var args = {'token':token}
+         var method = 'contact_form'
+         remoteCall(method,args).done(function(response){
+             console.log(response);
+           });
       });
   });
 </script>
-
-<!-- <script>
+<!--
+<script>
   $( ".contact-form" ).on( "submit", function( event ) {
     console.log(captcha_token)
     event.preventDefault();

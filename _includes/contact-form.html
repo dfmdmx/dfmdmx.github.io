@@ -43,6 +43,7 @@ $( ".contact-form" ).on('submit', function( event ) {
          console.log(args);
          remoteCall(method,args).done(function(response){
            console.log(response);
+           $( ".contact-form" ).trigger('reset');
            showDialog(response.dialogtitle,response.dialogmessage);
          });
 

@@ -1,0 +1,54 @@
+<div class='contact'>
+<form class="pure-form contact-form">
+    <fieldset class="pure-group pure-form-stacked">
+      <label for="project">Project:</label>
+      <select name="project" id="project" required>
+        <option>Production Cloud Server</option>
+        <option>Mx Industries</option>
+        <option>Dfmd Industries</option>
+        <option>Architecture</option>
+        <option>Parametric design</option>
+        <option>Software</option>
+        <option>Other</option>
+      </select>
+    </fieldset>
+
+    <fieldset class="pure-group">
+        <input name="name" type="text" class="pure-input-1-2" placeholder="Name" >
+        <input name="email" type="email" class="pure-input-1-2" placeholder="Email" >
+    </fieldset>
+
+    <fieldset class="pure-group">
+        <input name="subject" type="text" class="pure-input-1-2" placeholder="Subject" >
+        <textarea name="message" class="pure-input-1-2" placeholder="Message" ></textarea>
+    </fieldset>
+    <button type="submit" class="pure-button pure-input-1-2 pure-button-primary">Send <i class="fas fa-paper-plane"></i></button>
+</form>
+<br>
+<a class="u-email" href="mailto:{{ site.email }}"><i class="far fa-envelope"></i> {{ site.email }}</a><br>
+<small><b>Note:</b> Apart from this query nothing else will be email to you.</small>
+</div>
+
+{% include remote-calls.html %}
+
+<script>
+  $( ".contact-form" ).on( "submit", function( event ) {
+    grecaptcha.execute('6LcXRrEUAAAAACCOV88L3ru6UMwiiyUMAWAdbJ73', {action: 'contactform'}).then(function(token) {
+      var form = $( this ).serializeFormJSON();
+      console.log(token);
+      $.extend(form,{'token':token});
+      var args = form;
+      var method = 'contact_form';
+      remoteCall(method,args).done(function(response){
+          console.log(response);
+          $( ".contact-form" ).trigger('reset');
+          showDialog(response.dialogtitle,response.dialogmessage);
+        }).fail(function(){
+          console.log(method + ' error');
+        }).always(function(){
+        });
+    });
+  });
+
+
+</script>

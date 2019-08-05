@@ -9,6 +9,7 @@ $brand-color:      #2a7ae2 !default;
 @import "minima";
 @import url('https://fonts.googleapis.com/css?family=Inconsolata|Montserrat&display=swap');
 @import url("https://unpkg.com/purecss@1.0.1/build/pure-min.css");
+@import url("https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css");
 
 h1, h2, h3, h4 {
   font-family: 'Inconsolata', monospace;
@@ -24,16 +25,12 @@ blockquote {
   margin-bottom: 30px;
 }
 
-a:hover {
+.page-content a:hover {
   text-decoration: none;
 }
 
-.important-link {
-  font-size: 18px;
-  font-family: 'Inconsolata', monospace;
-}
-
 .footer-col-wrapper {
+  font-size: 14px;
   font-family: 'Inconsolata', monospace;
 }
 

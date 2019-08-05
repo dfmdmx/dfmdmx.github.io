@@ -14,6 +14,7 @@ Some of the advantages for this approach are:
  - Multiple users sharing the same machine
  - Community based production
 
+#### Contents
 {% include index-headers.html %}
 
  ![Production Cloud Server](/assets/images/production_cloud_server_concept.png)
@@ -27,6 +28,10 @@ The client can be understood as a g-code file queue container installed on a loc
  - Remote USB emulator for non compatible machines (client must be installed on [rpi zero](https://www.raspberrypi.org/products/raspberry-pi-zero-w/))
  - USB hub for file transfer (all g-code files in queue are copied to an external USB when inserted into the host computer)
 
+## Setup guide
+<!-- TODO: Tiene que parecer un anuncio Banner como el de projectos  -->
+<!-- TODO: Link to github, direct client downlos button and install instructions  -->
+<!-- TODO: Link to cloud. There should be a project for how to use the cloud in general temrs  -->
 The machine client installation file is available at the [Software Downloads](/open-source/#software-downloads) section.
 
 ## Compatible CNC machines
@@ -39,6 +44,5 @@ This is lightweight machine primarily design with [OpenBuilds](https://openbuild
 #### Download files
 {% include file-binder.html name='AluminumMedium-OpenBuilds-CNC' %}
 
-## Workshop deployments
-  - SPK
-  - Linarand
+## Workshop deployment service
+<!-- TODO: No es lo mismo que MX industrias sino que talleres especializados y maquinas a la medida  -->

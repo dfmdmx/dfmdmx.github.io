@@ -33,15 +33,18 @@
 
 <script src="https://www.google.com/recaptcha/api.js?render=6LcXRrEUAAAAACCOV88L3ru6UMwiiyUMAWAdbJ73"></script>
   <script>
+  var captcha_token;
   grecaptcha.ready(function() {
       grecaptcha.execute('6LcXRrEUAAAAACCOV88L3ru6UMwiiyUMAWAdbJ73', {action: 'homepage'}).then(function(token) {
          console.log(token);
+         captcha_token = token;
       });
   });
 </script>
 
 <script>
   $( ".contact-form" ).on( "submit", function( event ) {
+    console.log(captcha_token)
     event.preventDefault();
     var args = $( this ).serializeFormJSON()
     var method = 'contact_form'

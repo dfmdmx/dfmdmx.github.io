@@ -33,24 +33,27 @@
 
 <script src="https://www.google.com/recaptcha/api.js?render=6LcXRrEUAAAAACCOV88L3ru6UMwiiyUMAWAdbJ73"></script>
 <script>
+$( ".contact-form" ).submit( function() {
+  event.preventDefault();
   grecaptcha.ready(function() {
       grecaptcha.execute('6LcXRrEUAAAAACCOV88L3ru6UMwiiyUMAWAdbJ73', {action: 'homepage'}).then(function(token) {
          console.log(token);
-      });
-  });
 
-  $( ".contact-form" ).on( "submit", function( event ) {
-    event.preventDefault();
-    var args = $( this ).serializeFormJSON()
-    $.extend(args,{'token':token})
-    var method = 'contact_form'
-    remoteCall(method,args).done(function(response){
-        console.log(response);
-        $( ".contact-form" ).trigger('reset');
-        showDialog(response.dialogtitle,response.dialogmessage);
-      }).fail(function(){
-        console.log(method + ' error');
-      }).always(function(){
       });
   });
+});
+
+  // $( ".contact-form" ).on( "submit", function( event ) {
+  //   event.preventDefault();
+  //   var args = $( this ).serializeFormJSON()
+  //   var method = 'contact_form'
+  //   remoteCall(method,args).done(function(response){
+  //       console.log(response);
+  //       $( ".contact-form" ).trigger('reset');
+  //       showDialog(response.dialogtitle,response.dialogmessage);
+  //     }).fail(function(){
+  //       console.log(method + ' error');
+  //     }).always(function(){
+  //     });
+  // });
 </script>

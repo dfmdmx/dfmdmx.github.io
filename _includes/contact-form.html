@@ -14,13 +14,13 @@
     </fieldset>
 
     <fieldset class="pure-group">
-        <input name="name" type="text" class="pure-input-1-2" placeholder="Name" >
-        <input name="email" type="email" class="pure-input-1-2" placeholder="Email" >
+        <input name="name" type="text" class="pure-input-1-2" placeholder="Name" required>
+        <input name="email" type="email" class="pure-input-1-2" placeholder="Email" required>
     </fieldset>
 
     <fieldset class="pure-group">
-        <input name="subject" type="text" class="pure-input-1-2" placeholder="Subject" >
-        <textarea name="message" class="pure-input-1-2" placeholder="Message" ></textarea>
+        <input name="subject" type="text" class="pure-input-1-2" placeholder="Subject" required>
+        <textarea name="message" class="pure-input-1-2" placeholder="Message" required></textarea>
     </fieldset>
     <button type="submit" class="pure-button pure-input-1-2 pure-button-primary">Send <i class="fas fa-paper-plane"></i></button>
 </form>
@@ -31,26 +31,27 @@
 
 {% include remote-calls.html %}
 
+<script src="https://www.google.com/recaptcha/api.js?render=6LcXRrEUAAAAACCOV88L3ru6UMwiiyUMAWAdbJ73"></script>
+  <script>
+  grecaptcha.ready(function() {
+      grecaptcha.execute('6LcXRrEUAAAAACCOV88L3ru6UMwiiyUMAWAdbJ73', {action: 'homepage'}).then(function(token) {
+         console.log(token);
+      });
+  });
+</script>
+
 <script>
   $( ".contact-form" ).on( "submit", function( event ) {
-    console.log('submited contact form');
-    grecaptcha.execute('6LcXRrEUAAAAACCOV88L3ru6UMwiiyUMAWAdbJ73', {action: 'contactform'}).then(function(token) {
-      console.log('doing things');
-      var form = $( this ).serializeFormJSON();
-      console.log(token);
-      $.extend(form,{'token':token});
-      var args = form;
-      var method = 'contact_form';
-      remoteCall(method,args).done(function(response){
-          console.log(response);
-          $( ".contact-form" ).trigger('reset');
-          showDialog(response.dialogtitle,response.dialogmessage);
-        }).fail(function(){
-          console.log(method + ' error');
-        }).always(function(){
-        });
-    });
+    event.preventDefault();
+    var args = $( this ).serializeFormJSON()
+    var method = 'contact_form'
+    remoteCall(method,args).done(function(response){
+        console.log(response);
+        $( ".contact-form" ).trigger('reset');
+        showDialog(response.dialogtitle,response.dialogmessage);
+      }).fail(function(){
+        console.log(method + ' error');
+      }).always(function(){
+      });
   });
-
-
 </script>

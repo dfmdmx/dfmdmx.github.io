@@ -38,7 +38,7 @@ $( ".contact-form" ).on('submit', function( event ) {
   grecaptcha.ready(function() {
       grecaptcha.execute('6LcXRrEUAAAAACCOV88L3ru6UMwiiyUMAWAdbJ73', {action: 'contact_form'}).then(function(token) {
          var method = 'contact_form';
-         var args = $( this ).serializeFormJSON();
+         var args = $( ".contact-form" ).serializeFormJSON();
          args['token'] = token;
          console.log(args);
          remoteCall(method,args).done(function(response){

@@ -41,6 +41,9 @@ $( ".contact-form" ).on( "submit", function( event ) {
          var method = 'contact_form'
          remoteCall(method,args).done(function(response){
              console.log(response);
+           }).fail(function(){
+             console.log(method + ' error');
+           }).always(function(){
            });
       });
   });

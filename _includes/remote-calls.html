@@ -11,28 +11,28 @@ function encodePayload(payload){
 }
 
 function remoteCall(method,args){
-	return $.get("{{site.data.callback.url}}",{'method':method,'payload':encodePayload(args)}).then(function(data){
-		if(data.success){
-			return $.Deferred().resolve(decodePayload(data.payload)).promise();
-		}else{
-			return $.Deferred().reject(data.error).promise();
-		}
-	},function(code,status){
-		return $.Deferred().reject(status).promise();
-	})
+	return $.post('{{site.data.callback.url}}',  // url
+	       {'method':method,'payload': encodePayload(args)}).then( // data to be submit
+	       function(data, status, xhr,) {
+					 return $.Deferred().resolve(decodePayload(data.payload)).promise();
+	       });
 }
 
 function handshake(name) {
 	  var method = 'handshake'
 		console.log('Sending greetings...');
-	  remoteCall('handshake',{'name':name}).done(function(response){
-	  		console.log(response.greetings);
+	  remoteCall('handshake',{'name':name}).done(function(data){
+	  		console.log(data.greetings);
 	    }).fail(function(){
-	      console.log('Handshake error!');
+	      console.log('handshake Error');
 	    }).always(function(){
-				console.log('We are ready to serve.');
+				console.log('bye');
 	    });
 }
+
+{% if site.data.callback.handshake %}
+handshake('Jekyll Williams Turot');
+{% endif %}
 
 function showDialog(title,message){
 	$('#pdialog').text(message);
@@ -40,10 +40,6 @@ function showDialog(title,message){
 				title: title,
 		});
 }
-
-{% if site.data.callback.handshake %}
-handshake('Jekyll Williams Turot');
-{% endif %}
 
 (function ($) {
     $.fn.serializeFormJSON = function () {

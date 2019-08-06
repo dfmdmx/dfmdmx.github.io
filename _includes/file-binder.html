@@ -1,25 +1,25 @@
 <style>
-    .download-menu  {
+    .file-binder  {
       margin-top: 20px;
       margin-bottom: 40px;
       margin-left: 40px;
     }
-    .download-menu .caption {
+    .file-binder .caption {
       color: #828282;
       font-size: 14px;
       margin-top: 10px;
       margin-bottom: 10px;
     }
-    .download-menu .files {
+    .file-binder .files {
       line-height: 1.3;
     }
-    .download-menu .footer {
+    .file-binder .footer {
       font-size: 11px;
     }
 </style>
 
 {% capture downloadQuery %}{{ page.date | date: "%Y-%m-%d" }}-{{ page.title | slugify }}/{{ include.name }}{% endcapture %}
-<div class='download-menu'>
+<div class='file-binder'>
   {% if include.caption %}<div class='caption'>{{ include.caption }}</div>{% endif %}
   <div class ='files'>
   {% for file in site.static_files %}

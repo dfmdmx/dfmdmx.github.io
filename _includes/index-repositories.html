@@ -1,22 +1,22 @@
 <style>
-    .download-menu  {
+    .index-repositories  {
       margin-top: 20px;
       margin-bottom: 40px;
       margin-left: 20px;
     }
-    .download-menu .repo {
+    .index-repositories .repo {
       margin-top: 10px;
       margin-bottom: 25px;
     }
-    .download-menu .menutitle {
+    .index-repositories .menutitle {
       font-size: 18px;
       margin-bottom: 5px;
     }
-    .download-menu .description {
+    .index-repositories .description {
       margin-bottom: 5px;
       margin-left: 20px;
     }
-    .download-menu a:visited {
+    .index-repositories a:visited {
       color: #111
     }
     .button-xsmall {
@@ -25,7 +25,7 @@
 
 </style>
 
-<div class='download-menu'>
+<div class='index-repositories'>
     {% for repository in site.github.public_repositories %}
     <div class='repo'>
       <div class='menutitle'>{{ repository.name }}</div>

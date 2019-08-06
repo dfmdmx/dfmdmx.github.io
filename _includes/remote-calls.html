@@ -34,13 +34,6 @@ function handshake(name) {
 handshake('Jekyll Williams Turot');
 {% endif %}
 
-function showDialog(title,message){
-	$('#pdialog').text(message);
-	$("#dialog").dialog({
-				title: title,
-		});
-}
-
 (function ($) {
     $.fn.serializeFormJSON = function () {
         var o = {};
@@ -60,4 +53,3 @@ function showDialog(title,message){
 })(jQuery);
 
 </script>
-<div id="dialog"><p id="pdialog"></p></div>

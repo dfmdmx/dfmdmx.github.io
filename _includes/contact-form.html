@@ -1,11 +1,16 @@
+<!-- ---------includes--------- -->
+{% include remote-calls.html %}
+{% include dialogs.html %}
+<!-- ---------includes--------- -->
+
 <style>
-.contact {
+.contact-form {
   margin-bottom: 20px;
 }
 </style>
 
-<div class='contact'>
-<form class="pure-form contact-form">
+<div class='contact-form'>
+<form class="pure-form contact">
     <fieldset class="pure-group pure-form-stacked">
       <label for="project">Project:</label>
       <select name="project" id="project" required>
@@ -35,40 +40,34 @@
 <small><b>Note:</b> Apart from this query nothing else will be email to you.</small>
 </div>
 
-{% include remote-calls.html %}
-
 <script src="https://www.google.com/recaptcha/api.js?render={{ site.data.callback.captchakey }}"></script>
 <script>
-{%- if jekyll.environment == 'production' -%}
-$( ".contact-form" ).on('submit', function( event ) {
+
+$( ".contact" ).on('submit', function( event ) {
   event.preventDefault();
+  showDialog('Sending email','This make take a couple of seconds.');
+  {%- if jekyll.environment == 'production' -%}
   grecaptcha.ready(function() {
       grecaptcha.execute("{{ site.data.callback.captchakey }}", {action: 'contact_form'}).then(function(token) {
+  {%- else -%}
+  var token = 'dummy';
+  {%- endif -%}
+
          var method = 'contact_form';
-         var args = $( ".contact-form" ).serializeFormJSON();
+         var args = $( ".contact" ).serializeFormJSON();
          args['token'] = token;
          console.log(args);
          remoteCall(method,args).done(function(response){
            console.log(response);
-           $( ".contact-form" ).trigger('reset');
+           $( ".contact" ).trigger('reset');
            showDialog(response.dialogtitle,response.dialogmessage);
          });
 
+  {%- if jekyll.environment == 'production' -%}
       });
   });
+  {%- endif -%}
+
 });
-{%- else -%}
-$( ".contact-form" ).on('submit', function( event ) {
-   event.preventDefault();
-   var method = 'contact_form';
-   var args = $( ".contact-form" ).serializeFormJSON();
-   args['token'] = 'dummy';
-   console.log(args);
-   remoteCall(method,args).done(function(response){
-     console.log(response);
-     $( ".contact-form" ).trigger('reset');
-     showDialog(response.dialogtitle,response.dialogmessage);
-   });
-});
-{%- endif -%}
+
 </script>

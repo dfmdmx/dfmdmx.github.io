@@ -1,55 +1,65 @@
 <script>
 
-function decodePayload(payload){
-	var decodedData = JSON.parse(payload);
-	return decodedData
-}
+	function decodePayload(payload){
+		var decodedData = JSON.parse(payload);
+		return decodedData
+	}
 
-function encodePayload(payload){
-	var encodedData = JSON.stringify(payload);
-	return encodedData
-}
+	function encodePayload(payload){
+		var encodedData = JSON.stringify(payload);
+		return encodedData
+	}
 
-function remoteCall(method,args){
-	return $.post('{{site.data.callback.url}}',  // url
-	       {'method':method,'payload': encodePayload(args)}).then( // data to be submit
-	       function(data, status, xhr,) {
-					 return $.Deferred().resolve(decodePayload(data.payload)).promise();
-	       });
-}
 
-function handshake(name) {
-	  var method = 'handshake'
-		console.log('Sending greetings...');
-	  remoteCall('handshake',{'name':name}).done(function(data){
-	  		console.log(data.greetings);
-	    }).fail(function(){
-	      console.log('handshake Error');
-	    }).always(function(){
-				console.log('bye');
-	    });
-}
+	function remoteCall(method,payload,files,captcha,session){
 
-{% if site.data.callback.handshake %}
-handshake('Jekyll Williams Turot');
-{% endif %}
+		var form_data = new FormData();
+		form_data.append('method',method);
+		form_data.append('captcha',captcha);
+		form_data.append('session',session);
+		form_data.append('payload',encodePayload(payload));
+		if (files) {
+			console.log(files);
+			var upload_file;
+			for (var i = 0; i < files.length; i++) {
+				upload_file = files[i];
+				form_data.append('file[]',upload_file,upload_file.name);
+			}
+		}
+		return $.ajax({
+				type: 'POST',
+				url: {{ site.data.callback.url }},
+				data: form_data,
+				contentType: false,
+				cache: false,
+				processData: false,
+				dataFilter: function(data){
+					data = JSON.parse(data);
+					// Aqui se puede hacer la evaluaci;on de otras cosas que se manda en el json aparte de payload
+					// La funcion solo regresa el payload
+					return JSON.stringify(decodePayload(data.payload))
+					},
+				},
+		)
 
-(function ($) {
-    $.fn.serializeFormJSON = function () {
-        var o = {};
-        var a = this.serializeArray();
-        $.each(a, function () {
-            if (o[this.name]) {
-                if (!o[this.name].push) {
-                    o[this.name] = [o[this.name]];
-                }
-                o[this.name].push(this.value || '');
-            } else {
-                o[this.name] = this.value || '';
-            }
-        });
-        return o;
-    };
-})(jQuery);
+	}
+
+	(function ($) {
+	    $.fn.serializeFormJSON = function () {
+	        var o = {};
+	        var a = this.serializeArray();
+	        $.each(a, function () {
+	            if (o[this.name]) {
+	                if (!o[this.name].push) {
+	                    o[this.name] = [o[this.name]];
+	                }
+	                o[this.name].push(this.value || '');
+	            } else {
+	                o[this.name] = this.value || '';
+	            }
+	        });
+	        return o;
+	    };
+	})(jQuery);
 
 </script>

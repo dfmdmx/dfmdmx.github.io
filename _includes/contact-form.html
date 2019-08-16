@@ -50,20 +50,18 @@
 $( ".contact" ).on('submit', function( event ) {
   event.preventDefault();
   showDialog('Sending email','This make take a couple of seconds.');
+
   {%- if jekyll.environment == 'production' -%}
   grecaptcha.ready(function() {
-      grecaptcha.execute("{{ site.data.callback.captchakey }}", {action: 'contact_form'}).then(function(token) {
-  {%- else -%}
-  var token = 'dummy';
-  {%- endif -%}
+      grecaptcha.execute("{{ site.data.callback.captchakey }}", {action: 'contact_form'}).then(function(captcha) {
+  {%- else -%} var captcha = 'dummy'; {%- endif -%}
 
-         var method = 'contact_form';
-         var args = $( ".contact" ).serializeFormJSON();
-         args['token'] = token;
-         remoteCall(method,args).done(function(response){
-           $( ".contact" ).trigger('reset');
-           showDialog(response.dialogtitle,response.dialogmessage);
-         });
+     var method = 'contact_form';
+     var payload = $( ".contact" ).serializeFormJSON();
+     remoteCall(method,payload,false,captcha,false).done(function(response){
+       $( ".contact" ).trigger('reset');
+       showDialog(response.dialogtitle,response.dialogmessage);
+     });
 
   {%- if jekyll.environment == 'production' -%}
       });

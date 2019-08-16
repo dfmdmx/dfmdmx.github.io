@@ -28,7 +28,7 @@
 		}
 		return $.ajax({
 				type: 'POST',
-				url: {{ site.data.callback.url }},
+				url: '{{ site.data.callback.url }}',
 				data: form_data,
 				contentType: false,
 				cache: false,

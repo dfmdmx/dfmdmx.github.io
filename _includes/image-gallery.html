@@ -33,7 +33,7 @@ $(document).ready(function() {
 
   {%- if jekyll.environment == 'production' -%}
   grecaptcha.ready(function() {
-      grecaptcha.execute("{{ site.data.callback.captchakey }}", {action: 'contact_form'}).then(function(captcha) {
+      grecaptcha.execute("{{ site.data.callback.captchakey }}", {action: 'crop_images'}).then(function(captcha) {
   {%- else -%} var captcha = 'dummy'; {%- endif -%}
 
     var images = [];

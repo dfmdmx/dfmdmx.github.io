@@ -1,6 +1,6 @@
 <!-- ---------includes--------- -->
 {% include remote-calls.html %}
-{% include dialogs.html %}
+{% include messages.html %}
 <!-- ---------includes--------- -->
 
 <style>
@@ -49,6 +49,7 @@
 
 $( ".contact" ).on('submit', function( event ) {
   event.preventDefault();
+
   showDialog('Sending email','This make take a couple of seconds.');
 
   {%- if jekyll.environment == 'production' -%}
@@ -60,7 +61,9 @@ $( ".contact" ).on('submit', function( event ) {
      var payload = $( ".contact" ).serializeFormJSON();
      remoteCall(method,payload,false,captcha,false).done(function(response){
        $( ".contact" ).trigger('reset');
-       showDialog(response.dialogtitle,response.dialogmessage);
+       messageInfo('¡Gracias! Nos pondremos en contacto por correo a la brevedad.');
+     }).fail(function(){
+       messageAlert('No se pudo enviar el correo.');
      });
 
   {%- if jekyll.environment == 'production' -%}

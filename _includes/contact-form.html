@@ -38,7 +38,7 @@
           <input name="subject" type="text" class="pure-input-1-2" placeholder="Subject" >
           <textarea name="message" class="pure-input-1-2" placeholder="Message" ></textarea>
       </fieldset>
-      <button type="submit" class="pure-button pure-input-1-2 pure-button-primary">Send <i class="fas fa-paper-plane"></i></button>
+      <button type="submit" class="pure-button pure-input-1-2 pure-button-primary">Send transmission <i class="fas fa-satellite-dish"></i></button>
   </form>
   <br>
   <a class="u-email" href="mailto:{{ site.email }}"><i class="far fa-envelope"></i> {{ site.email }}</a><br>
@@ -60,9 +60,9 @@ $( ".contact" ).on('submit', function( event ) {
      var payload = $( ".contact" ).serializeFormJSON();
      remoteCall(method,payload,false,captcha,false).done(function(response){
        $( ".contact" ).trigger('reset');
-       messageInfo('¡Gracias! Nos pondremos en contacto por correo a la brevedad.');
+       messageInfo('¡Thank you! We will be in touch in no moment.');
      }).fail(function(){
-       messageAlert('No se pudo enviar el correo.');
+       messageAlert('Something went wrong.');
      });
 
   {%- if jekyll.environment == 'production' -%}

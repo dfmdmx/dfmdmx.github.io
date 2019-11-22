@@ -1,6 +1,6 @@
 title: dfmdmx
 author: dfmd
-email: io@dfmd.mx
+email: daniel@dfmd.mx
 description: > # this means to ignore newlines until "show_excerpts:"
   Professional board aimed to find practical applications for
   computed assisted form finding and automated machine manufacturing.
@@ -46,6 +46,7 @@ minima:
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
 header_pages:
+ - work.md
  - blog.md
  - software.md
  - gallery.md

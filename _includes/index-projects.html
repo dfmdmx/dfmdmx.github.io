@@ -3,8 +3,6 @@
       margin: auto;
       margin-top: 40px;
       margin-bottom: 40px;
-      text-align: center;
-      width: 80%;
     }
     .index-projects .repo {
       margin-top: 60px;
@@ -13,7 +11,7 @@
     .index-projects .menutitle {
       font-size: 28px;
       margin-bottom: 5px;
-      text-align: center;
+
     }
     .index-projects .description {
       margin-bottom: 5px;
@@ -29,7 +27,7 @@
       <div class='menutitle'>{{ project.title }}</div>
       <div class='description'>
         {{ project.excerpt | markdownify }}
-        <a class="pure-button pure-button-primary" href="{{ project.url }}"><i class="fas fa-glasses"></i> More</a>
+        <a class="pure-button" href="{{ project.url }}"><i class="fas fa-glasses"></i> More</a>
       </div>
     </div>
     {% endfor %}

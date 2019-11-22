@@ -5,12 +5,14 @@ comments: false
 ---
 
 ### Pre-built business workshops
-Small scale and local manufacturing workshop's based on the Production Cloud Server with the goal of re-dignifying Mexico's low income housing through digital parametric designed and automated industrial manufactured ~~furniture~~.
+Small scale and local manufacturing workshop's based on the Production Cloud Server with the goal of re-dignifying Mexico's low income housing through digital parametric designed and automated industrial manufactured everyday objects.
 
 ### About
-Mexico has long lost the ability to self maintain itself through localized production knowledge....
+Mexico has long lost the ability to self maintain itself through localized and self consumed production. We think this is due to a lack of knowledge not resources. Mx Industries growth strategy its based on the idea that transferring the production method into the workshop its more important than the product itself.
 
 ### Join
+
+Feel free to contact us [here](/contact), through email or social media.
 
 ### Table of contents
 {% include index-headers.html %}
@@ -128,12 +130,12 @@ This team is the backbone of the manufacturing process.
   * CNC operator (Junior)
   * Manufacturing Auxiliary (Junior)
 
-## Workspace
-
 ## Responsibility
-We need to understand that making this project community based is not enough to justify the materials involved in the production process. *There is no point in dignifying low income housing if Earth is inhabitable.* This project cannot be understood without a future phase in which the materials used are also self manufactured. This will allow for the waste product of the machines to be recycled.
+  We need to understand that making this project community based is not enough to justify the materials involved in the production process. *There is no point in dignifying low income housing if Earth is inhabitable.* This project cannot be understood without a future phase in which the materials used are also self manufactured and with the least possible ecological damage.
 
-We still need to further plan this strategy but its main goal is to **#MakePeaceWithBillNye**.
+  We still need to further plan this strategy but its main goal is to **#MakePeaceWithBillNye** by 2021.
+
+## Workspace
 
 ## Investment
 

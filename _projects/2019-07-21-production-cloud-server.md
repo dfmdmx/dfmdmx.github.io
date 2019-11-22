@@ -43,6 +43,3 @@ This is lightweight machine primarily design with [OpenBuilds](https://openbuild
 {% include image-gallery.html name='am-cnc-openbuilds' %}
 #### Download files
 {% include file-binder.html name='AluminumMedium-OpenBuilds-CNC' %}
-
-## Workshop deployment service
-<!-- TODO: No es lo mismo que MX industrias sino que talleres especializados y maquinas a la medida  -->

@@ -8,4 +8,3 @@ comments: false
 Lightweight geometric optimized self supporting structures for roofing and weather protection.
 
 ### About
-No idea...

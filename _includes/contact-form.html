@@ -53,7 +53,7 @@ $( ".contact" ).on('submit', function( event ) {
 
   {%- if jekyll.environment == 'production' -%}
   grecaptcha.ready(function() {
-      grecaptcha.execute("{{ site.data.callback.captchakey }}", {action: 'form_contact'}).then(function(captcha) {
+      grecaptcha.execute("{{ site.data.callback.captchakey }}", {action: 'user_contact'}).then(function(captcha) {
   {%- else -%} var captcha = 'dummy'; {%- endif -%}
 
      var method = 'user_contact';

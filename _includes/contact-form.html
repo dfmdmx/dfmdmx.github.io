@@ -56,7 +56,7 @@ $( ".contact" ).on('submit', function( event ) {
       grecaptcha.execute("{{ site.data.callback.captchakey }}", {action: 'form_contact'}).then(function(captcha) {
   {%- else -%} var captcha = 'dummy'; {%- endif -%}
 
-     var method = 'form_contact';
+     var method = 'user_contact';
      var payload = $( ".contact" ).serializeFormJSON();
      remoteCall(method,payload,false,captcha,false).done(function(response){
        $( ".contact" ).trigger('reset');

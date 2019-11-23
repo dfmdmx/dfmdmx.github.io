@@ -60,7 +60,7 @@ $( ".contact" ).on('submit', function( event ) {
      var payload = $( ".contact" ).serializeFormJSON();
      remoteCall(method,payload,false,captcha,false).done(function(response){
        $( ".contact" ).trigger('reset');
-       messageInfo('¡Thank you! We will be in touch in no moment.');
+       messageInfo('Thank you! We will be in touch in no moment.');
      }).fail(function(){
        messageAlert('Something went wrong.');
      });

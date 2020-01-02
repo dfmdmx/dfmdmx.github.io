@@ -1,6 +1,7 @@
 ---
 layout: post
-comments: false
+comments: true
+published: true
 ---
 
 These are some of the machines I have designed for the workshop. They are base on the *DYU Open source maker movement* but can easily accomplish professional works. Its a good starting point for a workshops but I would recommend a newer options from [OpenBuilds](https://openbuildspartstore.com/) or [Inventables](https://www.inventables.com/). All of them are compatible with the [Production Cloud Server](/open-source/#production-cloud-server).

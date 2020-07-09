@@ -8,9 +8,9 @@ published: true
 
 My start approach will be to use to use a mesh relaxation algorithm in Grasshopper's Kangaroo physic's engine and try to design in a more realistic environment. I have a slight intuition of what is wrong with the cloth based on siting in the prototype.
 
-{% include image-gallery.html name='hex_render' %}
+include image-gallery.html name='hex_render'
 {% include file-binder.html name='HEX2.0' title='Concept files' %}
 
 This is the current state of the chair. Sorry for the bad photos, had a backup problem.
 
-{% include image-gallery.html name='hex_photos' %}
+include image-gallery.html name='hex_photos'

@@ -22,14 +22,9 @@
   .image-gallery{
     width:{{width}}%;
     margin:{{margin}}%;
+    margin-bottom: 15px;
     float:left;
-  .gallery-container{
-    width:100%;
-    margin-bottom: 10px;
-  }
 </style>
-<p class="gallery-container">
 {% for image in images %}
   <img class="image-gallery" src="{{image}}" alt="dfmdimage" />
 {% endfor %}
-</p>

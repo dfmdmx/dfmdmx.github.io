@@ -20,9 +20,17 @@ Some of the advantages for this approach are:
  ![Production Cloud Server](https://lh3.googleusercontent.com/pw/ACtC-3e1uylh04Uo7iOQPknEdoyW3zBsA5PliVENo2_CDpgxV525ZQJasObOXXlcfjovipYJ6Icv8np6uOPs8oa43IpbF0_u120SCIC7fPVcfN3aE66BzN3uh7S85_LESOuMqggjnirYr4humHDAbInn6JN-0Q=w1654-h1240-no?authuser=0)
 
 ## Production Cloud
+
+---
+
 The Cloud part of the server enables the users to share their products and IOT CNC machines. This allows the production line to be extended seamlessly into other workshops or some student's garage near you.
 
+
+
 ## Machine client
+
+---
+
 The client can be understood as a g-code file queue container installed on a local machine that can perform certain tasks remotely from the production server, such as:
  - Live CNC control and g-code previsualization with [Tiny-G](https://github.com/synthetos/TinyG) and [GRBL](https://github.com/grbl/grbl) controlled machines with [Chilipeppr](http://chilipeppr.com/).
  - Remote USB emulator for non compatible machines (client must be installed on [rpi zero](https://www.raspberrypi.org/products/raspberry-pi-zero-w/))
@@ -30,8 +38,10 @@ The client can be understood as a g-code file queue container installed on a loc
 
 ![Machine control](https://lh3.googleusercontent.com/pw/ACtC-3exkfJAzIK6anCzl7jTz54_zvWWRoflVnF_1JAbNZodmyvNNz0NOwX0W5zVtj96QmG26sMF02trMM0vzN8tTL80PKXnec_MdDuTdgr9vNiCRvJPlbx1dH2p3CPcQcI1eQ48t3VITD80V6jeKDc8-7DT8g=w2048-h1152-no?authuser=0)
 
-
 ## Setup guide
+
+---
+
 <!-- TODO: Tiene que parecer un anuncio Banner como el de projectos  -->
 <!-- TODO: Link to github, direct client downlos button and install instructions  -->
 <!-- TODO: Link to cloud. There should be a project for how to use the cloud in general temrs  -->
@@ -41,7 +51,10 @@ The machine client installation file is available at the [Software Downloads](/o
 
 ## Compatible CNC machines
 
+---
+
 ### Medium Aluminum CNC Generation 2.0 - Current
+
 This is lightweight machine primarily design with [OpenBuilds](https://openbuildspartstore.com/) assembly parts and some custom CNC aluminum plates.
 
 ![Aluminum CNC](https://lh3.googleusercontent.com/pw/ACtC-3dK5GxWlNb-qIW1Vpk82KwXY5U-w7s4NYgfUufzLlEeToveWL8rF7AAuEKWgt7MmCWQj0LPjwENHIbPysFSdWzK2tDlN3Rae8WGtEGwUyenN_QrvejEdUxjSNCLdMsmWphJdbpdIiv7gIQzOH6Ci4WzSg=w2048-h1152-no?authuser=0)
@@ -54,7 +67,5 @@ This is lightweight machine primarily design with [OpenBuilds](https://openbuild
 
 {% include gallery.html images="https://lh3.googleusercontent.com/pw/ACtC-3eLemPa3LFAleTJqQQ352AtJwF27_VghqXzi3oRvidh6JQqmQcviMMrUxJnS1KGyG73gSkDI6yYLY8c-DOOgGyrlu5ttTSYLDueKfBUCZMo3CDEU2R7oYdsAZu1ZbiF1Y6ZtBcOCqbQf2GAvpgxzMzFTQ=w2048-h1152-no?authuser=0, https://lh3.googleusercontent.com/pw/ACtC-3cLwPF5AZEftEs9X-J1BhVXq193yJfNgeIMH5Yqtm9eGMxCZu-WF8ljMBtvJ4vMr8V42Iy2Xv7LhI8JMAm5f3ih6Xw3Ih9_IciENNPC-3DS3Yt7CZ7iOhKcvI4rJirWDP67SCnWW69N44KlO9lPjdlO4w=w2048-h1152-no?authuser=0" %}
 
-#### Gallery
-include image-gallery.html name='am-cnc-openbuilds'
 #### Download files
 {% include file-binder.html name='AluminumMedium-OpenBuilds-CNC' %}

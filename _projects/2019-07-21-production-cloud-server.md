@@ -25,8 +25,6 @@ Some of the advantages for this approach are:
 
 The Cloud part of the server enables the users to share their products and IOT CNC machines. This allows the production line to be extended seamlessly into other workshops or some student's garage near you.
 
-
-
 ## Machine client
 
 ---

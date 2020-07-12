@@ -42,34 +42,5 @@
   </form>
   <br>
   <a class="u-email" href="mailto:{{ site.email }}"><i class="far fa-envelope"></i> {{ site.email }}</a><br>
-  <small><b>Note:</b> Apart from this query nothing else will be email to you.</small>
+  <small><b>Note:</b> Apart from this query, nothing else will be email to you.</small>
 </div>
-
-<script src="https://www.google.com/recaptcha/api.js?render={{ site.data.callback.captchakey }}"></script>
-<script>
-
-$( ".contact" ).on('submit', function( event ) {
-  event.preventDefault();
-
-  {%- if jekyll.environment == 'production' -%}
-  grecaptcha.ready(function() {
-      grecaptcha.execute("{{ site.data.callback.captchakey }}", {action: 'user_contact'}).then(function(captcha) {
-  {%- else -%} var captcha = 'dummy'; {%- endif -%}
-
-     var method = 'user_contact';
-     var payload = $( ".contact" ).serializeFormJSON();
-     remoteCall(method,payload,false,captcha,false).done(function(response){
-       $( ".contact" ).trigger('reset');
-       messageInfo('Thank you! We will be in touch in no moment.');
-     }).fail(function(){
-       messageAlert('Something went wrong.');
-     });
-
-  {%- if jekyll.environment == 'production' -%}
-      });
-  });
-  {%- endif -%}
-
-});
-
-</script>

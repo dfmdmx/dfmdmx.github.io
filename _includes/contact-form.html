@@ -1,42 +1,36 @@
 <!-- ---------includes--------- -->
-{% include remote-calls.html %}
+{% include api-modules.html %}
 {% include messages.html %}
 <!-- ---------includes--------- -->
 
 <style>
-.contact-form {
-  margin-bottom: 20px;
-}
-.overdoingthings {
-  font-family: 'Inconsolata', monospace;
-  font-size: 16px;
-}
+  .contact-form {
+    margin-bottom: 20px;
+  }
 </style>
 
 <div class='contact-form'>
   <p id="message-text"></p>
-  <form class="pure-form contact">
+  <form id="contact" class="pure-form contact">
       <fieldset class="pure-group pure-form-stacked">
         <label for="about">Project</label>
         <select name="about" id="about" required>
-          <option>Production Cloud Server</option>
-          <option>Mx Industries</option>
-          <option>Dfmd Industries</option>
-          <option>Architecture</option>
+          <option selected>Production Cloud Server / CNCs</option>
           <option>Parametric design</option>
+          <option>Architecture</option>
           <option>Software</option>
           <option>Other</option>
         </select>
       </fieldset>
 
       <fieldset class="pure-group">
-          <input name="name" type="text" class="pure-input-1-2" placeholder="Name" >
-          <input name="email" type="email" class="pure-input-1-2" placeholder="Email" >
+          <input name="name" type="text" class="pure-input-1-2" placeholder="Name" value="test">
+          <input name="email" type="email" class="pure-input-1-2" placeholder="Email" value="test@dfmd.mx">
       </fieldset>
 
       <fieldset class="pure-group">
-          <input name="subject" type="text" class="pure-input-1-2" placeholder="Subject" >
-          <textarea name="message" class="pure-input-1-2" placeholder="Message" ></textarea>
+          <input name="subject" type="text" class="pure-input-1-2" placeholder="Subject" value="test">
+          <textarea name="message" class="pure-input-1-2" placeholder="Message" value="test"></textarea>
       </fieldset>
       <button type="submit" class="pure-button pure-input-1-2 pure-button-primary">Send transmission <i class="fas fa-satellite-dish"></i></button>
   </form>

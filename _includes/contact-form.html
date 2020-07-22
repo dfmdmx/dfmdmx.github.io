@@ -1,6 +1,6 @@
-<!-- ---------includes--------- -->
+<!-- includes -->
 {% include api-modules.html %}
-<!-- ---------includes--------- -->
+<!-- includes -->
 
 <style>
   .contact-form {
@@ -36,3 +36,12 @@
   <a class="u-email" href="mailto:{{ site.email }}"><i class="far fa-envelope"></i> {{ site.email }}</a><br>
   <small><b>Note:</b> Apart from this query, nothing else will be email to you.</small>
 </div>
+
+<script>
+$( document ).ready(function() {
+  $( "#contact" ).on('submit', function( event ) {
+    event.preventDefault();
+    apiCall('mainframe','contactMail',$(this).serializeFormJSON())
+    });
+});
+</script>

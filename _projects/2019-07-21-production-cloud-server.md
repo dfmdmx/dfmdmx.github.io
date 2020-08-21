@@ -2,12 +2,13 @@
 layout: page
 status: Development
 comments: false
+starred: true
 ---
 
-### Web-app for remotely automated CNC manufacturing
-The Production Cloud Server hosts all the manufacturing files and software to integrate a design into a digital automated production line. It can be self implemented with the appropriate knowledge and hardware. For a pre-built business solution check our Mx Industries project.
+#### Web-app for remotely automated CNC manufacturing
+The Production Cloud Server it's a web-app for remotely automated CNC manufacturing it hosts all the manufacturing files and software to integrate a design into a digital automated production line. It can be self implemented with the appropriate knowledge and hardware. It has the ability to remotely control CNC machines, allowing for a centralized controlled production line.
 
-It has the ability to remotely control CNC machines, allowing for a centralized controlled production line. The production line is seen as a list of IOT CNC machines each with its own client. The server feeds g-code files to these remote machines allowing them to work together in the same design.
+The production line is seen as a list of IOT CNC machines each with its own client. The server feeds g-code files to these remote machines allowing them to work together in the same design.
 
 Some of the advantages for this approach are:
  - Parallel batch production between multiple coordinated machines

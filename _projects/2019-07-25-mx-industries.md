@@ -2,9 +2,10 @@
 layout: post
 status: Development
 comments: false
+starred: true
 ---
 
-### Pre-built business workshops
+#### Pre-built business workshops
 Small scale and local manufacturing workshop's based on the Production Cloud Server with the goal of re-dignifying Mexico's low income housing through digital parametric designed and automated industrial manufactured everyday objects.
 
 ### About

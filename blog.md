@@ -4,4 +4,5 @@ title: Blog
 permalink: /blog/
 ---
 
-Some mini-projects and ideas.
+### Architecture / Computer programming / Digital fabrication
+Some ideas, notes, coding exercises, drawings, etcetera...

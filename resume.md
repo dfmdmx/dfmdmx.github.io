@@ -3,15 +3,13 @@ layout: page
 title: Resume
 ---
 
-## About
+### My professional interest and experience is mainly oriented in computed assisted form finding and automated machine manufacturing.
 
-My professional interest and experience is mainly oriented in **computed assisted form finding and automated machine manufacturing**.
+I studied Architecture and Urbanism in Mexico City and since early on in my career I have been fascinated with emergent systems and bottom-up design strategies and how to identify, study and replicate them.
 
-I studied Architecture and Urbanism in Mexico City and since early on in my career I have been fascinated with **emergent systems and bottom-up design strategies** and how to identify, study and replicate them.
+I have been lucky to implement this approach professionally in both structural analysis replicating biological systems, such as the ones insects use to shape their exoskeleton in a way that make it stronger or more flexible, as in design theory to code space-filling optimization algorithms that replicate the way some flower organelles organize their seeds to optimice the use of material on a CNC bed layout.
 
-I have been lucky to implement this approach professionally in both **structural analysis** replicating biological systems, such as the ones insects use to shape their exoskeleton in a way that make it stronger or more flexible, as in design theory to code space-filling **optimization algorithm**s that replicate the way some flower organelles organize their seeds to optimice the use of material on a CNC bed layout.
-
-Most of my work has been around designing **museography for interactive children's museums** and in the past years also manufacturing them using **digital fabrication** techniques. Besides designing the product and the manufacturing process I often design, code and build the **automated machines** I use for production.
+Most of my work has been around designing museography for interactive children's museums and in the past years also manufacturing them using digital fabrication techniques. Besides designing the product and the manufacturing process I often design, code and build the automated machines I use for production.
 
 {% include index-headers.html %}
 
@@ -22,7 +20,7 @@ Most of my work has been around designing **museography for interactive children
 >Thinking about Architecture as some intrinsic or emergent part of the universe allows us to reduce some of its properties into fundamental variables that can be understood through mathematics and then be shaped by the laws of science. The scale we have reach as humanity and the amount of information we have gathered about ourselves and our surroundings allows us to use some of the most advance problem solving techniques such as genetic algorithms and neural networks into real practical design applications.  
 
 ### Form finding through generative design
-I have experience in designing and optimizing panelized structures through genetic algorithms. I think the valuable part in using this approach is that it can take multiple dimensions into account such as strength, use of material and manufacturing process to output the most optimal solution without the need to fully understanding the complexity of the whole system. I usually work with Python and Rhino Grasshopper.
+I have experience designing and optimizing panelized structures through genetic algorithms. I think the valuable part in using this approach is that it can take multiple dimensions into account such as strength, use of material and manufacturing process to output the most optimal solution without the need to fully understanding the complexity of the whole system. I usually work with Python and Rhino Grasshopper.
 
 ### Automated machine manufacturing
 On the hardware side I work with multi-axis CNCs, lathes and 3D printers. I like to control them whenever posible through a RPI, Arduino or similar boards to interact with them through a network connection. This allows me to handle multiple machines or manufacturing lines in parallel for the completion of a single project, since parametric manufacturing often involves thousands of different parts that need to be assembled together.
@@ -77,3 +75,83 @@ SPK stands for Sputnik, as in first attempt.
 
 ## Into the future
 Acquiring social scientific data to allow the algorithms to shape its output accordingly. In a urban scale. I don't believe social data per se exists so maybe the first approach is to measure our movements or the amount of energy we consume. Not sure where to start. Maybe I will try to approach the problem as information theory and entropy states just measuring the energy. I need to know more Math and rewrite this paragraph.
+
+
+## CV ::
+
+### Daniel Fernández Marmissolle-Daguerre
+### *Architect*
+
+---
+
+(actualizar )Me especializo en el diseño de estructuras paramétricas y a la producción de maquinaria automatizada y software para su fabricación en serie.
+
+###  Experiencia profesional
+
+  - **Linarand** | Producción y automatización de procesos   
+  *2014-20?? www.linarand.com.mx*
+
+    Me encargo de desarrollar junto con el equipo de Linarand nuevos procesos en la fabricación de bandas industriales que involucren automatización y nuevas tecnologías.
+
+  - **SPK Automatización** | Desarrollo e innovación de producto   
+  *2013-20?? www.spkautomatizacion.com*
+
+    Cofundador y  responsable cada año del nuevo diseño de maquinaria para venta al público. Al igual que del desarrollo y programación de la nube de SPK y su integración a nivel industrial.
+
+  - **Sietecolores** | Producción ejecutiva y diseño mobiliario   
+  *2012-20?? www.sietecolores.com*
+
+    Principalmente diseñe exhibiciones para museos interactivos y me encargue de llevar la integración museográfica a nivel arquitectónico de algunos proyectos.
+
+  - **Gaxiola Arquitectos** | Diseño y Dibujo arquitectónico   
+  *2010-2011 www.gaxiolaarquitectos.com*
+
+    Diseño y producción de planos arquitectónicos y ejecutivos para vivienda unifamiliar.
+
+### Educación
+
+  - **Universidad Iberoamericana de la CDMX** | Arquitecto Urbanista   
+  *2006-2011 Licenciatura*
+
+  - **Universidad Iberoamericana de la CDMX** | Procesos Generativos de Diseño   
+  *2010 Diplomado*
+
+### Software Publicado
+
+  - **Production Cloud Server** | Nube e interfaz remota de corte CNC   
+  *2015 https://www.spkautomatizacion.com*
+
+    File hosting cloud and accounting software.
+
+  - **LinCAM** | Generador de códigos-g 2.5D   
+  *2019 https://www.food4rhino.com/app/lincam3*
+
+    Explicación lincam
+
+### Premios
+
+  - **Convocatoria MasisaLabs 2015** | Inscripción al apoyo a emprendedores de Masisa   
+  *2015 https://www.masisa.com/mex*
+
+    Software development investment.
+
+  - **Convocatoria 5a Generación StartUpMexico** | Parte del equipo de SUM a traves de LeanPlay   
+  *2015 https://www.startupmexico.com*
+
+    Explicación startup sum seed investment.
+
+### Voluntariado
+
+  - **Programa de Rescate de la Tortuga Marina** | Marcaje y rastreo de tortugas para estudios de ciclo de vida.   
+  *2010  Xcacel- Xcacelito, Quintana Roo.*
+
+    Explicación y buscar pagina de internet.
+
+  - **Recuperación del Parque la Ceiba** | Diseño arquitectónico y propuesta de conservación de árboles.   
+  *2010 Flora Fauna y Cultura de México*
+
+      Explicación y buscar pagina de internet.
+
+### *Contacto*
+---
+daniel@dfmd.mx

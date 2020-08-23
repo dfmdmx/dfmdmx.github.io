@@ -1,0 +1,33 @@
+{% if include.string %}
+  {% assign images = include.images | strip | split: "," %}
+{% else %}
+  {% assign images = include.images %}
+{% endif %}
+
+{% if include.cols %}
+  {% assign cols = include.cols %}
+{% else %}
+  {% assign cols = 2 %}
+{% endif %}
+
+{% if include.max_rows %}
+  {% assign max_images = cols | times: include.max_rows %}
+  {% assign images = images | slice: 0,max_images %}
+{% endif %}
+
+<style>
+  .album img {
+    object-fit: cover;
+    min-height: 100%;
+  }
+</style>
+
+<div class='pure-g album'>
+{% for image in images %}
+  {% if image %}
+  <div class="pure-u-1-{{cols}} pure-img">
+    <img  src="{{image}}" alt="dfmdimage" />
+  </div>
+  {% endif %}
+{% endfor %}
+</div>

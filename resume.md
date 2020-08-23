@@ -39,9 +39,9 @@ I like to think this line of work as unique in the way it implements industrial 
 
 The publications in this list are in English or Spanish according to the specificity and needs of each presented project. They are listed with no specific order. This publications aim to show my work in different stages of the manufacturing process. A complete by date list is available at the [projects section](/projects).
 
-{% include index-projects-starred.html %}
+{% include index-projects.html starred=true %}
 
-## Professional journey
+## Professional career
 
 My work is mainly divided in three areas, all of them related to digital manufacturing technologies. The first one is software development and machine automation, it's goal is to offer a stand-alone platform for any manufacturing process. Apart from the newly designed automated machines, the end result it's a dedicated Production Cloud Server that controls and reconceptualice the production line into a node base cloud technology.
 
@@ -76,11 +76,17 @@ SPK stands for Sputnik, as in first attempt.
 ## Into the future
 Acquiring social scientific data to allow the algorithms to shape its output accordingly. In a urban scale. I don't believe social data per se exists so maybe the first approach is to measure our movements or the amount of energy we consume. Not sure where to start. Maybe I will try to approach the problem as information theory and entropy states just measuring the energy. I need to know more Math and rewrite this paragraph.
 
-
-## CV ::
+## CV | English
 
 ### Daniel Fernández Marmissolle-Daguerre
-### *Architect*
+### *Arquitecto*
+
+---
+
+## CV | Español
+
+### Daniel Fernández Marmissolle-Daguerre
+### *Arquitecto*
 
 ---
 

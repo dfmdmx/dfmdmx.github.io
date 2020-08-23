@@ -1,9 +1,18 @@
 ---
 layout: post
-comments: true
+starred: false
 published: true
+comments: false
+albums:
+  album1:
+    cover: true
+    images:
+      - https://lh3.googleusercontent.com/pw/ACtC-3fdAyEpXppsYcimsEyTpJvDwSumGecpx2zGB-5YsaGw1cN1H_wWd6fA1TUWo7qJ1Ba88Bf4usiStuXu4KR-Y6BXTtCH0f232O6KAqezwajxlC95F0Ggy9Uplw8mLoEHx7NMFBGcD_FvrXJj1edLdUu8mg=w1782-h886-no?authuser=1
+      - https://lh3.googleusercontent.com/pw/ACtC-3f2XPfC7llA5nLsr5cVgdBjLcc7rEjJJzC8SOe5kMPDkHQEL5DPEUSZTESZ0eyyC0crZMeD58oxfB6vA6iqu6LKedeCDDAn-9LTaUWOb2p1e7Bfcl6kKwCy98nu6xlMJ7GJwqyues7_zUkBX5JlDfIOjA=w1745-h930-no?authuser=1
+      - https://lh3.googleusercontent.com/pw/ACtC-3dsOk1KSRIUKtdHTODBiDwtvM5Q8m4eyycFbtQNvQZk4ttouoo7hCIGXbUREINct2NVxTt203DK8waElULxygJ8hT5vym5Pxf7HHEEm9BDtpB391H6puM7rCRHF0EISQet0x3DoCi2TEza6ZpBIyn0uHA=w1869-h765-no?authuser=1
 ---
 
+### Frame by frame screenshot capture for Rhino3D Python script
 This is a concept test for creating a frame by frame animation using [Rhino](https://www.rhino3d.com/6) and [Python](https://www.python.org/). It's definitely not the fastest way to create an animation but it may be a useful tool to visualize evolving data through time and have a better understanding of some optimization algorithms strategies within a script.
 
 I was pleased with the time it took to create an individual frame. I will try to further implement it on a rigid body optimization software using a genetic algorithm that I have been working for a while now.
@@ -11,6 +20,8 @@ I was pleased with the time it took to create an individual frame. I will try to
 Here are the videos I made to test the concept as well as the Python script.
 
 {% include index-headers.html %}
+
+{% include album.html images=page.albums.album1.images cols=3%}
 
 ## Videos
 The videos were merged using [Resolve](https://www.blackmagicdesign.com/products/davinciresolve).

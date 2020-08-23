@@ -1,0 +1,22 @@
+
+
+{% assign posts = site.projects | concat: site.posts  %}
+{% capture images %}
+  {%- for post in posts-%}
+    {% if post.images %}
+      {% for image in post.images %}
+        {{ image }},
+      {% endfor %}
+    {% endif %}
+    {% if post.albums %}
+      {% assign albums = post.albums | where:"cover",true %}
+      {% for album in albums %}
+        {% for image in album.images %}
+          {{ image }},
+        {% endfor %}
+      {% endfor %}
+    {% endif %}
+  {%- endfor -%}
+{% endcapture %}
+{% assign images = images | strip | split: "," %}
+{% include album.html images=images cols=include.cols %}

@@ -15,7 +15,7 @@ h1, h2, h3, h4 {
   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
 }
 
-.page-content p{
+.page-content p {
   text-align: justify;
   text-justify: inter-word;
 }
@@ -24,35 +24,29 @@ h1, h2, h3, h4 {
   margin-top: 99px;
 }
 
-.home .page-content .post-list {
+.page-content .home .post-list {
   margin-top: 99px;
 }
 
-.gallery-content {
-  margin-top: 99px;
-}
-
-hr {
+.page-content hr {
   border: 0;
   border-top: 1px solid #eee;
   margin-bottom: 5px;
-}
-
-img {
-  margin-left: 0.5%;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  max-width: 99%;
 }
 
 .page-content a:hover {
   text-decoration: none;
 }
 
+.gallery-content {
+  margin-top: 99px;
+}
+
 .footer-col-wrapper {
   font-size: 12px;
   font-family:  -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
 }
+
 
 #disqus_thread {
   filter: grayscale(1) opacity(1);;

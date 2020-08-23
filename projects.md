@@ -10,7 +10,7 @@ The publications in this list may be just in English or Spanish according to the
 
 ## Starred projects
 
-{% include index-projects-starred.html %}
+{% include index-projects.html starred=true %}
 
 ## All projects
 

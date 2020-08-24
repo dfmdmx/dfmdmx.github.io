@@ -15,10 +15,18 @@
   {% assign images = images | slice: 0,max_images %}
 {% endif %}
 
+{% if include.grayscale %}
+  {% assign grayscale = 100 %}
+{% else %}
+  {% assign grayscale = 0 %}
+{% endif %}
+
 <style>
   .album img {
     object-fit: cover;
     min-height: 100%;
+    -webkit-filter: grayscale({{grayscale}}%); /* Safari 6.0 - 9.0 */
+    filter: grayscale({{grayscale}}%);
   }
 </style>
 

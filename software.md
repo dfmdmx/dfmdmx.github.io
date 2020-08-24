@@ -4,12 +4,13 @@ title: Software
 permalink: /software/
 ---
 
-### I work with two-dimensional manifold surfaces often built in Rhino3D and Python/Grasshopper. I also like to model structural growth algorithms and evolve them (just when I have GPU time). I model and interpret linear vectors, lots of linear vectors (lots as in too many millions my PC is burning!) and triangles, lost of triangles and linear vectors...
+### I work with two-dimensional manifold surfaces often built in Rhino3D and Python/Grasshopper. I also like to model structural growth algorithms, and when I have some spare GPU time, evolve them. I model and interpret graphic linear vectors, lots of linear vectors, lots as in I had to learn CPU Architecture. I heard about this term after becoming one myself, and Architect of course, not a CPU. In fewer words, my software specializes in linear vectors and their interaction. (I need to talk to my past self about this matter urgently!)
 
+I wanted to share my code with the community but the specificity of most of my work makes it difficult to solve a functional problem beyond the one it was designed for. So I decided to dissect some of the most useful scripts and Grasshopper definitions into stand-alone software.
 
-I wanted to share my code with the community but specificity of most of my work makes it difficult to solve a functional problem beyond the one it was designed for. So I decided to dissect some of the most useful scripts and Grasshopper definitions into stand-alone software.
+I'm an Architect not a Programmer, so you will find errors in both fields. I was more joyfully obligated into publishing my scripts as in motivated to do so.
 
-I'm an Architect not a Programmer, so you will find errors in both fields. I was more joyfully obligated into publishing my scripts as in motivated to do so. **I have been convinced that the only way we can survive as humanity is by producing and sharing information. Here is my part on sharing.**
+> I have been convinced that the only way we can survive as humanity is by producing and sharing information. Here is my part on sharing.
 
 ## LinCAM3.2 - Rhino3D CAM plugin
 

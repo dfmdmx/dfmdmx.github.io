@@ -21,7 +21,15 @@
   {% assign grayscale = 0 %}
 {% endif %}
 
+
+{% assign margin-top = include.margin-top | default: 0 %}
+{% assign margin-bottom = include.margin-bottom | default: 0 %}
+
 <style>
+  .album {
+    margin-top: {{margin-top}}px;
+    margin-bottom: {{margin-bottom}}px;
+  }
   .album img {
     object-fit: cover;
     min-height: 100%;

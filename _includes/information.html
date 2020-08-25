@@ -1,4 +1,4 @@
-<h1 class="post-title p-name" itemprop="name headline"><i class="fas fa-project-diagram"></i> {{ page.title | escape }}</h1>
+<h1 class="post-title p-name" itemprop="name headline"><i class="fas fa-project-diagram"></i> {{ include.title | escape }}</h1>
 <b>{{include.data.type}}</b> | {{include.data.client}}
 <br>
 <i class="far fa-calendar"></i> {{include.data.date}} <i class="fas fa-map-marker-alt"></i> {{include.data.location}} <i class="fas fa-link"></i> <a href='{{include.data.client_url}}' target="blank">{{include.data.client_url}}</a>
@@ -6,5 +6,5 @@
 <div style="margin-top:.5em;">
 {{include.data.description}}
 <br>
-<a href='{{page.url}}' target='blank'><i class="fas fa-external-link-square-alt"></i> {{page.url}} </a>
+<a href='{{page.url}}' target='blank'><i class="fas fa-external-link-square-alt"></i> {{include.url}} </a>
 </div>

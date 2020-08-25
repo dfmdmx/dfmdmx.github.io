@@ -91,25 +91,24 @@ Me especializo en el diseño y programación de estructuras paramétricas, en el
 
     {% include project.html title="printable-3d" %}
 
-### <i class="fas fa-cloud"></i> Software Publicado
+### <i class="fas fa-cloud"></i> Software profesional
 
-  - **Production Cloud Server** | Nube e interfaz remota de corte CNC
-  *2015 https://www.spkautomatizacion.com*
+  - **Production Cloud Server** | *Registrado: DFMD y SPC* | Aplicación para la administración de archivos CAD/CAM y el control de maquinaria CNC por internet
+    {% include cvheader.html date='2015-2020' location='Ciudad de México' url='cloud.dfmd.mx' %}   
 
-    File hosting cloud and accounting software.
+  - **LinCAM** | [*Open Source*](https://github.com/dfmdmx/Rhino_LinCAM3) | Plugin de Rhino6 para generar códigos-g 2.5D en español
+    {% include cvheader.html date='2019' location='Ciudad de México' url='https://www.food4rhino.com/app/lincam3' %}
 
-  - **LinCAM** | Generador de códigos-g 2.5D
-  *2019 https://www.food4rhino.com/app/lincam3*
-
-    Explicación lincam
+  - **HangarMX** | [*Open Source*](https://github.com/dfmdmx/dfmdmx.store.io) | Plataforma de ventas para corte 2.5D
+    {% include cvheader.html date='2019' location='Estado de México' url='https://www.hangarmx.com' %}     
 
 ### <i class="fas fa-tree"></i> Voluntariado
 
   - **Programa de Rescate de la Tortuga Marina** | Marcaje y rastreo de tortugas marinas para estudios de ciclo de vida
-    {% include cvheader.html date='2010' location='Quintana Roo' url='www.florafaunaycultura.org' %}
+    {% include cvheader.html date='2010' location='Quintana Roo' url='https://www.florafaunaycultura.org' %}
 
   - **Recuperación del Parque la Ceiba** | Diseño arquitectónico y propuesta de conservación de árboles
-    {% include cvheader.html date='2010' location='Quintana Roo' url='www.florafaunaycultura.org' %}
+    {% include cvheader.html date='2010' location='Quintana Roo' url='https://www.florafaunaycultura.org' %}
 
 
 ### *Contacto*

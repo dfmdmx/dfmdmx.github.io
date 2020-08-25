@@ -4,10 +4,9 @@ information:
   date: 2015
   location: Ciudad de México
   type: Diseño ejecutivo y fabricación de molde
-  client: Ariel Rojo / Open Source
+  client: Open source project by Ariel Rojo
   client_url: https://www.arielrojo.com/en/printable-3d-system-covid19
   project_url: https://www.arielrojo.com/en/printable-3d-system-covid19
-  status: Completada
   description: Diseño ejecutivo y manufactura de molde para la fabricación de la mascarilla auxiliar respiratoria diseñada por Ariel Rojo
 
 starred: false

@@ -89,7 +89,9 @@ Me especializo en el diseño y programación de estructuras paramétricas, en el
 
 ### <i class="fas fa-draw-polygon"></i> Proyectos independientes
 
-    {% include project.html title="printable-3d" %}
+    {% include project.html title="printable-3d-system-covid19" %}
+    {% include project.html title="xcaret-precious-plastics" %}
+    {% include project.html title="cuarto-de-pensar" %}
 
 ### <i class="fas fa-cloud"></i> Software profesional
 
@@ -105,11 +107,10 @@ Me especializo en el diseño y programación de estructuras paramétricas, en el
 ### <i class="fas fa-tree"></i> Voluntariado
 
   - **Programa de Rescate de la Tortuga Marina** | Marcaje y rastreo de tortugas marinas para estudios de ciclo de vida
-    {% include cvheader.html date='2010' location='Quintana Roo' url='https://www.florafaunaycultura.org' %}
+    {% include cvheader.html date='2010' location='Quintana Roo' url='https://www.florafaunaycultura.org/proyecto/17/proyecto-de-conservacion-de-tortugas-marinas/' %}
 
   - **Recuperación del Parque la Ceiba** | Diseño arquitectónico y propuesta de conservación de árboles
-    {% include cvheader.html date='2010' location='Quintana Roo' url='https://www.florafaunaycultura.org' %}
-
+    {% include cvheader.html date='2010' location='Quintana Roo' url='https://www.florafaunaycultura.org/proyecto/24/parque-la-ceiba-el-corazon-de-playa/' %}
 
 ### *Contacto*
 ---

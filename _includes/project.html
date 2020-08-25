@@ -5,7 +5,7 @@
     {% assign url=project.url %}
     {% assign data=project.information %}
 <div style='margin-left:3em;margin-bottom:2em;margin-top:2em'>
-  <h3 class="post-title p-name" itemprop="name headline"><i class="fas fa-project-diagram"></i> {{ title | escape }}</h3>
+  <h3 class="post-title p-name" itemprop="name headline"><small><small><i class="fas fa-project-diagram"></i></small></small> {{ title | escape }}</h3>
     <b>{{data.type}}</b> | {{ data.client}}
     <br>
     <i class="far fa-calendar"></i> {{ data.date}} <i class="fas fa-map-marker-alt"></i> {{ data.location}} <i class="fas fa-link"></i> <a href='{{ data.client_url}}' target="blank">{{ data.client_url}}</a>

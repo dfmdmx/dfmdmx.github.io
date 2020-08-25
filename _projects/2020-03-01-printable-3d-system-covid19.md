@@ -1,7 +1,7 @@
 ---
 layout: project
 information:
-  date: 2015
+  date: 2020
   location: Ciudad de México
   type: Diseño ejecutivo y fabricación de molde
   client: Open source project by Ariel Rojo

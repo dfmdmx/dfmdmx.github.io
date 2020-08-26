@@ -6,7 +6,7 @@ information:
   type: Parametrización, diseño ejecutivo y fabricación de recubrimiento modular
   client: Sietecolores
   client_url: http://wokivia.com
-  description: Penalización de superficie con patron natural para recubrimiento de exhibición museográfica
+  description: Diseño ejecutivo, producción y montaje de recubrimiento paramétrico en forma de escamas para exhibición museográfica infantil maquinado en CNC
 
 starred: false
 published: true

@@ -5,23 +5,23 @@
 
 Me especializo en el diseño y programación de estructuras paramétricas, en el desarrollo de software y producción de maquinaria automatizada para su fabricación.
 
-<i class="fas fa-link"></i> [dfmd.mx](https://www.dfmd.mx/)
+<i class="fas fa-link"></i> [https://www.dfmd.mx/](https://www.dfmd.mx/)
 
 ### <i class="fas fa-user-graduate"></i> Educación
 
   - <i class="fas fa-city"></i>
   **Universidad Iberoamericana de la CDMX** | Arquitecto Urbanista | *Licenciatura*
-  {% include cvheader.html date='2006-2011' location='Ciudad de México' url='uia.mx' %}
+  {% include cvheader.html date='2006-2011' location='Ciudad de México' url='https://ibero.mx' %}
 
   - <i class="fas fa-square-root-alt"></i>
   **Universidad Iberoamericana de la CDMX** | Procesos Generativos de Diseño | *Diplomado*
-  {% include cvheader.html date='2011' location='Ciudad de México' url='uia.mx' %}
+  {% include cvheader.html date='2011' location='Ciudad de México' url='https://ibero.mx' %}
 
 ### <i class="fab fa-black-tie"></i> Experiencia profesional
 
   - <i class="fas fa-industry"></i>
     **Linarand** | Producción y automatización de procesos
-    {% include cvheader.html date='2014-2019' location='Ciudad de México' url='www.linarand.com.mx' %}
+    {% include cvheader.html date='2014-2019' location='Ciudad de México' url='http://linarand.com.mx' %}
 
     Empresa especializada en los sectores alimenticio y farmacéutico, dedicada en la venta, maquila y servicio de bandas transportadoras y transportadores industriales
 
@@ -37,7 +37,7 @@ Me especializo en el diseño y programación de estructuras paramétricas, en el
 
   - <i class="fas fa-microchip"></i>
     **SPK Automatización** | Desarrollo e innovación de producto
-    {% include cvheader.html date='2013-2017' location='Ciudad de México' url='www.spkautomatizacion.com' %}
+    {% include cvheader.html date='2013-2017' location='Ciudad de México' url='http://www.spkautomatizacion.com' %}
 
     Empresa dedicada a la manufactura y diseño de maquinaria industrial automatizada de bajo costo y servicio de maquinado CNC de 2.5
 
@@ -54,7 +54,7 @@ Me especializo en el diseño y programación de estructuras paramétricas, en el
 
   - <i class="fas fa-child"></i>
     **Sietecolores** | Producción ejecutiva y diseño de mobiliario para museos
-    {% include cvheader.html date='2014-2019' location='Ciudad de México' url='www.sietecolores.com' %}
+    {% include cvheader.html date='2014-2019' location='Ciudad de México' url='http://sietecolores.mx' %}
 
     Despacho especializado en la creación de museos interactivos para niños y niñas: conceptualización, financiamiento, diseño, puesta en marcha y acompañamiento posterior
 
@@ -68,7 +68,7 @@ Me especializo en el diseño y programación de estructuras paramétricas, en el
 
   - <i class="fas fa-laptop-house"></i>
     **Gaxiola Arquitectos** | Diseño y dibujo arquitectónico
-    {% include cvheader.html date='2010-2011' location='Ciudad de México' url='www.gaxiolaarquitectos.com' %}
+    {% include cvheader.html date='2010-2011' location='Ciudad de México' url='http://www.gaxiolaarquitectos.com' %}
 
     Firma de arquitectura
 
@@ -80,13 +80,13 @@ Me especializo en el diseño y programación de estructuras paramétricas, en el
 ### <i class="fas fa-check"></i> Premios
 
   - **Universidad Iberoamericana de la CDMX** | Mención honorífica | *Licenciatura*
-    {% include cvheader.html date='2011' location='Ciudad de México' url='uia.mx' %}
+    {% include cvheader.html date='2011' location='Ciudad de México' url='https://ibero.mx' %}
 
   - **Fondo MasisaLabs 2015** | Inversión semilla para incubación de empresas promotoras de tecnología
-    {% include cvheader.html date='2015' location='Ciudad de México' url='www.masisa.com/mex' %}
+    {% include cvheader.html date='2015' location='Ciudad de México' url='https://mexico.masisa.com' %}
 
   - **Convocatoria 5a Generación StartUpMexico** | Patrocinio para la obtención de financiamiento a través de fondos de riesgo.
-    {% include cvheader.html date='2015' location='Ciudad de México' url='www.startupmexico.com' %}
+    {% include cvheader.html date='2015' location='Ciudad de México' url='https://www.startupmexico.com' %}
 
 ### <i class="fas fa-draw-polygon"></i> Proyectos independientes
 
@@ -98,9 +98,9 @@ Me especializo en el diseño y programación de estructuras paramétricas, en el
     {% include project.html title="museo-trapiche" %}
     {% include project.html title="museo-acertijo" %}
 
-### <i class="fas fa-cloud"></i> Software profesional
+### <i class="fas fa-cloud"></i> Software profesional publicado
 
-  - **Production Cloud Server** | *Registrado: DFMD y SPC* | Aplicación para la administración de archivos CAD/CAM y el control de maquinaria CNC por internet
+  - **Production Cloud Server** | *Registrado: DFMD y SPC by SPK* | Aplicación para la administración de archivos CAD/CAM y el control de maquinaria CNC por internet
     {% include cvheader.html date='2015-2020' location='Ciudad de México' url='http://www.spkautomatizacion.com/' %}   
 
   - **LinCAM** | [*Open Source*](https://github.com/dfmdmx/Rhino_LinCAM3) | Plugin de Rhino6 para generar códigos-g 2.5D en español

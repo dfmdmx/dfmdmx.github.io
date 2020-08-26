@@ -6,7 +6,7 @@ information:
   type: Parametrización, diseño ejecutivo y fabricación de recubrimiento modular
   client: Sietecolores
   client_url: http://wokivia.com
-  description: Diseño ejecutivo, producción y montaje de recubrimiento paramétrico en forma de escamas para exhibición museográfica infantil maquinado en CNC
+  description: Diseño ejecutivo, producción y montaje de recubrimiento paramétrico maquinado en CNC en forma de escamas para exhibición museográfica infantil
 
 starred: false
 published: true

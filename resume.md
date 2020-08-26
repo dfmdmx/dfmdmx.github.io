@@ -19,6 +19,8 @@ Most of my work has been around designing museography for interactive children's
 
 ![linarand workshop](https://lh3.googleusercontent.com/pw/ACtC-3fNbETKPcHTkbxP3YIp5dbaOnkT3yce93zDDydRiEy7Z20kZavOt_E7uORxJFd74DmKfZ8rwdBUIMvPcZnTykgzUXDhIlz0kptEFQc6HXHCG22s75OOSavJtrO7L0wylpVkxNCkP8YdBNJZLFb4KCzcBw=w1920-h342-no?authuser=1)
 
+![magic planet contruction](https://lh3.googleusercontent.com/pw/ACtC-3f6jQoyii393PuLCGkP9hoGch_i7O_AI4-JhX1tHwew3ppebNVPgeUrxKETIhpo8N8JyVSQZhlf1MfgErmeuHlZ58C5QMr_KBNEXwOVXtMQRqTvlJ0UF6-bugdFEsSxSjg8m-S2ENDKKcHY3OiC8L19Eg=w2711-h1395-no?authuser=1)
+
 ![magic planet](https://lh3.googleusercontent.com/pw/ACtC-3eOC-OYIyx-Y3W87lJSbkE6kZZ0t-pbWEFSgEKTzOnY4ldvyWkMBTdQnOkAoO2AeuALiCW70LsdMqS8tRNllbgEAY-980SC7HZzV6H9FOTQvY5txSXh4fka-p97S4E665-V1GigFkhokwcA3d7QZISnzA=w1898-h930-no?authuser=1)
 
 >Thinking about Architecture as some intrinsic or emergent system of nature allows us to reduce some of its properties into fundamental variables that can be understood through mathematical models. In this sense, architecture should be shaped alongside scientific knowledge. The scale we have reached as humanity and the amount of information we have gathered about ourselves and our surroundings allows us to use some of the most advanced problem solving techniques, such as genetic algorithms and neural networks into real practical design applications.  

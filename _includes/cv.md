@@ -14,7 +14,7 @@ Me especializo en el diseño y programación de estructuras paramétricas, en el
   {% include cvheader.html date='2006-2011' location='Ciudad de México' url='https://ibero.mx' %}
 
   - <i class="fas fa-square-root-alt"></i>
-  **Universidad Iberoamericana de la CDMX** | Procesos Generativos de Diseño | *Diplomado*
+  **Universidad Iberoamericana de la CDMX** | Procesos Generativos de Diseño by Pablo Kobayashi | *Diplomado*
   {% include cvheader.html date='2011' location='Ciudad de México' url='https://ibero.mx' %}
 
 ### <i class="fab fa-black-tie"></i> Experiencia profesional
@@ -54,7 +54,7 @@ Me especializo en el diseño y programación de estructuras paramétricas, en el
 
   - <i class="fas fa-child"></i>
     **Sietecolores** | Producción ejecutiva y diseño de mobiliario para museos
-    {% include cvheader.html date='2014-2019' location='Ciudad de México' url='http://sietecolores.mx' %}
+    {% include cvheader.html date='2014-2015' location='Ciudad de México' url='http://sietecolores.mx' %}
 
     Despacho especializado en la creación de museos interactivos para niños y niñas: conceptualización, financiamiento, diseño, puesta en marcha y acompañamiento posterior
 

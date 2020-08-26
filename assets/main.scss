@@ -11,6 +11,7 @@ $brand-color:      #2a7ae2 !default;
 @import url("https://unpkg.com/purecss@1.0.1/build/pure-min.css");
 @import url("https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css");
 
+
 h1, h2, h3, h4 {
   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
 }
@@ -22,6 +23,7 @@ li > ul {
 .page-content p {
   text-align: justify;
   text-justify: inter-word;
+  page-break-inside: avoid;
 }
 
 .page-content i {

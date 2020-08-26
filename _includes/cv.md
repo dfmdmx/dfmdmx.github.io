@@ -27,6 +27,7 @@ Me especializo en el diseño y programación de estructuras paramétricas, en el
 
     **Dirección de diseño y manufactura de proyectos especiales**
 
+    - Desarrollo e Investigación
     - Programación del equipo Haas (torno y router cuatro ejes) para la fabricación de refacciones plásticas para inventario de ventas
     - Investigación, desarrollo e implementación de procesos automatizados en la fabricación de bandas transportadoras y refacciones plásticas
     - Diseño y fabricación de maquinaria CNC para corte y barrenado de bandas industriales
@@ -94,12 +95,13 @@ Me especializo en el diseño y programación de estructuras paramétricas, en el
     {% include project.html title="cuarto-de-pensar" %}
     {% include project.html title="geodesia" %}
     {% include project.html title="king-abdulaziz-center-for-world-culture" %}
-
+    {% include project.html title="museo-trapiche" %}
+    {% include project.html title="museo-acertijo" %}
 
 ### <i class="fas fa-cloud"></i> Software profesional
 
   - **Production Cloud Server** | *Registrado: DFMD y SPC* | Aplicación para la administración de archivos CAD/CAM y el control de maquinaria CNC por internet
-    {% include cvheader.html date='2015-2020' location='Ciudad de México' url='cloud.dfmd.mx' %}   
+    {% include cvheader.html date='2015-2020' location='Ciudad de México' url='http://www.spkautomatizacion.com/' %}   
 
   - **LinCAM** | [*Open Source*](https://github.com/dfmdmx/Rhino_LinCAM3) | Plugin de Rhino6 para generar códigos-g 2.5D en español
     {% include cvheader.html date='2019' location='Ciudad de México' url='https://www.food4rhino.com/app/lincam3' %}

@@ -92,6 +92,9 @@ Me especializo en el diseño y programación de estructuras paramétricas, en el
     {% include project.html title="printable-3d-system-covid19" %}
     {% include project.html title="xcaret-precious-plastics" %}
     {% include project.html title="cuarto-de-pensar" %}
+    {% include project.html title="geodesia" %}
+    {% include project.html title="king-abdulaziz-center-for-world-culture" %}
+
 
 ### <i class="fas fa-cloud"></i> Software profesional
 

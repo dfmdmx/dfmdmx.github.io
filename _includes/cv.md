@@ -28,12 +28,12 @@ Me especializo en el diseño y programación de estructuras paramétricas, en el
     **Dirección de diseño y manufactura de proyectos especiales**
 
     - Desarrollo e Investigación
-    - Programación del equipo Haas (torno y router cuatro ejes) para la fabricación de refacciones plásticas para inventario de ventas
+    - Programación del equipo Haas (torno y router cuatro ejes) para la fabricación de refacciones plásticas para inventario de ventas <i class="fas fa-tag"></i> **#HassAutomation #AsiaRobotica**
     - Investigación, desarrollo e implementación de procesos automatizados en la fabricación de bandas transportadoras y refacciones plásticas
-    - Diseño y fabricación de maquinaria CNC para corte y barrenado de bandas industriales
+    - Diseño y fabricación de maquinaria CNC para corte y barrenado de bandas industriales <i class="fas fa-tag"></i> **#FestoPneumaticAutomation #Arduino #TinyG #Raspberry #GRBL**
     - Desarrollo, programación y mantenimiento del servidor de control remoto de maquinaria para corte, manejo de pedidos e inventario
-    - Programación del plugin para generación de códigos-g CAM en español en Rhino3D, LinCAM3 <i class="fas fa-tag"></i> **Python, Rhino3D 6**
-    - Capacitación y cursos para el personal en el uso de nuevas tecnologías CAD/CAM <i class="fas fa-tag"></i> **AutoCAD, Rinho3D-CAM, Vectric, Fusion**
+    - Programación del plugin para generación de códigos-g CAM en español en Rhino3D, LinCAM3 <i class="fas fa-tag"></i> **#Python #Rhino3D-6**
+    - Capacitación y cursos para el personal en el uso de nuevas tecnologías CAD/CAM <i class="fas fa-tag"></i> **#AutoCAD #Rinho3D-CAM, #Vectric, #Fusion**
 
   - <i class="fas fa-microchip"></i>
     **SPK Automatización** | Desarrollo e innovación de producto

@@ -1,4 +1,1 @@
-{% assign tag=tags %}
-
-<i class="fas fa-tag"></i>
-{% for tag in tags %} <i>AutoCAD, Rinho3D-CAM, Vectric, Fusion<
+<div>{%- assign tags=include.tags | remove: ' ' | split: ',' -%}<i class="fas fa-tag"></i>{% for tag in tags %}#{{tag}}{% endfor %}</div>

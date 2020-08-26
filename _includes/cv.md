@@ -30,10 +30,10 @@ Me especializo en el diseño y programación de estructuras paramétricas, en el
     - Desarrollo e Investigación
     - Programación del equipo Haas (torno y router cuatro ejes) para la fabricación de refacciones plásticas para inventario de ventas <i class="fas fa-tag"></i> **#HassAutomation #AsiaRobotica**
     - Investigación, desarrollo e implementación de procesos automatizados en la fabricación de bandas transportadoras y refacciones plásticas
-    - Diseño y fabricación de maquinaria CNC para corte y barrenado de bandas industriales <i class="fas fa-tag"></i> **#FestoPneumaticAutomation #Arduino #TinyG #Raspberry #GRBL**
+    - Diseño y fabricación de maquinaria CNC para corte y barrenado de bandas industriales <i class="fas fa-tag"></i> **#FestoPneumaticAutomation #AmazonAWS #Arduino #TinyG #Raspberry #GRBL**
     - Desarrollo, programación y mantenimiento del servidor de control remoto de maquinaria para corte, manejo de pedidos e inventario
     - Programación del plugin para generación de códigos-g CAM en español en Rhino3D, LinCAM3 <i class="fas fa-tag"></i> **#Python #Rhino3D-6**
-    - Capacitación y cursos para el personal en el uso de nuevas tecnologías CAD/CAM <i class="fas fa-tag"></i> **#AutoCAD #Rinho3D-CAM, #Vectric, #Fusion**
+    - Capacitación y cursos para el personal en el uso de nuevas tecnologías CAD/CAM <i class="fas fa-tag"></i> **#AutoCAD #Rinho3D-CAM #Vectric #Fusion**
 
   - <i class="fas fa-microchip"></i>
     **SPK Automatización** | Desarrollo e innovación de producto
@@ -44,7 +44,7 @@ Me especializo en el diseño y programación de estructuras paramétricas, en el
     **Socio fundador - Jefe de Tecnología (Chief Technology Officer, CTO)**
 
     - Diseño y fabricación de máquinas CNC de 3 ejes para venta al público y uso interno de la empresa
-    - Diseño y programación de la plataforma para automatización de procesos, administración, taller y venta (Python, Google App Engine)
+    - Diseño y programación de la plataforma para automatización de procesos, administración, taller y venta <i class="fas fa-tag"></i> **#Python #Processing #JavaScript #Node.js #GoogleAppEngine**
     - Desarrollo de concepto para capitalización a través de fondos de inversión semilla
     - Responsable de promoción y diversificación de productos en exhibiciones de diseño industrial
       - Abierto Mexicano de Diseño (edición 2014, 2015 y 2016)
@@ -61,10 +61,10 @@ Me especializo en el diseño y programación de estructuras paramétricas, en el
     **Responsable de diseño arquitectónico**
 
       - Diseño y conceptualización de exhibiciones
-      - Diseño conceptual y ejecutivo de estructuras paramétricas autoportantes (Rinho3D y Grasshopper)
-      - Dibujo de planos ejecutivos arquitectónicos (Rinho3D)
-      - Dibujo de planos técnicos para fabricación de mecanismos industriales (Rinho3D)
-      - Modelado y renderizado conceptual de estructuras para venta (Rinho3D, Photoshop e Illustrator)
+      - Diseño conceptual y ejecutivo de estructuras paramétricas autoportantes <i class="fas fa-tag"></i> **#Rinho3D #Grasshopper**
+      - Dibujo de planos ejecutivos arquitectónicos
+      - Dibujo de planos técnicos para fabricación de mecanismos industriales
+      - Modelado y renderizado conceptual de estructuras para venta <i class="fas fa-tag"></i> **#Photoshop #Illustrator**
 
   - <i class="fas fa-laptop-house"></i>
     **Gaxiola Arquitectos** | Diseño y dibujo arquitectónico
@@ -74,8 +74,8 @@ Me especializo en el diseño y programación de estructuras paramétricas, en el
 
     **Dibujante bajo la supervision directa del Arquitecto responsable de la firma**
 
-      - Producción de planos arquitectónicos y ejecutivos para vivienda unifamiliar (AutoCAD).
-      - Diseño de láminas conceptuales para venta y aprobación de diseño (Rinho3D, Photoshop e Illustrator)
+      - Producción de planos arquitectónicos y ejecutivos para vivienda unifamiliar <i class="fas fa-tag"></i> **#AutoCAD #HandSketching**
+      - Diseño de láminas conceptuales para venta y aprobación de diseño <i class="fas fa-tag"></i> **#RhinoRender #Photoshop #Illustrator**
 
 ### <i class="fas fa-check"></i> Premios
 

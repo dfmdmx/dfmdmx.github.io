@@ -16,10 +16,6 @@
 
         {% include project.html project=post headerlink=include.headerlink  %}
 
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-
         {% capture images %}
           {% if post.images %}
             {% for image in post.images %}

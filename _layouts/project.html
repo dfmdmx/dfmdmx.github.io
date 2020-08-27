@@ -6,7 +6,7 @@ layout: default
   <header class="post-header">
     <p class="post-meta">
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        
+
         {% include information.html title=page.title url=page.url data=page.information  %}
       </time>
       {%- if page.author -%}
@@ -16,6 +16,7 @@ layout: default
   <div class="post-content e-content" itemprop="articleBody">
 
     {{ content }}
+    <br>
     <small>Algunas images fueron obtenidas de publicaciónes realizadas por el cliente.</small>
 
   </div>

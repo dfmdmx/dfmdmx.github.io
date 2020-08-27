@@ -1,20 +1,36 @@
-
-{% for project in site.projects %}
-  {% if project.path contains include.title %}
-    {% assign title=project.title %}
-    {% assign url=project.url %}
-    {% assign data=project.information %}
-<div style='margin-left:3em;margin-bottom:2em;margin-top:2em'>
-  <h3 class="post-title p-name" itemprop="name headline"><small><small><i class="fas fa-project-diagram"></i></small></small> {{ title | escape }}</h3>
-    <b>{{data.type}}</b> | {{ data.client}}
+{% if include.project %}
+  {% assign project=include.project %}
+  {% assign title=project.title %}
+  {% assign url=false %}
+  {% assign margin=0 %}
+  {% assign data=project.information %}
+  {% assign headerlink=include.headerlink %}
+{% else %}
+  {% for project in site.projects %}
+    {% if project.path contains include.title %}
+      {% assign title=project.title %}
+      {% assign url=site.url | append: project.url %}
+      {% assign data=project.information %}
+      {% assign headerlink=include.headerlink %}
+      {% assign margin=3 %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+<div style='margin-left:{{margin}}em;margin-bottom:2em;margin-top:2em'>
+  {% if headerlink %}
+  <a class="post-link" href="{{ project.url | relative_url }}">
+    <h3 class="post-title p-name" itemprop="name headline"><small><i class="fas fa-project-diagram"></i></small> {{ title | escape }}</h3>
+  </a>
+  {% else %}
+  <h3 class="post-title p-name" itemprop="name headline"><small><i class="fas fa-project-diagram"></i></small> {{ title | escape }}</h3>
+  {% endif %}
+    <b>{{data.type}}</b> | {{data.client}}
     <br>
-    <i class="far fa-calendar"></i> {{ data.date}} <i class="fas fa-map-marker-alt"></i> {{ data.location}} <i class="fas fa-link"></i> <a href='{{ data.client_url}}' target="blank">{{ data.client_url}}</a>
+    <i class="far fa-calendar"></i> {{data.date}} <i class="fas fa-map-marker-alt"></i> {{data.location}} <i class="fas fa-link"></i> <a href='{{ data.client_url}}' target="blank">{{ data.client_url}}</a>
     <br>
     <div style="margin-top:.5em;">
     {{data.description}}
     <br>
-    <a href='{{url}}' target='blank'><i class="fas fa-external-link-square-alt"></i> {{url}} </a>
+    {% if url %}<a href='{{url}}' target='blank'><i class="fas fa-external-link-square-alt"></i> {{url}} </a>{% endif %}
   </div>
 </div>
-  {% endif %}
-{% endfor %}

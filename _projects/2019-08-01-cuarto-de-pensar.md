@@ -8,7 +8,7 @@ information:
   client_url: http://wokivia.com
   description: Diseño ejecutivo, producción y montaje de recubrimiento paramétrico maquinado en CNC en forma de escamas para exhibición museográfica infantil
 
-starred: false
+starred: true
 published: true
 comments: false
 images:

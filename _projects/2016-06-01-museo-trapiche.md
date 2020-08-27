@@ -8,7 +8,7 @@ information:
   client_url: http://sietecolores.mx/en/Proyectos/trapiche/
   description: Diseño, manufactura y montaje de tres estructuras ligeras. La primera en su totalidad de aluminio, Magic Planet, Cabina de Radio
 
-starred: false
+starred: true
 published: true
 comments: false
 images:

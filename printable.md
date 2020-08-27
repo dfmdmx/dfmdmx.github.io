@@ -14,6 +14,10 @@ permalink: /printable
 {% include starred-projects.md %}
 {% include page-break.html %}
 
+## Gallery
+{% include index-images.html cols=8 grayscale=1 %}
+{% include page-break.html %}
+
 {% include cv.md %}
 {% include page-break.html %}
 

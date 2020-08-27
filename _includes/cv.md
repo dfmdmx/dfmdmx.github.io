@@ -1,4 +1,4 @@
-## CV
+## CV - Español
 
 ### Daniel Fernández Marmissolle-Daguerre
 ### *Arquitecto*
@@ -92,7 +92,7 @@ Me especializo en el diseño y programación de estructuras paramétricas, en el
 
 ### <i class="fas fa-draw-polygon"></i> Proyectos independientes
 
-    {% include project.html title="printable-3d-system-covid19" %}
+    {% include project.html title="printable-3d-system-covid19"  %}
     {% include project.html title="xcaret-precious-plastics" %}
     {% include project.html title="cuarto-de-pensar" %}
     {% include project.html title="geodesia" %}

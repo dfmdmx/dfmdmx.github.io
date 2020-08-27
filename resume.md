@@ -12,6 +12,4 @@ permalink: /resume/
 
 {% include starred-projects.md %}
 
-## CV | Español
-
 {% include cv.md %}

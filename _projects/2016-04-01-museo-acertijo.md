@@ -8,7 +8,7 @@ information:
   client_url: http://sietecolores.mx/en/Proyectos/acertijo/
   description: Diseño, producción y montaje de barandal paramétrico maquinado en CNC para exhibición central del museo estatal de Gomez Palacio, Durango
 
-starred: false
+starred: true
 published: true
 comments: false
 images:

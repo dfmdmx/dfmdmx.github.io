@@ -8,7 +8,7 @@ information:
   client_url: https://www.florafaunaycultura.org/espacios/5/cc-tulum/
   description: Diseño ejecutivo de maquinaria, conceptualización y readaptación en sitio del proyecto https://preciousplastic.com para el reciclado de plástico en las playas de la reserva natural de Tulúm
 
-starred: false
+starred: true
 published: true
 comments: false
 images:

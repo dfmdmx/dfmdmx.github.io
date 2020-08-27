@@ -1,9 +1,11 @@
+## CV
+
 ### Daniel Fernández Marmissolle-Daguerre
 ### *Arquitecto*
 
 ---
 
-Me especializo en el diseño y programación de estructuras paramétricas, en el desarrollo de software y producción de maquinaria automatizada para su fabricación.
+Me especializo en el diseño y programación de estructuras paramétricas, en el desarrollo de software y fabricación de maquinaria automatizada CNC para su elaboración.
 
 <i class="fas fa-link"></i> [https://www.dfmd.mx/](https://www.dfmd.mx/)
 
@@ -14,7 +16,7 @@ Me especializo en el diseño y programación de estructuras paramétricas, en el
   {% include cvheader.html date='2006-2011' location='Ciudad de México' url='https://ibero.mx' %}
 
   - <i class="fas fa-square-root-alt"></i>
-  **Universidad Iberoamericana de la CDMX** | Procesos Generativos de Diseño by Pablo Kobayashi | *Diplomado*
+  **Universidad Iberoamericana de la CDMX** | Procesos Generativos de Diseño por Pablo Kobayashi | *Diplomado*
   {% include cvheader.html date='2011' location='Ciudad de México' url='https://ibero.mx' %}
 
 ### <i class="fab fa-black-tie"></i> Experiencia profesional

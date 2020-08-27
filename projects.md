@@ -12,7 +12,7 @@ The publications in this list may be just in English or Spanish according to the
 
 ## Starred projects
 
-{% include index-projects.html starred=true headerlink=true %}
+{% include index-projects.html starred=true headerlink=true  %}
 
 <!-- ## All projects
 

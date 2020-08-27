@@ -33,7 +33,7 @@
 
         {% endcapture %}
         {% assign images = images | strip | split: "," %}
-        {% include album.html images=images cols=4 max_rows=max_rows %}
+        {% include album.html images=images cols=6 max_rows=max_rows %}
 
       </li>
     {%- endif -%}

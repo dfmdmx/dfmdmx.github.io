@@ -30,7 +30,7 @@ Me especializo en el diseño y programación de estructuras paramétricas, en el
     **Dirección de diseño y manufactura de proyectos especiales**
 
     - Desarrollo e Investigación
-    - Programación del equipo Haas (torno y router cuatro ejes) para la fabricación de refacciones plásticas para inventario de ventas <i class="fas fa-tag"></i> **#HassAutomation #AsiaRobotica**
+    - Coordinación del taller de maquinaria Haas (torno y router cuatro ejes) para la fabricación de refacciones plásticas para la industria farmacéutica y alimenticia <i class="fas fa-tag"></i> **#HassAutomation #AsiaRobotica**
     - Investigación, desarrollo e implementación de procesos automatizados en la fabricación de bandas transportadoras y refacciones plásticas
     - Diseño y fabricación de maquinaria CNC para corte y barrenado de bandas industriales <i class="fas fa-tag"></i> **#FestoPneumaticAutomation #AmazonAWS #Arduino #TinyG #Raspberry #GRBL**
     - Desarrollo, programación y mantenimiento del servidor de control remoto de maquinaria para corte, manejo de pedidos e inventario

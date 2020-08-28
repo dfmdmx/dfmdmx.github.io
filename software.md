@@ -4,7 +4,7 @@ title: Software
 permalink: /software/
 ---
 
-### I work with two-dimensional manifold surfaces often built in Rhino3D and Python/Grasshopper. I also like to model structural growth algorithms, and when I have some spare GPU time, evolve them. I model and interpret graphic linear vectors, lots of linear vectors, lots as in I had to learn multiprocessing for CPU Architecture. I heard about this term after becoming one myself, and Architect of course, not a CPU. In short, my software specializes in linear vectors and their interaction.
+### I work with two-dimensional manifold surfaces often built in Rhino3D and Python/Grasshopper. I also like to model structural growth algorithms, and when I have some spare GPU time, evolve them. I model and interpret graphic linear vectors, lots of linear vectors, lots as in I had to learn multiprocessing for CPU Architecture. I heard about this term after becoming one myself, an Architect of course, not a CPU. In short, my software specializes in linear vectors and their interaction.
 
 I wanted to share my code with the community but the specificity of most of my work makes it difficult to solve a functional problem beyond the one it was designed for. So I decided to dissect some of the most useful scripts and Grasshopper definitions into stand-alone software.
 

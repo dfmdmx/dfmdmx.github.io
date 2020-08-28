@@ -28,11 +28,11 @@ When combined together, these complex dimensions, namely strength, the use of ma
 
 Regarding hardware, I have worked with multi-axis CNCs, lathes and 3D printers. Since parametric manufacturing often involves thousands of different parts that need to be assembled together, I like to control my workshop machines, whenever possible, through a RPI, Arduino or a similar board. This allows me to handle multiple machines and manufacturing lines simultaneously and remotely in a single project.
 
-I treat each production step as an independent IOT client that can be controlled and monitored in real time through the [Production Cloud Server](/projects/2019-07-21-production-cloud-server.html). This app, in simple words, is a g-code file hosting cloud server with a network of connected production machines that can be controlled through a node.js connection.
+I treat each production step as an independent IOT client that can be controlled and monitored in real time through the Production Cloud Server. This app, in simple words, is a g-code file hosting cloud server with a network of connected production machines that can be controlled through a node.js connection.
 
 I developed this web-app from the bits and pieces of software that I wrote for some of my parametric projects. It has proven to be a very efficient tool. I was awarded in 2015 for this web-app with an entrepreneur seed investment prize, in Mexico City. This fund concluded in the creation of two manufacturing companies that run up till today.
 
-This project is the platform of most of my software development implementations and it is now available as an open-source repository, always in the hope of been furthered developed by the community (more information about this is available in the [software section](/open-source/#software-downloads)).
+This project is the platform of most of my software development implementations and it is now available as an open-source repository, always in the hope of been furthered developed by the community.
 
 I  mostly focus on designing efficient and low cost structural geometries by implementing heuristic optimization algorithms. I apply this kind of approach from small scale industrial design to lightweight parametric roofing and façade structures.
 

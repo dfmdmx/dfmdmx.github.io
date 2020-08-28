@@ -13,7 +13,7 @@ published: true
 comments: false
 images:
 albums:
-  arielrojo:
+  album1:
     cover: true
     images:
       - https://lh3.googleusercontent.com/pw/ACtC-3e-qathW8SDq9cXx-rUZrknlBK_5CzvB9eb52vEUPL1Zpnao75ddiKHW0BQcce8F5A52TBTmxUoS6DN2quG7Alub7547qWzjjgPCHrsO24OpiGHwaHMZ42dqYQ3crg1xzleTqoGTSljMp9b15wKKs1vZQ=w1086-h706-no?authuser=1
@@ -24,4 +24,4 @@ albums:
       - https://lh3.googleusercontent.com/pw/ACtC-3cl-k2vCMmRZgh3bQ2SuLvjpEvABBinXrrM8QjlLPMqf8JAvj1oSxDh9oTrEwUv9_l6Io8mOeWDADpnf6YzIMhGuF1CEpLJBrfNkPqZiVIqnyXAQqWVryKeviJoQSE37WJ_Lkgf1dcS_c8lLyoULWe2vg=w1192-h717-no?authuser=1
 ---
 
-{% include album.html images=page.albums.arielrojo.images %}
+{% include album.html images=page.albums.album1.images %}

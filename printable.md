@@ -18,7 +18,4 @@ permalink: /printable
 {% include index-images.html cols=8 grayscale=1 %}
 {% include page-break.html %}
 
-{% include cv.md %}
-{% include page-break.html %}
-
-Thanks.
+<!-- {% include cv.md %} -->

@@ -1,4 +1,3 @@
-## CV - Español
 
 ### Daniel Fernández Marmissolle-Daguerre
 ### *Arquitecto*
@@ -56,7 +55,7 @@ Me especializo en el diseño y programación de estructuras paramétricas, en el
 
   - <i class="fas fa-child"></i>
     **Sietecolores** | Producción ejecutiva y diseño de mobiliario para museos
-    {% include cvheader.html date='2014-2015' location='Ciudad de México' url='http://sietecolores.mx' %}
+    {% include cvheader.html date='2012-2013' location='Ciudad de México' url='http://sietecolores.mx' %}
 
     Despacho especializado en la creación de museos interactivos para niños y niñas: conceptualización, financiamiento, diseño, puesta en marcha y acompañamiento posterior
 

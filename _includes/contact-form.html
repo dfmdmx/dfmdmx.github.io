@@ -41,7 +41,7 @@
 $( document ).ready(function() {
   $( "#contact" ).on('submit', function( event ) {
     event.preventDefault();
-    apiCall('mainframe','contactMail',$(this).serializeFormJSON())
-    });
+    apiCall('mainframe','contactMail',$(this).serializeFormJSON()).done(function(){ $(this).trigger('reset'); })
+  });
 });
 </script>

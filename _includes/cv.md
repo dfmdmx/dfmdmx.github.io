@@ -34,7 +34,7 @@ Me especializo en el diseño y programación de estructuras paramétricas, en el
     - Diseño y fabricación de maquinaria CNC para corte y barrenado de bandas industriales <i class="fas fa-tag"></i> **#FestoPneumaticAutomation #AmazonAWS #Arduino #TinyG #Raspberry #GRBL**
     - Desarrollo, programación y mantenimiento del servidor de control remoto de maquinaria para corte, manejo de pedidos e inventario
     - Programación del plugin para generación de códigos-g CAM en español en Rhino3D, LinCAM3 <i class="fas fa-tag"></i> **#Python #Rhino3D-6**
-    - Capacitación y cursos para el personal en el uso de nuevas tecnologías CAD/CAM <i class="fas fa-tag"></i> **#AutoCAD #Rinho3D-CAM #Vectric #Fusion**
+    - Capacitación y cursos para el personal en el uso de nuevas tecnologías CAD/CAM <i class="fas fa-tag"></i> **#AutoCAD #Rhino3D-CAM #Vectric #Fusion**
 
   - <i class="fas fa-microchip"></i>
     **SPK Automatización** | Desarrollo e innovación de producto
@@ -62,7 +62,7 @@ Me especializo en el diseño y programación de estructuras paramétricas, en el
     **Responsable de diseño arquitectónico**
 
       - Diseño y conceptualización de exhibiciones
-      - Diseño conceptual y ejecutivo de estructuras paramétricas autoportantes <i class="fas fa-tag"></i> **#Rinho3D #Grasshopper**
+      - Diseño conceptual y ejecutivo de estructuras paramétricas autoportantes <i class="fas fa-tag"></i> **#Rhino3D #Grasshopper**
       - Dibujo de planos ejecutivos arquitectónicos
       - Dibujo de planos técnicos para fabricación de mecanismos industriales
       - Modelado y renderizado conceptual de estructuras para venta <i class="fas fa-tag"></i> **#Photoshop #Illustrator**

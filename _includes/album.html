@@ -36,14 +36,31 @@
     -webkit-filter: grayscale({{grayscale}}%); /* Safari 6.0 - 9.0 */
     filter: grayscale({{grayscale}}%);
   }
+  .unround {
+     !important;
+  }
+  .unround-right {
+    border-top-right-radius:0px;
+    border-bottom-right-radius:0px;
+  }
+  .unround-left {
+    border-top-left-radius:0px;
+    border-bottom-left-radius:0px;
+  }
 </style>
 
 <div class='pure-g album{{grayscale}}'>
 {% for image in images %}
-  {% if image %}
+
   <div class="pure-u-1-{{cols}} pure-img">
-    <img  src="{{image}}" alt="dfmdimage" />
+    {% if forloop.first == true %}
+      <img style="border-radius:0px;border-top-left-radius:3px;border-bottom-left-radius:3px;" src="{{image}}" alt="dfmdimage" />
+    {% elsif forloop.last == true %}
+      <img style="border-radius:0px;border-top-right-radius:3px;border-bottom-right-radius:3px;" src="{{image}}" alt="dfmdimage" />
+    {% else %}
+      <img style="border-radius:0px" src="{{image}}" alt="dfmdimage" />
+    {% endif %}
   </div>
-  {% endif %}
+
 {% endfor %}
 </div>

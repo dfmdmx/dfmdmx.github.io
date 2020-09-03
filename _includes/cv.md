@@ -50,7 +50,7 @@ Me especializo en el diseño y programación de estructuras paramétricas, en el
     - Responsable de promoción y diversificación de productos en exhibiciones de diseño industrial
       - Abierto Mexicano de Diseño (edición 2014, 2015 y 2016)
       - Instituto Nacional del Emprendedor INADEM (2015)
-      - LeanPlay Masisa (2015)
+      - Lean Play MASISA (2015)
       - Start Up México SUM 5a Generación (2015)
 
   - <i class="fas fa-child"></i>

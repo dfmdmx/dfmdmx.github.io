@@ -15,7 +15,7 @@ albums:
 ---
 
 
-### Simulation of a Stranded Beest by Theo Jansen made in Rhino3D with Grasshopper and Kangaroo physics.
+### Simulation of a Stranded Beest by Theo Jansen made in Rhino3D with Grasshopper and Kangaroo physics
 
 I made this exercise a while ago when I was learning Kangaroo but all I could found was the video. I think it would be amazing to parametrice some values of the beast geometry and take them into account in a genetic algorithm. The organism will try to reach its most optimal form to travel the furthest with the less amount of energy in a fixed amount of time. The genes that come to my mind are the length of the rods and the intersection angles between them but I don't a have clear strategy at the moment.
 

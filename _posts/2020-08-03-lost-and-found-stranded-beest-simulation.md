@@ -51,4 +51,4 @@ For the modeling I plan to use Rhino3D and Grasshopper, same as before. Octopus 
 ## TODO
 
   - [ ]  Recreate 2D rigid model with Kangaroo2
-  - [ ]  Define parameters to use as genes 
+  - [ ]  Define parameters to use as genes

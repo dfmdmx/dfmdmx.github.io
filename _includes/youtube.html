@@ -4,11 +4,19 @@
   .video-container {
     position: relative;
     margin-top: 14px;
-    margin-bottom: 14px;
+    margin-bottom: 0px;
     padding-bottom: 56.25%;
     padding-top: 30px; height: 0; overflow: hidden;
     width: 100%;
   }
+  .left-image{
+    border-top-left-radius:3px;
+    border-bottom-left-radius:3px;
+  }
+  .right-image{
+    border-top-right-radius:3px;
+    border-bottom-right-radius:3px;
+   }
   .video-container iframe,
   .video-container object,
   .video-container embed {
@@ -23,7 +31,7 @@
 <div class='pure-g album'>
 {% for id in ids %}
   <div class="pure-u-1-{{ids.size}}">
-    <div class="video-container">
+    <div class="video-container {% if forloop.first %} left-image {% endif %} {% if forloop.last %} right-image {% endif %}">
       <iframe src="https://www.youtube.com/embed/{{ id }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
   </div>

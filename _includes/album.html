@@ -49,18 +49,24 @@
   }
 </style>
 
-<div class='pure-g album{{grayscale}}'>
+<div class='pure-g album{{grayscale}} album'>
 {% for image in images %}
-
+  {% assign style = 'border-radius:0px;' %}
   <div class="pure-u-1-{{cols}} pure-img">
-    {% if forloop.first == true %}
-      <img style="border-radius:0px;border-top-left-radius:3px;border-bottom-left-radius:3px;" src="{{image}}" alt="dfmdimage" />
-    {% elsif forloop.last == true %}
-      <img style="border-radius:0px;border-top-right-radius:3px;border-bottom-right-radius:3px;" src="{{image}}" alt="dfmdimage" />
-    {% else %}
-      <img style="border-radius:0px" src="{{image}}" alt="dfmdimage" />
+    {% if forloop.index == 1 %}
+      {% assign style = style | append: 'border-top-left-radius:3px;' %}
     {% endif %}
+    {% if forloop.index == cols %}
+      {% assign style = style | append: 'border-top-right-radius:3px;' %}
+    {% endif %}
+    {% assign lastrowbottom = images.size | minus: cols | plus: 1 %}
+    {% if forloop.index == lastrowbottom %}
+      {% assign style = style | append: 'border-bottom-left-radius:3px;' %}
+    {% endif %}
+    {% if forloop.last == true %}
+      {% assign style = style | append: 'border-bottom-right-radius:3px;' %}
+    {% endif %}
+    <img style="{{style}}" src="{{image}}" alt="dfmdimage" />
   </div>
-
 {% endfor %}
 </div>

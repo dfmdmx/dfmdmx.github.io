@@ -18,6 +18,7 @@ albums:
       - https://lh3.googleusercontent.com/pw/ACtC-3eqSkmvZnxDM-aqMqUWk_3Wp7-mwthXfKoA0b8Q9suRBc-ROZCGQkeJdvQWA3g8z7DF3580opPVHlJ_RGjbSZbSgELxKakw1NBWjN4mGLVhd2xmznDLHM-bEhpHBqY5Cs521t9Vb4K4_achsKH2fUm0Mg=w1874-h893-no?authuser=1
       - https://lh3.googleusercontent.com/pw/ACtC-3d29qZoOiYITOf7q9csmuEORkgbLIxTPNrEs2mSyxTv7pO9FybAy3TQgvTIiJiKFQtBlw3OlJeHC2UXHlLZbaJcrN7I8u1TOnljZx5v0iiEd-6TddSp3O2wKwLzQEFumvOZ3gR7bGR79-BsWd9T8rbNrg=w1350-h893-no?authuser=1
       - https://lh3.googleusercontent.com/pw/ACtC-3dFqqw1hotUsbDhTZSPOzvEgeRykslrFgu5uszjuIQCdsikLtlqdbGhPyvaHbDTZDeMUTIvam2sH0wAZM5CxMTzV8F_w4_Y5YFFUvoeLQ7bY15BIm50PvmHAoakwm9B3dFcoGObZtDwiUbWn3TW0MuR9A=w1077-h893-no?authuser=1
+  
 ---
 
 ### Script de reconocimiento entre similitudes de dos imágenes

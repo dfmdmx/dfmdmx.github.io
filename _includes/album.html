@@ -47,12 +47,14 @@
     border-top-left-radius:0px;
     border-bottom-left-radius:0px;
   }
+
 </style>
 
 <div class='pure-g album{{grayscale}} album'>
 {% for image in images %}
   {% assign style = 'border-radius:0px;' %}
-  <div class="pure-u-1-{{cols}} pure-img">
+  {% if include.height %}{% capture fixed-height %}height:{{include.height}}em;{% endcapture %}{% assign style = style | append: fixed-height %}{% endif %}
+  <div class="pure-u-1-{{cols}} pure-img fixed-height">
     {% if forloop.index == 1 %}
       {% assign style = style | append: 'border-top-left-radius:3px;' %}
     {% endif %}

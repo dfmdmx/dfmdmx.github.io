@@ -8,8 +8,6 @@ images:
 ---
 
 ### Concurso para refugio de migrantes Ciudad de México zona norte
-Lamina para estación de servicio temporal en beneficio de personas en transito.
+Lámina conceptual para estación de refugio temporal en beneficio de personas en transito. Concurso presentado en colaboración.
 
 ![Lámina]({{page.images[0]}})
-
-[Lámina en alta definición](https://photos.google.com/share/AF1QipOa_noOAVR2hSHc0h3xA6z3JLnGWnYRSU4Rw2bbl_3E3CRLwXjRrwROXgX_jBCKcg?key=aUszV2JnY0dqYVpWQmV6YnNrb2FRWHkybTdkMnJn)

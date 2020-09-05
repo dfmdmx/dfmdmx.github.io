@@ -55,19 +55,20 @@
   {% assign style = 'border-radius:0px;' %}
   {% if include.height %}{% capture fixed-height %}height:{{include.height}}em;{% endcapture %}{% assign style = style | append: fixed-height %}{% endif %}
   <div class="pure-u-1-{{cols}} pure-img fixed-height">
-    {% if forloop.index == 1 %}
+    {% if forloop.first == true %}
       {% assign style = style | append: 'border-top-left-radius:3px;' %}
     {% endif %}
-    {% if forloop.index == cols %}
+    {% if forloop.index == cols or forloop.index == images.size and forloop.last == true %}
       {% assign style = style | append: 'border-top-right-radius:3px;' %}
     {% endif %}
     {% assign lastrowbottom = images.size | minus: cols | plus: 1 %}
-    {% if forloop.index == lastrowbottom %}
+    {% if forloop.index == lastrowbottom or lastrowbottom <= 0 and forloop.first == true %}
       {% assign style = style | append: 'border-bottom-left-radius:3px;' %}
     {% endif %}
     {% if forloop.last == true %}
       {% assign style = style | append: 'border-bottom-right-radius:3px;' %}
     {% endif %}
+
     <img style="{{style}}" src="{{image}}" alt="dfmdimage" />
   </div>
 {% endfor %}

@@ -35,11 +35,6 @@ layout: default
           {%- endif -%}
 
           {% capture images %}
-            {% if post.images %}
-              {% for image in post.images %}
-                {{ image }},
-              {% endfor %}
-            {% endif %}
             {% if post.albums %}
               {% assign albums = post.albums | where:"cover",true %}
               {% for album in albums %}
@@ -53,7 +48,7 @@ layout: default
           {% assign cols = 4 %}
           {% assign max_images = cols %}
           {% assign images = images | strip | split: "," %}
-          {% include album.html images=images cols=4 max_rows=1 height=12 %}
+          {% include album.html images=images cols=4 max_rows=1 height=160 %}
 
         </li>
         {%- endfor -%}

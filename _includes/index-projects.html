@@ -17,11 +17,7 @@
         {% include project.html project=post headerlink=include.headerlink  %}
 
         {% capture images %}
-          {% if post.images %}
-            {% for image in post.images %}
-              {{ image }},
-            {% endfor %}
-          {% endif %}
+          
           {% if post.albums %}
             {% assign albums = post.albums | where:"cover",true %}
             {% for album in albums %}
@@ -33,7 +29,7 @@
 
         {% endcapture %}
         {% assign images = images | strip | split: "," %}
-        {% include album.html images=images cols=6 max_rows=max_rows height=20 %}
+        {% include album.html images=images cols=6 max_rows=max_rows height=180 %}
 
       </li>
     {%- endif -%}

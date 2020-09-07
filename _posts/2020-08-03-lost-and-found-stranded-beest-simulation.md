@@ -3,10 +3,12 @@ layout: post
 starred: false
 published: true
 comments: false
-images:
-  - https://lh3.googleusercontent.com/pw/ACtC-3dvwFyVIsbtPC1R3mFUtZqTNktDzldnBlkucr2cmPBT8ys8fL-oGU97D4X_qZO0O2D-hUzcATRPGIhQSe73Vq_DzJJRd3nwk0K88TklWgD_6k8lQ6NC7mNRRbtxMd_Z-X0NBrMIz7gZ3Ii2gYvC5H6Z4Q=w1170-h754-no?authuser=1
-  - https://lh3.googleusercontent.com/cbj6d8c6pRUNOVvsgdvBIUMOoJAaHid4LaYzu-zQY32EidVS27Pec7sjTMCJfx_oyB6U2csXM8HPZRkq9CbHi4-b3yvGpEqjfqQplncFOiweshnPBIRVygT9pCF2oEVQQEHYvtdwqAdCK3MO-hsdUgDRuDOuheEMVlsgAf6LwlPDulV4nFHbwdS0iF9yYEFN7RqMJiPOvcNhE7UFmYr9hQmN0v7utTivf6k6tXkwUzJwTJ6smtH7Ua62Ht-O9esCTH_E_X8IztUiIoEd04AyDp9nz5iwx5Rh-oj-6Zt6A0GLFcZDirt9hIqiTARd7df8PKJvq_QM-ZuNI9_jNSAZ-HGPYpBGEdu3bhtQ3BN-phIY-8TAuPHuA83pGDmBvEeTvxhneN-mvYo3n0ugm4Jp3wZ2ZHy19DvJok0xh84Qdx7p_jPBuGIwuHAk6ojtPw-T4qPyjIffm0uwiAs4-bPUOxEhcX2UThNW4fabEETkmVaX2NRkNpOkCXeWmVIUDRs49e_HspVt9huIln4g2ufUP-7X2_b6j2OhsQqk39A2nzlvojrJlJ7zOB7VqliywdYwt-5AIIdupnHVJ-l_8yMrKA4oAJZCguwj_-5z2DbejBBzrfk7-V11AGPNe2hQA4M9IllQK5XHnigjIEfWS41SCTirFWl7gLOYFUfNw4bd7HPwGbZsIVlSTGNb203vKg=w1831-h818-no?authuser=1
 albums:
+  album0:
+    cover: true
+    images:
+      - https://lh3.googleusercontent.com/pw/ACtC-3c7lT4Ux_3OUxQHPvCipH3JkhSq8rryZF5g8csAxhXod0xEAya23LRti3gVHj0vd7DkOqBiec6re820JdlRLrZdyEbkptXNlwUGd6FUC0sucvGtqFZAANMJ-vQ_LVpkxYUTMlWshZc-evyRvXkA1oNzRw=w1170-h754-no?authuser=1
+      - https://lh3.googleusercontent.com/pw/ACtC-3d06RTkMdvCRlcUZZuysdeZIZnBn9DkVsJS86EiOrk5IY_ds-puoFy3GJkaO7IfVvpmPWLoC-jQncGBWAfns7oJymqC2W6mgffoxGbSCqZlyTgCdxR68jKhVO03awrOJ_zMMeDDx-xhmXoOQTDxcga9Lg=w1831-h818-no?authuser=1
   album1:
     cover: true
     images:
@@ -24,7 +26,7 @@ I'm goin to try and recreate this simulation using Kangaroo 2.0. Judging by the 
 
 [Stranded Beest Webpage](https://www.strandbeest.com/)  
 
-![TheoJanse'sImages]({{page.images[0]}})
+![TheoJanse'sImagess]({{page.albums.album0.images[0]}})
 *Stranded Beest*
 
 {% include album.html images=page.albums.album1.images cols=3 %}
@@ -39,7 +41,7 @@ For the modeling I plan to use Rhino3D and Grasshopper, same as before. Octopus 
 
 > Octopus outputs some good looking graphics.
 
-![Octopus graphic]({{page.images[1]}})
+![Octopus graphic]({{page.albums.album0.images[1]}})
 *Octopus genetic algorithm solver graphic example*
 
 #### Downloads:

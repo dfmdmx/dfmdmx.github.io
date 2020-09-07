@@ -3,9 +3,11 @@ layout: post
 starred: false
 published: true
 comments: false
-images:
-  - https://lh3.googleusercontent.com/pw/ACtC-3eM7QUpSJYGyrI7DeBKVLKztFTbz2zJc-0ikZXBsQN4JFNlupri8TKH98RDykMGWv91BUfPdN-hbsGG2UqFrsIwVc11Bax9tt2QD2ydVv5BSZIbqD3ewqA7DYFw9skUhWjdyuZI4Fe9pqd8f6VMzkA5BQ=w1920-h490-no?authuser=1
 albums:
+  album0:
+    cover: true
+    images:
+      - https://lh3.googleusercontent.com/pw/ACtC-3eM7QUpSJYGyrI7DeBKVLKztFTbz2zJc-0ikZXBsQN4JFNlupri8TKH98RDykMGWv91BUfPdN-hbsGG2UqFrsIwVc11Bax9tt2QD2ydVv5BSZIbqD3ewqA7DYFw9skUhWjdyuZI4Fe9pqd8f6VMzkA5BQ=w1920-h490-no?authuser=1
   album1:
     cover: true
     images:
@@ -30,10 +32,10 @@ A Rhino Python script will be used to decode the gene sequence into a 3D structu
 {% include album.html images=page.albums.album1.images %}
 *Concept drawings - Expected geometry*
 
-![Grasshopper definition]({{page.images[0]}})
+![Grasshopper definition]({{page.albums.album0.images[0]}})
 *Grasshopper definition (Was created using an old plugin version, not tested in GH for Rhino6)*
 
-{% include album.html images=page.albums.album2.images %}
+{% include album.html images=page.albums.album2.images cols=1 %}
 *Unevolved (random) organism v.s. Evolved and more structurally fit organism*
 
 {% include file.html filter='bridge' caption='Grasshopper file'%}

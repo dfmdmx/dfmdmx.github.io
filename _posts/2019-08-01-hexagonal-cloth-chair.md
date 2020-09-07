@@ -3,9 +3,11 @@ layout: post
 starred: false
 published: true
 comments: false
-images:
-  - https://lh3.googleusercontent.com/pw/ACtC-3fqK6mePpOACYlQl6fkYHklhXvJYQWW35u2yM2OXOC3rsYnWbPPmRG7J1tt92_O7z4lRUreZCae0l7zIt051dj2YUpJQBAY6o1JZ4bboyfqtekzCOYklJOAjGbatkDZn2vEo70hSbrPknl_a6XpO_4plA=w1600-h818-no?authuser=1
 albums:
+  album0:
+    cover: true
+    images:
+      - https://lh3.googleusercontent.com/pw/ACtC-3fqK6mePpOACYlQl6fkYHklhXvJYQWW35u2yM2OXOC3rsYnWbPPmRG7J1tt92_O7z4lRUreZCae0l7zIt051dj2YUpJQBAY6o1JZ4bboyfqtekzCOYklJOAjGbatkDZn2vEo70hSbrPknl_a6XpO_4plA=w1600-h818-no?authuser=1
   album1:
     cover: true
     images:
@@ -33,7 +35,7 @@ My start approach will be to use to use a mesh relaxation algorithm in Grasshopp
 
 {% include album.html images=page.albums.album1.images cols=4%}
 
-![Concept]({{page.images[0]}})
+![Concept]({{page.albums.album0.images[0]}})
 
 {% include album.html images=page.albums.album2.images cols=4%}
 *This is the current state of the chair. Sorry for the bad photos, had a backup problem. Unpardonable... I think NASA did the same things with the original film of the lunar landing.*

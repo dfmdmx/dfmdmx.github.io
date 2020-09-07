@@ -11,7 +11,6 @@ albums:
       - https://lh3.googleusercontent.com/pw/ACtC-3cFovZ159gKPaqCUaf-iFmBsu-ZPQmuL9VjPF6yTnPz_YPBaPOLewJpC5pqBZoMD3A4dnLPofsqCCdNX45ya2p-YmgG3DqDOOWik-JE1Jz9n7V-eLrr4n37wvZXQ2Xb89Fquy25CNognzIR6MMi7iA-ag=w1016-h536-no?authuser=1
       - https://lh3.googleusercontent.com/pw/ACtC-3fHCv57Wb7dEnwmtxxKYdcTlG9aNVISre9JfcUva7ToUHL-L1vP5RwstB-RO76pkYMKDQoDbpneWA_0VyGwKfQ7VJmm3V2bvILYiY2QoX8rGvd59LdO2CC2hGfd9ZtSzLJnhimqICEpE64jyhI3R6W6Aw=w1016-h536-no?authuser=1
       - https://lh3.googleusercontent.com/pw/ACtC-3envAU6HCLW_4Br3Ig7VLWAyUg9ViQFU8wky_sjSu3S9DZ_uz6v1aErSsN5wx3xqpGGRIdS2Hy0amKdfYnO2RaBYvuApLw181BSbeA0clWzVlyjPNrl3V0XdmPJS1Zbk96A-FWPjH9tOTskPSp652wPPg=w1016-h536-no?authuser=1
-
   album2:
     cover: true
     images:

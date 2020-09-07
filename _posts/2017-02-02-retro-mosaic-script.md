@@ -3,9 +3,11 @@ layout: post
 starred: false
 published: true
 comments: false
-images:
-  - https://lh3.googleusercontent.com/pw/ACtC-3cNSC0OY6pWrMiF2EUrp8zE_yIY1ttr7_4Bb8RhLhE_LiYmBnwxIqYBXlm13PvtLbLpBrJda-20ndriUGWabdRyN3mtVmWTa0QGkchWo0IOVSlijspuvUWH9HKyvfoK-V6nN1w655quHqxD7AvdtiUIqQ=w1848-h798-no?authuser=1
 albums:
+  album0:
+    cover: true
+    images:
+      - https://lh3.googleusercontent.com/pw/ACtC-3cNSC0OY6pWrMiF2EUrp8zE_yIY1ttr7_4Bb8RhLhE_LiYmBnwxIqYBXlm13PvtLbLpBrJda-20ndriUGWabdRyN3mtVmWTa0QGkchWo0IOVSlijspuvUWH9HKyvfoK-V6nN1w655quHqxD7AvdtiUIqQ=w1848-h798-no?authuser=1
   album1:
     cover: true
     images:
@@ -18,13 +20,13 @@ albums:
       - https://lh3.googleusercontent.com/pw/ACtC-3eqSkmvZnxDM-aqMqUWk_3Wp7-mwthXfKoA0b8Q9suRBc-ROZCGQkeJdvQWA3g8z7DF3580opPVHlJ_RGjbSZbSgELxKakw1NBWjN4mGLVhd2xmznDLHM-bEhpHBqY5Cs521t9Vb4K4_achsKH2fUm0Mg=w1874-h893-no?authuser=1
       - https://lh3.googleusercontent.com/pw/ACtC-3d29qZoOiYITOf7q9csmuEORkgbLIxTPNrEs2mSyxTv7pO9FybAy3TQgvTIiJiKFQtBlw3OlJeHC2UXHlLZbaJcrN7I8u1TOnljZx5v0iiEd-6TddSp3O2wKwLzQEFumvOZ3gR7bGR79-BsWd9T8rbNrg=w1350-h893-no?authuser=1
       - https://lh3.googleusercontent.com/pw/ACtC-3dFqqw1hotUsbDhTZSPOzvEgeRykslrFgu5uszjuIQCdsikLtlqdbGhPyvaHbDTZDeMUTIvam2sH0wAZM5CxMTzV8F_w4_Y5YFFUvoeLQ7bY15BIm50PvmHAoakwm9B3dFcoGObZtDwiUbWn3TW0MuR9A=w1077-h893-no?authuser=1
-  
+
 ---
 
 ### Script de reconocimiento entre similitudes de dos imágenes
 Esta script lo escribí como parte de un trabajo que requería del reconocimiento de areas pobladas en imágenes satelitales para la recopilación de datos estadísticos. Decidí hacer el experimento con fotos normales y mosaicos retro en vez de los patrones urbanos a distinguir en el proyecto principal. Seguiré experimentando con este script a manera de filtro pues me pareció interesante el resultado.
 
-![Lámina]({{page.images[0]}})
+![Lámina]({{page.albums.album0.images[0]}})
 
 {% include album.html images=page.albums.album1.images cols=3 %}
 

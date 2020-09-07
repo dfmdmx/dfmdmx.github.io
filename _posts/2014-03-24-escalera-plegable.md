@@ -3,9 +3,11 @@ layout: post
 starred: false
 published: true
 comments: false
-images:
-  - https://lh3.googleusercontent.com/pw/ACtC-3dIALGkgPrfw_NGYcbxjlgYZc0Jovri8vCMpvjIrQzjwCtNXp0DCiDALUlN6mOamz_tn24-fNlsWjpYCX94-2qD-LKqPEpCuTq2T8U_0AwLppNdLosdb_NHosVBO0tpWiIwVV6yTa82lKRSSQvlrrU10A=w1588-h893-no?authuser=1
 albums:
+  album0:
+    cover: true
+    images:
+      - https://lh3.googleusercontent.com/pw/ACtC-3dIALGkgPrfw_NGYcbxjlgYZc0Jovri8vCMpvjIrQzjwCtNXp0DCiDALUlN6mOamz_tn24-fNlsWjpYCX94-2qD-LKqPEpCuTq2T8U_0AwLppNdLosdb_NHosVBO0tpWiIwVV6yTa82lKRSSQvlrrU10A=w1588-h893-no?authuser=1
   album1:
     cover: true
     images:
@@ -24,7 +26,7 @@ El concepto se realizo como parte de un proyecto de rehabilitación para el inte
 
 {% include file.html filter='modulo-escaleras-plegables' caption='Concepto' note='Este no es un archivo apto para producción'%}
 
-![Concept image]({{page.images[0]}})
+![Concept image]({{page.albums.album0.images[0]}})
 
 {% include album.html images=page.albums.album1.images %}
 

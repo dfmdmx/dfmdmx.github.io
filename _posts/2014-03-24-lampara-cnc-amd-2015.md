@@ -3,9 +3,11 @@ layout: post
 starred: false
 published: true
 comments: false
-images:
-  - https://lh3.googleusercontent.com/pw/ACtC-3dOpm5g-1a4ia0asxSjN-O84T-Aq24kSWj1E6_rDsCOSGMdDokS4c3GLVRl9RzOs7j4CsAbrhJj6FOHIgvR1Md9j6OLLVigoxwDs12HzIzEmscqExgCY-J7gRWx62JQl1SftLEP7m2Iv_kWz-u1eHS2Zw=w1339-h752-no?authuser=1
 albums:
+  album0:
+    cover: true
+    images:
+      - https://lh3.googleusercontent.com/pw/ACtC-3dOpm5g-1a4ia0asxSjN-O84T-Aq24kSWj1E6_rDsCOSGMdDokS4c3GLVRl9RzOs7j4CsAbrhJj6FOHIgvR1Md9j6OLLVigoxwDs12HzIzEmscqExgCY-J7gRWx62JQl1SftLEP7m2Iv_kWz-u1eHS2Zw=w1339-h752-no?authuser=1
   album1:
     cover: true
     images:
@@ -16,6 +18,6 @@ albums:
 ### Diseño de lampara por estereotomía para corte en CNC
 Esta lampara se realizó en el marco del [Abierto Mexicano de Diseño](https://abiertodediseno.mx/en/home/) 2015 como muestra para incentivar el uso de maquinaria CNC en la producción de mobiliario utilitario.
 
-![Concept image]({{page.images[0]}})
+![Concept image]({{page.albums.album0.images[0]}})
 
 {% include album.html images=page.albums.album1.images %}

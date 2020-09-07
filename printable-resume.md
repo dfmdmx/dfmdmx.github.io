@@ -1,7 +1,7 @@
 ---
 layout: print
 title: printable
-permalink: /printable
+permalink: /printable-resume
 ---
 
 {% include semblance.md %}

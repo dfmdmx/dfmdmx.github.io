@@ -24,34 +24,9 @@
 {% assign margin-top = include.margin-top | default: 0 %}
 {% assign margin-bottom = include.margin-bottom | default: 0 %}
 
-<style>
-  .album {
-    overflow: hidden;
-    margin-top: {{margin-top}}px;
-    margin-bottom: {{margin-bottom}}px;
-  }
-  .album{{grayscale}} img {
-    object-fit: cover;
-    min-height: 100%;
-    -webkit-filter: grayscale({{grayscale}}%); /* Safari 6.0 - 9.0 */
-    filter: grayscale({{grayscale}}%);
-  }
-  .unround {
-     !important;
-  }
-  .unround-right {
-    border-top-right-radius:0px;
-    border-bottom-right-radius:0px;
-  }
-  .unround-left {
-    border-top-left-radius:0px;
-    border-bottom-left-radius:0px;
-  }
-</style>
-
-<div class='pure-g album{{grayscale}} album'>
+<div class='pure-g mx-album' style='margin-top:{{margin-top}}px; margin-bottom:{{margin-bottom}}px;'>
 {% for image in images %}
-  {% assign style = 'border-radius:0px;' %}
+  {% assign style = 'border-radius:0px;-webkit-filter:grayscale({{grayscale}}%); filter:grayscale({{grayscale}}%);' %}
   {% if include.height %}{% capture fixed-height %}height:{{include.height}}px;{% endcapture %}{% assign style = style | append: fixed-height %}{% endif %}
   <div class="pure-u-1-{{cols}} pure-img fixed-height">
     {% if forloop.first == true %}

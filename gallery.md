@@ -6,4 +6,4 @@ permalink: /gallery/
 
 A collection of images from my projects and blog
 
-{% include index-images.html cols=4 grayscale=1 %}
+{% include utils/index-images.html cols=4 grayscale=1 %}

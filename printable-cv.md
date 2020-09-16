@@ -4,4 +4,4 @@ title: cv
 permalink: /cv
 ---
 
-{% include cv.md %}
+{% include pages/cv.md %}

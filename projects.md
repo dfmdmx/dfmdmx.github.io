@@ -12,8 +12,8 @@ The publications in this list may be just in English or Spanish according to the
 
 ## Starred projects
 
-{% include index-projects.html starred=true headerlink=true  %}
+{% include utils/index-projects.html starred=true headerlink=true  %}
 
 <!-- ## All projects
 
-{% include index-projects.html %} -->
+{% include utils/index-projects.html %} -->

@@ -19,7 +19,7 @@ I was pleased with the time it took to create an individual frame. I will try to
 
 Here are the videos I made to test the concept as well as the Python script.
 
-{% include index-headers.html %}
+{% include utils/index-headers.html %}
 
 {% include album.html images=page.albums.album1.images cols=3%}
 

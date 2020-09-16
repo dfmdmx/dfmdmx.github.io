@@ -12,17 +12,17 @@ Me especializo en el diseño y programación de estructuras paramétricas, en el
 
   - <i class="fas fa-city"></i>
   **Universidad Iberoamericana de la CDMX** | Arquitecto Urbanista | *Licenciatura*
-  {% include cvheader.html date='2006-2011' location='Ciudad de México' url='https://ibero.mx' %}
+  {% include utils/cvheader.html date='2006-2011' location='Ciudad de México' url='https://ibero.mx' %}
 
   - <i class="fas fa-square-root-alt"></i>
   **Universidad Iberoamericana de la CDMX** | Procesos Generativos de Diseño por Pablo Kobayashi | *Diplomado*
-  {% include cvheader.html date='2011' location='Ciudad de México' url='https://ibero.mx' %}
+  {% include utils/cvheader.html date='2011' location='Ciudad de México' url='https://ibero.mx' %}
 
 ### <i class="fab fa-black-tie"></i> Experiencia profesional
 
   - <i class="fas fa-industry"></i>
     **Linarand** | Producción y automatización de procesos
-    {% include cvheader.html date='2014-2019' location='Ciudad de México' url='http://linarand.com.mx' %}
+    {% include utils/cvheader.html date='2014-2019' location='Ciudad de México' url='http://linarand.com.mx' %}
 
     Empresa especializada en los sectores alimenticio y farmacéutico, dedicada en la venta, maquila y servicio de bandas transportadoras y transportadores industriales
 
@@ -38,7 +38,7 @@ Me especializo en el diseño y programación de estructuras paramétricas, en el
 
   - <i class="fas fa-microchip"></i>
     **SPK Automatización** | Desarrollo e innovación de producto
-    {% include cvheader.html date='2013-2017' location='Ciudad de México' url='http://www.spkautomatizacion.com' %}
+    {% include utils/cvheader.html date='2013-2017' location='Ciudad de México' url='http://www.spkautomatizacion.com' %}
 
     Empresa dedicada a la manufactura y diseño de maquinaria industrial automatizada de bajo costo y servicio de maquinado CNC de 2.5
 
@@ -55,7 +55,7 @@ Me especializo en el diseño y programación de estructuras paramétricas, en el
 
   - <i class="fas fa-child"></i>
     **Sietecolores** | Producción ejecutiva y diseño de mobiliario para museos
-    {% include cvheader.html date='2012-2013' location='Ciudad de México' url='http://sietecolores.mx' %}
+    {% include utils/cvheader.html date='2012-2013' location='Ciudad de México' url='http://sietecolores.mx' %}
 
     Despacho especializado en la creación de museos interactivos para niños y niñas: conceptualización, financiamiento, diseño, puesta en marcha y acompañamiento posterior
 
@@ -69,7 +69,7 @@ Me especializo en el diseño y programación de estructuras paramétricas, en el
 
   - <i class="fas fa-laptop-house"></i>
     **Gaxiola Arquitectos** | Diseño y dibujo arquitectónico
-    {% include cvheader.html date='2010-2011' location='Ciudad de México' url='http://www.gaxiolaarquitectos.com' %}
+    {% include utils/cvheader.html date='2010-2011' location='Ciudad de México' url='http://www.gaxiolaarquitectos.com' %}
 
     Firma de arquitectura
 
@@ -81,42 +81,42 @@ Me especializo en el diseño y programación de estructuras paramétricas, en el
 ### <i class="fas fa-check"></i> Premios
 
   - **Universidad Iberoamericana de la CDMX** | Mención honorífica | *Licenciatura*
-    {% include cvheader.html date='2011' location='Ciudad de México' url='https://ibero.mx' %}
+    {% include utils/cvheader.html date='2011' location='Ciudad de México' url='https://ibero.mx' %}
 
   - **Fondo MasisaLabs 2015** | Inversión semilla para incubación de empresas promotoras de tecnología
-    {% include cvheader.html date='2015' location='Ciudad de México' url='https://mexico.masisa.com' %}
+    {% include utils/cvheader.html date='2015' location='Ciudad de México' url='https://mexico.masisa.com' %}
 
   - **Convocatoria 5a Generación StartUpMexico** | Patrocinio para la obtención de financiamiento a través de fondos de riesgo.
-    {% include cvheader.html date='2015' location='Ciudad de México' url='https://www.startupmexico.com' %}
+    {% include utils/cvheader.html date='2015' location='Ciudad de México' url='https://www.startupmexico.com' %}
 
 ### <i class="fas fa-draw-polygon"></i> Proyectos independientes
 
-    {% include project.html title="printable-3d-system-covid19"  %}
-    {% include project.html title="xcaret-precious-plastics" %}
-    {% include project.html title="cuarto-de-pensar" %}
-    {% include project.html title="geodesia" %}
-    {% include project.html title="king-abdulaziz-center-for-world-culture" %}
-    {% include project.html title="museo-trapiche" %}
-    {% include project.html title="museo-acertijo" %}
+    {% include utils/project.html title="printable-3d-system-covid19"  %}
+    {% include utils/project.html title="xcaret-precious-plastics" %}
+    {% include utils/project.html title="cuarto-de-pensar" %}
+    {% include utils/project.html title="geodesia" %}
+    {% include utils/project.html title="king-abdulaziz-center-for-world-culture" %}
+    {% include utils/project.html title="museo-trapiche" %}
+    {% include utils/project.html title="museo-acertijo" %}
 
 ### <i class="fas fa-cloud"></i> Software profesional publicado
 
   - **Production Cloud Server** | *Registrado: DFMD y SPC by SPK* | Aplicación para la administración de archivos CAD/CAM y el control de maquinaria CNC por internet
-    {% include cvheader.html date='2015-2020' location='Ciudad de México' url='http://www.spkautomatizacion.com/' %}   
+    {% include utils/cvheader.html date='2015-2020' location='Ciudad de México' url='http://www.spkautomatizacion.com/' %}   
 
   - **LinCAM** | [*Open Source*](https://github.com/dfmdmx/Rhino_LinCAM3) | Plugin de Rhino6 para generar códigos-g 2.5D en español
-    {% include cvheader.html date='2019' location='Ciudad de México' url='https://www.food4rhino.com/app/lincam3' %}
+    {% include utils/cvheader.html date='2019' location='Ciudad de México' url='https://www.food4rhino.com/app/lincam3' %}
 
   - **HangarMX** | [*Open Source*](https://github.com/dfmdmx/dfmdmx.store.io) | Plataforma de ventas para corte 2.5D
-    {% include cvheader.html date='2019' location='Estado de México' url='https://www.hangarmx.com' %}     
+    {% include utils/cvheader.html date='2019' location='Estado de México' url='https://www.hangarmx.com' %}     
 
 ### <i class="fas fa-tree"></i> Voluntariado
 
   - **Programa de Rescate de la Tortuga Marina** | Marcaje y rastreo de tortugas marinas para estudios de ciclo de vida
-    {% include cvheader.html date='2010' location='Quintana Roo' url='https://www.florafaunaycultura.org/proyecto/17/proyecto-de-conservacion-de-tortugas-marinas/' %}
+    {% include utils/cvheader.html date='2010' location='Quintana Roo' url='https://www.florafaunaycultura.org/proyecto/17/proyecto-de-conservacion-de-tortugas-marinas/' %}
 
   - **Recuperación del Parque la Ceiba** | Diseño arquitectónico y propuesta de conservación de árboles
-    {% include cvheader.html date='2010' location='Quintana Roo' url='https://www.florafaunaycultura.org/proyecto/24/parque-la-ceiba-el-corazon-de-playa/' %}
+    {% include utils/cvheader.html date='2010' location='Quintana Roo' url='https://www.florafaunaycultura.org/proyecto/24/parque-la-ceiba-el-corazon-de-playa/' %}
 
 ### *Contacto*
 ---

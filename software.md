@@ -30,4 +30,4 @@ It's currently my most mature stand-alone software and it's available for downlo
 
 These are my public repositories hosted on GitHub. They are also available on my GitHub profile [https://github.com/dfmdmx](https://github.com/dfmdmx).
 
-{% include index-repositories.html %}
+{% include utils/index-repositories.html %}

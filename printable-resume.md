@@ -4,14 +4,14 @@ title: printable
 permalink: /printable-resume
 ---
 
-{% include semblance.md %}
-{% include index-headers.html %}
-{% include page-break.html %}
+{% include pages/semblance.md %}
+{% include utils/index-headers.html %}
+{% include utils/page-break.html %}
 
-{% include design-theory.md %}
-{% include page-break.html %}
+{% include pages/design-theory.md %}
+{% include utils/page-break.html %}
 
-{% include starred-projects.md %}
-{% include page-break.html %}
+{% include pages/starred-projects.md %}
+{% include utils/page-break.html %}
 
-<!-- {% include cv.md %} -->
+<!-- {% include pages/cv.md %} -->

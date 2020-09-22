@@ -15,18 +15,18 @@ albums:
   album0:
     cover: true
     images:
-      - https://lh3.googleusercontent.com/pw/ACtC-3dAwZWhB0HixEh-biSvbc32b3gSfXBbKEgmpGbdTI5zK8C_Uf3486ClcBF138YSDne-JKbkYauW2Q-7xp_9l2PYjoTBN63dKp5kmwdGSf2Ro6d8eBu9B7bgGRsu_ZgzJAQhoDZCZ6FOO9BIjtGyJ2Lwxw=w1250-h750-no?authuser=1
+      - https://lh3.googleusercontent.com/pw/ACtC-3evFp49pctSjVQVsyWz_PmFCxUz2VfIOABsPCz8pJqXj0v5w5mKVH0U8dKGQeFeIcm4JlvLXPhZ-JrPzUZx6_NBk6MHVsmY9B-6KuKcujMB4GhK5tYyxglkZt9DFLKd2AYSDXJLeAE6X18Z6QR-WD--FA=w1250-h750-no?authuser=1
   album1:
     cover: true
     images:
-      - https://lh3.googleusercontent.com/pw/ACtC-3d_NMCfNsVlXEnhoHpDjO82L91iQFg_MEqa1vRGgb-mY6zxRRpnBxEYqVNdYbYi0EjIi6yONycZO8H_3Mt2QviZc11qq6RmZdc5rTXg6iNo27DLiUT0M4y-73WgZf0LMXpaOuzcTj1blP9hnp_um7nj0Q=w1906-h1072-no?authuser=1
-      - https://lh3.googleusercontent.com/pw/ACtC-3e3360bRIUve8xZU43Kn-4o90ksafxvxZkmLvq29RrJ-pMddZgcLqr5tIuwf6mZ9-JnsLpBpjC5OISg0WbasdJjuQN4_e5056lMlsix_zHEQbZt_S_RL1lim4HJk4PO5l6PzuhDuxDF6UJIWxwZFNAHwg=w2205-h1240-no?authuser=1
-      - https://lh3.googleusercontent.com/pw/ACtC-3dzjBdcA7EWSOffshUFWe_26OnK90M1Kk4j4X05t5k3U5Cc05-fsT0zHkg_tZgks4oa3pgq_ikK6txCa-d6YthYX3wtHDnES6U6-ODHX390WjchBhLekDg8YG5tOWy4AyX82ZPIZQVYAh4AEz6A6JhJLw=w1280-h720-no?authuser=1
+      - https://lh3.googleusercontent.com/pw/ACtC-3c-7mTjbgN7EDAeAXUnfZMg8LRX0z96LKumHs8-CCflSqjMyeER7xrGf1lKVrWpox27aeqwDEAPltbFZubwBZiXrj0alaIO524f3M64Imja06_OcAbFmtsZXA46rY71lqNy9rSxQkzGBb_hwBoc3Wp26A=w1023-h576-no?authuser=1
+      - https://lh3.googleusercontent.com/pw/ACtC-3fEHK2C0hRajCdwOf8VdhcmZfcb0cR0xvCLDrHmQB6QKCujVi0JbAdlBasp9DjTeXSSOjARDDZYvsejbKA4wk3HrOdHuuu0WzyQvyWmpoNnkcxEsF_es7ty8siW8Y9x5cnkWGClVOb34d8m0rwqvLY01g=w1023-h576-no?authuser=1
+      - https://lh3.googleusercontent.com/pw/ACtC-3d-9XwsGCty__0QyTQ5oTSsaH37ypbHOjfIK3j-INoLe2iQAbwYy486QAkh9jTlU-j3P4TtuQ0PzUmyQv37Dc6RWkbscNwLphqySefNHFtuhRrsDuIj7wOo0Xicx6pFP1qNe3jy0OZVyEHz7EHPUF5_Cw=w1023-h549-no?authuser=1
   album2:
     cover: true
     images:
-      - https://lh3.googleusercontent.com/pw/ACtC-3d0imOAm_WS6XqiwoiZfEGJH9AABpz72Ufj6hYZ6gTfEdpYlC12IN1e83SJAA9fs6Yaj4_-v86sJ86Bg0Tpi0EYrjCAhMXQsJP1mrdx4R6cklpIEr7RfRE-iSoDcjxaY1-J3LIZUA1grOjaQgkTAg9yAw=w2205-h1240-no?authuser=1
-      - https://lh3.googleusercontent.com/pw/ACtC-3fUUPLRax6Q208TB0xs6hPsSly6raKiyXT61bp2to_Ay3vKeYX-Ap0-Xr4lGzoYOGkIs_aaq502-f-s_Cmel0IemcVI9tJVUpKj9_f_RRW6bOrBrrZtlLZzaLWe2vEJZ-5yEDc1P6tco9AP7BE7nR3aqg=w772-h405-no?authuser=1
+      - https://lh3.googleusercontent.com/pw/ACtC-3djVoAjrZzLvBctPrTOyzOVuMPKSVcdqbWmOm1_SSutcOPDIDlGVIEuyxS8pmOiHI1M1WBM11Uv3ZbgPGRB2tBltbipugwclzhBxawaas-LdqMtapwwwO7AVgIOUaZ8lYOniZcPLBXxNFqFJvntEr6akQ=w1023-h626-no?authuser=1
+      - https://lh3.googleusercontent.com/pw/ACtC-3cZBe2j1HXxY1YmngoAUDtKOAx58vL0yntsgQdLpSviuY9ODuKqKdHps8vWhlrArx86ZTDDmQHNoLMlXTagc7dD_ZbXnvXqXsRc3GNFRsonCamtKILdjD5UXVr5ccGRZQIHnwB4UnTUhZy14P1Qf0wclw=w772-h405-no?authuser=1
 ---
 
 ![Render]({{page.albums.album0.images[0]}})

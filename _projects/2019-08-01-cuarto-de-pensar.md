@@ -15,38 +15,38 @@ albums:
   album1:
     cover: true
     images:
-      - https://lh3.googleusercontent.com/pw/ACtC-3cKScpccqtQ-iNwcVM2FKVNouiyg8ITFCJMA-FBJR4b01_elSvcaA2iYkHmcFTVDQqWgWxf30j2hJFgTG6pV684IRAkhdaRN5oVCLidCkhXyLGtp6B755gtk6pXMgBqY5TZE0A0ZQxiE7elht0GtHZ_cQ=w400-h267-no?authuser=1
-      - https://lh3.googleusercontent.com/pw/ACtC-3fwUtp9XqsDDo3-P2A_WWit8DOVm23yvaPKI163BGwP04MxItALdORalOeNIsb57DQv_PFY0oeR6gTCbgd3Nx05c7CnW6wUmx85rHxeV4BN750Yq7aasHrjewOVo1WXjLdKJk45_ipq1TX-mRnO61TRnw=w876-h771-no?authuser=1
-      - https://lh3.googleusercontent.com/pw/ACtC-3dLiRtcsKNYUkmeGdGLFh_XzO-gFoxl2mapPIIcFZCUUG5wKr9kHo-7y-XLJTMtgn2A6BRlZkxN1MkF_wE104CHpQrwyc1FVGHtJocbN1_26dvVbMEbbihTVeD8E67UVDFiRFjiB_5ynF2IqiZwFLZfoQ=w930-h1240-no?authuser=1
-      - https://lh3.googleusercontent.com/pw/ACtC-3eUISlpZNPSU7REgrF3Ddbkuc3usobHCRXUznjkzwGWfUgbwzdNmfzaKwzuexpmBd_BeDQBfT4mFOMeXmAZfe0lqedHIK20JsXbxNzfnpAtHN-3XpuPCaCj0byphXNZbYPr6HksFQvkhoFONV5hnq-mKQ=w1920-h1080-no?authuser=1
+      - https://lh3.googleusercontent.com/pw/ACtC-3eM1qWtO2QctaJ5OASY0k7O0iB1iDPixuUNa416E2-ManLJbwLdqrpdI1BPBC_rYshrLyXA9pWipryeUKljj2QuhEF2A6EOVfkTPpF-E6iiz_8cnevf72ImNVuhA3d4_rUb7Td6rctsqVcSmesFYsNdNA=w340-h267-no?authuser=1
+      - https://lh3.googleusercontent.com/pw/ACtC-3e-maZY63VbZVXb6oZe9JHgxeqNhDSXHNV8PeQd2KwL9t997W53sGE1BuEjER9UpL_nz7haqKUodlJ9s_3Lp0VTeQa7Bj3hNaCapwp_R3V7-LDdoT4fKGHsQzmYTUEStSyJlrrn8Nr7V4bLm4Pz2xKfuQ=w876-h762-no?authuser=1
+      - https://lh3.googleusercontent.com/pw/ACtC-3erATz_I0v_DKHkFRXVYLeYgqeiLDx_ZpHmiGjIbvgiQbWBn8Gv95OuHs8nkqKYJxktexfrBnCkHsnpTAerq2ZS_Wn6l-smnVzK0s1Kv6u8-OuFc4a4Faco-nDuaZN_6LkM3SdA2-wefyYIaTbZZri6sw=w719-h774-no?authuser=1
+      - https://lh3.googleusercontent.com/pw/ACtC-3c_VYe2q4nf-3GgHdalpu3Zqg1e5B_gPtlVbgKqlP7GO7PvVB0B8_MFtTUzZla6DLP7s6mihy074x6JQ1BhWxPabcuhxkK5wJb4GUvd-qXTwDY4HbffEaYSf5qtdYipmTYxh9rgbMVvGuJ_1hiPh5V4Lg=w1172-h825-no?authuser=1
   album2:
     cover: true
     images:
-      - https://lh3.googleusercontent.com/pw/ACtC-3dzZuuaF0XpkjVU4w9OdVC_QujeNO4oSCMW3lQXGMIytHJgLh1-wd488-mjzU95h4UK8KFqqr6gX7R9p-iCd0M5g0vfBF50XFyslO_pbFdvodcZwoFT79CRoK6DvUAyGhDLM1Q9xVCZ3v_R1hMG8Hwykg=w2256-h1240-no?authuser=1
-      - https://lh3.googleusercontent.com/pw/ACtC-3dJLYi901g9Fztxyzxrgv6gTmxaq-RcFKuVKE1mHUlNTTvm6suh7-QheOk_DIUT_J02Ee9uQZjQzBeNx5x176cTI8dYI5_AqAYsrpO0cLupRKYhzUbVSGmhgjNLlFj9keHRnJO-zL3jnly5afvaNn6MOA=w930-h1240-no?authuser=1
+      - https://lh3.googleusercontent.com/pw/ACtC-3cd3YkBdBGUUEnHDHYc0sGE3bsMPPcHGk-wpLKzyiwZ_XFDYFb4WQQ2I3wqhdI3dKax1a1zgheyCu_4rmaUj5ehTz6SXnttjEB6i8emfKN8VV7ZdhAep2IKjGUw5cCyik0Mio2mX2sA01s6VH4aOO_qAA=w1457-h1018-no?authuser=1
+      - https://lh3.googleusercontent.com/pw/ACtC-3cknDkwJFB0A-Ybp94S534SVNLGDTQuC4OadKilioq3ybO_TOORbyKuetEYGXss_GTp0GA6HgWF0XpzzDhptP8CwAzvYRWUYfn31g0VKXDuCHythk_ReMSejMA0drSSGfmQBZ5WrTM9W_VVxo0maFbnEQ=w764-h1018-no?authuser=1
   album3:
     cover: false
     images:
-      - https://lh3.googleusercontent.com/pw/ACtC-3eb7zjVd1JYvAkx3sYOTdIk8xFJhH4OaP0amKZ07OPjZnVVEfrpRsKT3WkQ6LAdvXJX4iUfyXa0QGjUI9VFVOG9-6NiwKdfbD-95wFkMk6p8pmOmvU6ZBl6Gb7h3gTyfVqzP9o__rnneXGqOb-WErmNSg=w901-h785-no?authuser=1
-      - https://lh3.googleusercontent.com/pw/ACtC-3cilWIJQYYRuQpOLv3qV9tyTz2oxyB3EmsVPGN6Pn7RtAsjHi-5pAsELGBXT02TpHSH5Ne3dHEG7o7bHDa2zK2UVD-Awpvyiv9gyc6QWpi3qwvOYaj3i7olAN-lq5bPeLj45WEBsaFpZfKAGX92ZyP3SA=w604-h609-no?authuser=1
-      - https://lh3.googleusercontent.com/pw/ACtC-3ed-EY1U4FX9afTEFPY88GSf7FSpoLbM43ITD5Sm_0QYHHz2E3MxPUNCZnbVAgluEYHLVJaVR8xgEuP98Dpdllf781ZVy-hJ4OCMBSqMROJwz8v_08oK6Fioa0YmePvJNecOLZM-kt4vcdww-ruuNu4Pg=w788-h695-no?authuser=1
+      - https://lh3.googleusercontent.com/pw/ACtC-3fQ1Ic7v94loXeiwFHDmSzoU4T2gztYhbdHjEoa7GcRYP0aH2OfbZfXCModDPyD9XiIAH70SR8Au2NDwMF3T2vo_WDEHwcSFBl1_znXjSVYlqvIzsa-fqvXBvTDTvvL9rnMqqWVll0mzqaz7bY3X4oKCg=w901-h785-no?authuser=1
+      - https://lh3.googleusercontent.com/pw/ACtC-3dlWZBNTyMPfcP1nQyAXYJZcDaydKTnz_zZo12lPNJyfxHiVD8Mcg71RnWmdLzIuwFhFdO187uEavRouYZW9AKa43I3-oV5N0SABqU1vysT-BKzGIj-ShIAuMHgG1LwFCW1213CNrRnQB-Yt8--KyfieQ=w604-h609-no?authuser=1
+      - https://lh3.googleusercontent.com/pw/ACtC-3e7qp-hrmOo-HO3C6UTa7l5YeDXc5fVh7HVTiT6FZTSTbmN-OPi0BiosHL_h_4wY1PkqdGHsMcltKivG9aUvcxSS-daIi_fny1NwGj9RP8UoascJu4PtbBhb0R9t5fhJ3VTYX9V1A42I9VUhV5b46d4PQ=w788-h695-no?authuser=1
   album4:
     cover: false
     images:
-      - https://lh3.googleusercontent.com/pw/ACtC-3dontyYBgMtdXvKkTuBgD0vnyjW7p0huYDGoh0j9QhiRQ-_gffCt4ShwTk7KE1F6Ijl4NxzHO86xO8YXxPC-igrpT_vpVe6IBW-2YHMBosSSJok0uYIJcLsngliJxrKshIrWJiQ7GlpviHqATSh9PYFQw=w930-h1240-no?authuser=1
-      - https://lh3.googleusercontent.com/pw/ACtC-3eVLlLwfPrHa7RgKcQ1C5IleydBlxU9HuhpIGiLnu57QaBLKJQSApKXGt_LYbbp8yGDXrgCk_ZJooSUNwWnASR_5XCXJ1DfEllQotLjkixsxCXS74jLRHhsNVP8mBLibxFzYUnFJOThrW3F1EiDwjw8ug=w1654-h1240-no?authuser=1
-      - https://lh3.googleusercontent.com/pw/ACtC-3ckjH7pLF9J_oBuK30yaAAq5c9DSFa4kTqoRQHN5tYhT0Z_OVcT29PcA1jTt3pYgOnVH2aZbTs865k2zPvDYkPRv-QahOySAa_Qb1JKD01LyMjLDwQj5lM0M7eW8avbvGw61xu9UMXGqRzRIh-ioJ_tlg=w1654-h1240-no?authuser=1
+      - https://lh3.googleusercontent.com/pw/ACtC-3ej9UEnkXKHhoHirS9cn02rLQ3bJgQlUXOtydIhTRGOEclEYdmf56ZVR4SzZeCD96jB-EaevaKrR1VEw_cEgp4Bz1BkIRvhX35DjST5cU70hmEQhdpj5QcsKGGx5tWdPnk_t0HIrj-HwkijAeyL_I7mew=w1226-h1018-no?authuser=1
+      - https://lh3.googleusercontent.com/pw/ACtC-3euFFW0HYgSvjiPk-cxswDfzEsyUE1aWNc9qk70WMxyZDwx7kdUtuK6XIwfa5-Klfnn9IqYkxZUvnLHmOuLnDI_Vb_50z_W-fLL7UWbPgF4_zrTt8t5G-lxg2cJYS2bu6JSkTOD6VONX8cf1jhVTDVYcQ=w1358-h1018-no?authuser=1
+      - https://lh3.googleusercontent.com/pw/ACtC-3efEr0HciITYUdR6kTiwzRGCdXXpYvbWOEPeoHKZIWBH1ZD0PAZ645KjbLMAcpOzVhFMRKHVHLRO_9_ahgNvtY5fhTdt8pjrv-0FfNffSzdD8yXdYQTUCOhmkDY5dTxv0Z6qA6vm__xmstiLzxVXRvsSA=w1544-h1018-no?authuser=1
   album5:
     cover: false
     images:
-      - https://lh3.googleusercontent.com/pw/ACtC-3eZOwg8Q2LFgzyhT-Ch4R3j7zZlB5JO6FaT3alvovVhpRNmyffuWxHTtoHv9ToxGrNKThG_nk-ahIO_dk0AztsceIfqqfKd5ysIPcvHJXaAG4h9R4FABb8UqisF_Xr-hbRAbdIHucvDmphqz43eywW7zw=w1024-h768-no?authuser=1
-      - https://lh3.googleusercontent.com/pw/ACtC-3e76JCD5mH1ojcHTvS487YljAw8hoCcGcClFV66h3NEO10m6nhEiB9-wOoJP26ap-iRxBzt4mOnqiJdXWScaqKjmPMDmstC8TWnCSIiZq_sAQ-95TdUCSyk54yERgND-bGBc13ZZijzRJcgNN37sYUVVg=w1024-h768-no?authuser=1
+      - https://lh3.googleusercontent.com/pw/ACtC-3c9e566jYPF335w-pBtxPdlVcxxp6UsRK-1eLMyTXidr0mxCRA5bHZcP9SRz80TZ_fsk8hFGxUroA5HXx6rubptL1P2kJm3qjZLStNepCtb8xoxdbye8Tq1wePWYjyFtj4uBtlYSfddMtU7VUIgnCBXbg=w1024-h768-no?authuser=1
+      - https://lh3.googleusercontent.com/pw/ACtC-3f23ccBzl1hSzUT2X0-tDOvY4kjSdbCyzl0caz5mcGdGlDxadiLFJSXFg6ojgL99ss1xlwRBXKBOm8zONnJEkywHkOrL8IQs5vzg16CZ7rZPxl8dtms0LeQLlINClPrZZQgbzgcyvoBDZV-id26KvBsRQ=w1024-h768-no?authuser=1
 
 ---
 
 {% include utils/hide-menus.html %}
 
-![subdivision paneles](https://lh3.googleusercontent.com/pw/ACtC-3ctL925NU4hRZsIeExCKVTgvZuKEGjTTVsYKbSy_HzW6UOioZv73RLDeWXrcE3RxqWXGA7nKjNOo2gpS29DVRC_f1souohQJgJ2ENhtS-5pdBzVr6-CLkv8FlmJu8MPVpv2oKEYM3LKv3f1NziEE2_Ntw=w1543-h762-no?authuser=1)
+![subdivision paneles](https://lh3.googleusercontent.com/pw/ACtC-3dlO_euaax3YJV8JKRbAfUtFkiuAgslQMRsk4bX_Bn-vhsc8IN6Mi76AuVSeo0Ryl0jvcsTA39hit-DZdJWUUnspTnz0VFZssPJ1YTANtUVUwAhPDrtPmYu2cCoYnZaOrjT8suIQsEU6iyvpcGE9AOW3w=w1543-h762-no?authuser=1)
 *Modelado paramétrico*
 
 {% include album.html images=page.albums.album1.images cols=4 %}

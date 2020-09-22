@@ -16,7 +16,7 @@ albums:
   album0:
     cover: true
     images:
-      - https://lh3.googleusercontent.com/pw/ACtC-3eh8Llydx_9m5bqwc--r4YxqmHcGAJjuDjBqnC0dN05KnN4p4cAMVDr5n78LWDjsfS9TSgfjbdCmmom9xKV7yB59oLIUuvjpJKCK1tWAaT_PttH8xjJ5GSqL8Lms4KtujKlYJn2IvVJFZQIo0850yk9OQ=w1860-h1240-no?authuser=1
+      - https://lh3.googleusercontent.com/pw/ACtC-3f8QSwxYZ65g3VYk7RPP3DUB9nLMH6s81JQao-vAutG6D9A1cBNmRabm7E_aKd9MR4NJgjI59l56hXpDPFylWhVh_QopZBI-fjwv8JZYc8dedquzCZlUL5oyij-eX4kNRyKISn94Sfur8WS9LPNF2wQFg=w1527-h1018-no?authuser=1
   magicplanet:
     cover: false
     images:
@@ -24,19 +24,19 @@ albums:
   album1:
     cover: true
     images:
-      - https://lh3.googleusercontent.com/pw/ACtC-3cB7JMEs7XIiYz4dw4GeCYUcaWashJB-GtflupCsJpzHLUNukm79d63TeJqc0_RQHYDmkdK0j-01jVHLkD5xR1L9avEBmcabOgsbmxOK4ZSKTpjOFkEyZNUVnBZJNvccFQ3pNGiGCe_YniUlCdU7x19gA=w930-h1240-no?authuser=1
-      - https://lh3.googleusercontent.com/pw/ACtC-3dJ2LLQ6ea2yHboy1kHkMRZc9XRSB-EJm4efDTIGRoKmhJeZGOdb-B8O2JQRBk_bvJLAsC8owS_ryH4gycISqUJKeiJb_fG7UqPhHgeJBVosSYu_Vh-9EbRdjquk92-4IXsN0_DMNA3K6UzRtSb1vsy_A=w2205-h1240-no?authuser=1
-      - https://lh3.googleusercontent.com/pw/ACtC-3eVCESY2YIXX9ipkuHprxzwaysjhqMYBzdhLHzxoO54yZVPioMc4TNpzZBuQP_xnR1QxdSRIVs9RkzM8gREgjgeSXUYbgZM-mri-oT7tffppPGf_CGH9FSc5FflKsG4E-9yUefrYofzpTxx7JCVONLgxQ=w1860-h1240-no?authuser=1
+      - https://lh3.googleusercontent.com/pw/ACtC-3dWYlV2jkK7Bxl1Cp9L2485G9Cfhfn384HxU9XvkJQk0zr-UO9eCO2_N_vBPztkt9482ok-t8ZIBzgh6hpJdos1sBqCYLwnYLJE3tukrBcZxrPhnaIj-R1slX5fT1Ckvbbbbvv7WpkdzvrhoD8ObXIxaw=w764-h1018-no?authuser=1
+      - https://lh3.googleusercontent.com/pw/ACtC-3dPoG1FkxkB1G5N-5ppz-ezLT5kiJklnOwb9sPc_6zCoaOM9UItSAZZzUhUFeJJtfqhCROcYTU75G4oW_ltztQRCo0MAJb5n3tt-f5wj8Hd4BiNxGJXq2k6ifcRlCo37Skv4TuI3d2emCSg2HtFUE3WPg=w1358-h1018-no?authuser=1
+      - https://lh3.googleusercontent.com/pw/ACtC-3d7VdxLC8mF_L_fGKOfTlDOL7kSESEKD67fFWiQitULIvChknDNC5SVzA-8LDzo4z2J94yD_w2wiIUM_v0M44LFO_XaVu6ZQRnvVueb8Nh6gGkwrFNN0F_dW2B9sUtFkDOvAy8FYC81iyahj8IDC3ytYQ=w1669-h1018-no?authuser=1
   radio:
     cover: false
     images:
-      - https://lh3.googleusercontent.com/pw/ACtC-3edgEjlLswOyBiStzoJC3iCHRRGpO4y_FeqNsQ9PIoKN2wtbITb2tXz0p43hgJUzPTBqACG7xJkkH5BZPiUx0cONdca73nxgwyYaesE4KVm6A7-OUQeDDj83fJ21eyS5VVG1ActWPM89AIU9oc9jZbJxg=w508-h480-no?authuser=1
-      - https://lh3.googleusercontent.com/pw/ACtC-3fD680ykSizumxXM1IU04c91iMFbuiz1BTCw43cpiAw60qfk3HILi0lIym3OD_G_-3fhLHeIEtmr8KofFTP2yRHtjzkGDILcaQBwDADzEnu012RUGzZgw1piZYIFgsMb-zg-KmAaI6_oI3Ac3hygu2jMA=w484-h456-no?authuser=1
+      - https://lh3.googleusercontent.com/pw/ACtC-3f055_NZWZW9iS3tbkPMxUOfdBAOEstwc5vHcEPdDBCK_N0FHcLJIXJVi8sNZfe8Z_5EbJgehqxgFJRMgzp07j4VO-qvONW-SHHTjMVhFHDmYI3U8czQ8aYzCEw-f1M_YfXvJyG8qT8rCHH6BZh4PhKtg=w508-h480-no?authuser=1
+      - https://lh3.googleusercontent.com/pw/ACtC-3eOShp9Qpky1GEiPg82qtgWGYdBvcr9nDu9Ov5A5W-MH4LUvDxj1DDGgO4fnVuwpl3VkacJSb68S9JUi1j0WXvIz2GOE6_cac20O8tk6fhdzj-bD8HXKsXQgSQyAcxF0JJcxD54R4Kcj5jBsOvE7xvGgg=w484-h456-no?authuser=1
   album2:
     cover: true
     images:
-      - https://lh3.googleusercontent.com/pw/ACtC-3fC4AiPuar-gWgb7sgwpWU1YzyrJ1RIUWrG1bUWzbbi2GOYtJx2dSlIfpDKOaMspGaZ8jGCGbZsMfR-xLHmLEh3NOmVOaHn5Y9121OywGgwZJF6nCBcCwPrgpo2HLghuMoAey8aL3I686-TjYWZOzLZxw=w1860-h1240-no?authuser=1
-      - https://lh3.googleusercontent.com/pw/ACtC-3fMx2YjURg9H9oQj_TUf-4R0yCD1vyG7z0KJolVgdyYqXUa1ZzaDSrO-0tCmS5U99yGf7FXh8NDceIvB9Q5hkLoXdDw4Rh0PfxFBuPpoYjenJGVcX_rOgbAX0_gEhcfJJGjrAgjW-sE4d11AXPz6HG__g=w1860-h1240-no?authuser=1
+      - https://lh3.googleusercontent.com/pw/ACtC-3c2wLGz3Vm5THWE8Bf6xigfJJRWjiGOik1bTdMNagou0op4SF_2v4rDZQ95NDN3gtgDNJJPyZeatQQjkMxxAa5YjIDElKidjhrSrNy_L4Spsbplk9VkwV88FEPaueAss8awFrw4D3ayokkNA8Yn7oBITg=w1618-h1018-no?authuser=1
+      - https://lh3.googleusercontent.com/pw/ACtC-3e_R7xC-GZ2uqRT0_Eq94OjSdj1lxKVOUPBDB54AHHyCBTF4jANdpDAfKpbCiCJM6qXBsV8DF_jj6m279w0Z9Yh8yEjhxoOMXErtRo5zbBf_lWK5QnXL_EOIzUcnVDZEEJEgfkzkukSbmUDeo9PtVIjwg=w1364-h1018-no?authuser=1
 ---
 
 ## Magic Planet

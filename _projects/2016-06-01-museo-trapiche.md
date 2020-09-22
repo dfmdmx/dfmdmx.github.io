@@ -20,7 +20,7 @@ albums:
   magicplanet:
     cover: false
     images:
-      - https://lh3.googleusercontent.com/pw/ACtC-3dUK-aueYkBSdrFqSFg43wPHAZ11Ow97RXzTVQFHWNidUU5fL2ZMLx24ZrVO4vKxOH5wK3gCtCDbSMm1NFQWuoeBvUFaFrI1ApEslOOs07MsGR1F3ONPO1nfwgStIXBfzdcGk0fMEr3GQZuhOGKb912Ig=w1006-h435-no?authuser=1
+      - https://lh3.googleusercontent.com/pw/ACtC-3eqoN6Uir9Mm1Rlk1nEBNTTqZKuzFO72O5RwjhLedBNIcwY5o6occrcYUzxwj0KDa4RfslBoHW6PDpuufLx5PJzDV1yB00I_KJSHXTedgfhzKUC9wEz6cLuJ1UVm-qmVN5VR8dtBbEfaAj5cDmzqqfOyQ=w1006-h144-no?authuser=1
   album1:
     cover: true
     images:

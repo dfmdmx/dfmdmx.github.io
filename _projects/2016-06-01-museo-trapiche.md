@@ -42,18 +42,18 @@ albums:
 ## Magic Planet
 
 ![Main image]({{page.albums.album0.images[0]}})
-*Exhibición*
+~~Exhibición~~
 
 ![Main image]({{page.albums.magicplanet.images[0]}})
-*Variables paramétricas para unión*
+~~Variables paramétricas para unión~~
 
 {% include album.html images=page.albums.album1.images cols=3 %}
-*Cople y manufactura*
+~~Cople y manufactura~~
 
 ## Cabina de radio
 
 {% include album.html images=page.albums.radio.images %}
-*Concepto estructural*
+~~Concepto estructural~~
 
 {% include album.html images=page.albums.album2.images %}
-*Exhibición*
+~~Exhibición~~

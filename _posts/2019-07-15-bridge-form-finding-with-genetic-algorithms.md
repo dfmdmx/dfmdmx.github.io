@@ -30,12 +30,12 @@ A Rhino Python script will be used to decode the gene sequence into a 3D structu
 
 
 {% include album.html images=page.albums.album1.images %}
-*Concept drawings - Expected geometry*
+~~Concept drawings - Expected geometry~~
 
 ![Grasshopper definition]({{page.albums.album0.images[0]}})
-*Grasshopper definition (Was created using an old plugin version, not tested in GH for Rhino6)*
+~~Grasshopper definition (Was created using an old plugin version, not tested in GH for Rhino6)~~
 
 {% include album.html images=page.albums.album2.images cols=1 %}
-*Unevolved (random) organism v.s. Evolved and more structurally fit organism*
+~~Unevolved (random) organism v.s. Evolved and more structurally fit organism~~
 
 {% include file.html filter='bridge' caption='Grasshopper file'%}

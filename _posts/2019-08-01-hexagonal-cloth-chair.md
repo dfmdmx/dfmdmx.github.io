@@ -38,4 +38,4 @@ My start approach will be to use to use a mesh relaxation algorithm in Grasshopp
 ![Concept]({{page.albums.album0.images[0]}})
 
 {% include album.html images=page.albums.album2.images cols=4%}
-*This is the current state of the chair. Sorry for the bad photos, had a backup problem. Unpardonable... I think NASA did the same things with the original film of the lunar landing.*
+~~This is the current state of the chair. Sorry for the bad photos, had a backup problem. Unpardonable... I think NASA did the same things with the original film of the lunar landing.~~

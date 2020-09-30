@@ -27,13 +27,13 @@ I'm goin to try and recreate this simulation using Kangaroo 2.0. Judging by the 
 [Stranded Beest Webpage](https://www.strandbeest.com/)  
 
 ![TheoJanse'sImagess]({{page.albums.album0.images[0]}})
-*Stranded Beest*
+~~Stranded Beest~~
 
 {% include album.html images=page.albums.album1.images cols=3 %}
-*Screen captures from videos published in the Stranded Beest Webpage*
+~~Screen captures from videos published in the Stranded Beest Webpage~~
 
 {% include youtube.html id='0SEnbHD9k1s' %}
-*Stranded Beest 2D simulation in Kangaroo*
+~~Stranded Beest 2D simulation in Kangaroo~~
 
 ## Software
 
@@ -42,7 +42,7 @@ For the modeling I plan to use Rhino3D and Grasshopper, same as before. Octopus 
 > Octopus outputs some good looking graphics.
 
 ![Octopus graphic]({{page.albums.album0.images[1]}})
-*Octopus genetic algorithm solver graphic example*
+~~Octopus genetic algorithm solver graphic example~~
 
 #### Downloads:
   - [https://www.rhino3d.com](https://www.rhino3d.com)

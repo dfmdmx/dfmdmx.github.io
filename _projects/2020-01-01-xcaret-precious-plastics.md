@@ -36,18 +36,18 @@ albums:
 ---
 
 ![Product]({{page.albums.album0.images[0]}})
-*Producto de plástico genérico*
+~~Producto de plástico genérico~~
 
 {% include album.html images=page.albums.album1.images cols=3 %}
-*Conceptualización*
+~~Conceptualización~~
 
 {% include album.html images=page.albums.album2.images cols=3%}
-*Propuesta y sitio*
+~~Propuesta y sitio~~
 
 ![Maquinas precious plastic]({{page.albums.album0.images[1]}})
-*Máquinas del proyecto Open-Source [https://preciousplastic.com](https://preciousplastic.com/)*
+~~Máquinas del proyecto Open-Source [https://preciousplastic.com](https://preciousplastic.com/)~~
 
 ![Maquinas precious plastic]({{page.albums.album0.images[2]}})
-*Justificación geográfica  [Tiny Tulum goes from beach paradise to eco nightmare](https://www.dw.com/en/tiny-tulum-goes-from-beach-paradise-to-eco-nightmare/a-43231319)*
+~~Justificación geográfica  [Tiny Tulum goes from beach paradise to eco nightmare](https://www.dw.com/en/tiny-tulum-goes-from-beach-paradise-to-eco-nightmare/a-43231319)~~
 
 <!-- TODO: Agregar propuesta de maquinaria para tejas extruidas, panel ranurado hueco térmico para fachadas (radiadores de fachada) y sistema de protección contra huracanes - Urge saber el tipo de plástico (pedos con el sol) -->

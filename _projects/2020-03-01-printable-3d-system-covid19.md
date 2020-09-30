@@ -27,9 +27,9 @@ albums:
 ---
 
 {% include album.html images=page.albums.album0.images cols=3 %}
-*Prototipo plástico*
+~~Prototipo plástico~~
 
 {% include album.html images=page.albums.album1.images cols=3 %}
-*Diseño de maquinado CNC de molde para termoformado plástico especifico para fabricación en maquinaria universitaria*
+~~Diseño de maquinado CNC de molde para termoformado plástico especifico para fabricación con maquinaria universitaria~~
 
 <!-- TODO: Agregar archivos para corte en GitHub y mandárselos a Ariel  -->

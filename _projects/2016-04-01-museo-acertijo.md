@@ -30,12 +30,12 @@ albums:
 ---
 
 ![Render]({{page.albums.album0.images[0]}})
-*Render conceptual*
+~~Render conceptual~~
 
 {% include album.html images=page.albums.album1.images cols=3 margin-bottom=16 %}
 
 ![PhotoTop]({{page.albums.album2.images[0]}})
-*Producción y montaje*
+~~Producción y montaje~~
 
 ![PhotoContext]({{page.albums.album2.images[1]}})
-*Foto de contexto*
+~~Foto de contexto~~

@@ -27,13 +27,13 @@ albums:
 ---
 
 ![Render]({{page.albums.album0.images[0]}})
-*Render conceptual*
+~~Render conceptual~~
 
 ![Cabezal]({{page.albums.album0.images[1]}})
-*Cabezal neumático*
+~~Cabezal neumático~~
 
 {% include album.html images=page.albums.album1.images cols=3 %}
-*Movimiento lineal con banda de tiempo y rieles de plástico auto lubricado*
+~~Movimiento lineal con banda de tiempo y rieles de plástico auto lubricado~~
 
 {% include youtube.html id='XJkXUPC1PBk' %}
-*Demostración funcionamiento*
+~~Demostración funcionamiento~~

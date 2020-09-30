@@ -24,9 +24,9 @@ albums:
 Stand de fácil armado y desarmado para exposición de productos cerveceros.
 
 {% include album.html images=page.albums.album1.images cols=3 %}
-*Posibles arreglos*
+~~Posibles arreglos~~
 
 {% include album.html images=page.albums.album2.images cols=4 %}
-*Sistema de armado*
+~~Sistema de armado~~
 
 <!-- Añadir las fotos -->

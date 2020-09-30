@@ -33,13 +33,13 @@ albums:
 ---
 
 ![3D context model]({{page.albums.album0.images[0]}})
-*Concepto presentado por el cliente*
+~~Concepto presentado por el cliente~~
 
 {% include album.html images=page.albums.album1.images  cols=3 %}
-*Sitio y exhibición*
+~~Sitio y exhibición~~
 
 {% include album.html images=page.albums.album2.images cols=3 %}
-*Producción*
+~~Producción~~
 
 ![Lámina de control]({{page.albums.album0.images[1]}})
-*Lámina de control para producción paramétrica*
+~~Lámina de control para producción paramétrica~~

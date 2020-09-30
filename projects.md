@@ -14,6 +14,6 @@ The publications in this list may be just in English or Spanish according to the
 
 {% include utils/index-projects.html starred=true headerlink=true  %}
 
-<!-- ## All projects
+## All projects
 
-{% include utils/index-projects.html %} -->
+{% include utils/index-projects.html headerlink=true %}

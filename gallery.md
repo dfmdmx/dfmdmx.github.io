@@ -4,6 +4,6 @@ title: Gallery
 permalink: /gallery/
 ---
 
-A collection of images from my projects and blog
+### Images collected from this webpage
 
 {% include utils/index-images.html cols=4 grayscale=1 %}

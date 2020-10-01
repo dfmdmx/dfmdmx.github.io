@@ -1,0 +1,10 @@
+<ul class="post-list">
+  {%- assign posts=site.projects | reverse -%}
+  {%- for post in posts  -%}
+      <li style="page-break-inside:avoid;">
+
+        {% include utils/project.html project=post headerlink=include.headerlink  %}
+
+      </li>
+  {%- endfor -%}
+</ul>

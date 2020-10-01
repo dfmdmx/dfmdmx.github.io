@@ -1,10 +1,75 @@
-<ul class="post-list">
-  {%- assign posts=site.projects | reverse -%}
-  {%- for post in posts  -%}
+<pre>
+       _ ___         _
+     _| |  _|_____ _| |  _____ _ _
+    | . |  _|     | . |_|     |_'_|
+    |___|_| |_|_|_|___|_|_|_|_|_,_|
+
+</pre>
+
+Projects:
+<ul>
+  {%- assign projects=site.projects | reverse -%}
+  {%- for project in projects  -%}
       <li style="page-break-inside:avoid;">
-
-        {% include utils/project.html project=post headerlink=include.headerlink  %}
-
+        <a href="{{ project.url | relative_url }}">
+          {{ project.title | escape }}
+        </a>
       </li>
   {%- endfor -%}
 </ul>
+Blog:
+<ul>
+  {%- assign posts=site.posts | reverse -%}
+  {%- for post in posts  -%}
+      <li style="page-break-inside:avoid;">
+        <a href="{{ post.url | relative_url }}">
+          {{ post.title | escape }}
+        </a>
+      </li>
+  {%- endfor -%}
+</ul>
+
+<img class="rotating-item" src="/assets/images/icon/inputblink.svg">
+
+<script>
+$( document ).ready(function() { //start after HTML, images have loaded
+
+  var InfiniteRotator =
+	{
+		init: function()
+		{
+			//initial fade-in time (in milliseconds)
+			var initialFadeIn = 1000;
+
+			//interval between items (in milliseconds)
+			var itemInterval = 1500;
+
+			//cross-fade time (in milliseconds)
+			var fadeTime = 500;
+
+			//count number of items
+			var numberOfItems = $('.rotating-item').length;
+
+			//set current item
+			var currentItem = 0;
+
+			//show first item
+			$('.rotating-item').eq(currentItem).fadeIn(initialFadeIn);
+
+			//loop through the items
+			var infiniteLoop = setInterval(function(){
+				$('.rotating-item').eq(currentItem).fadeOut(fadeTime);
+
+				if(currentItem == numberOfItems -1){
+					currentItem = 0;
+				}else{
+					currentItem++;
+				}
+				$('.rotating-item').eq(currentItem).fadeIn(fadeTime);
+			}, itemInterval);
+		}
+	};
+
+	InfiniteRotator.init();
+});
+</script>

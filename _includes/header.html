@@ -23,7 +23,7 @@
             <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
             {%- endif -%}
           {%- endfor -%}
-          <a class="mx-terminal-link page-link" id="terminal-link" href="#" onclick="setModal('terminal');return false;"><i class="fas fa-terminal"></i></a>
+          <a class="page-link" href="#" onclick="setModal();return false;"><i class="fas fa-terminal"></i></a>
         </div>
       </nav>
     {%- endif -%}

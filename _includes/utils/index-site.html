@@ -32,7 +32,7 @@ Projects:
 </ul>
 Blog:
 <ul>
-  {%- assign posts=site.posts | reverse -%}
+  {%- assign posts=site.posts -%}
   {%- for post in posts  -%}
       <li style="page-break-inside:avoid;">
         <a href="{{ post.url | relative_url }}">

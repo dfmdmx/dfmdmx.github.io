@@ -25,7 +25,7 @@ Projects:
   {%- for project in projects  -%}
       <li style="page-break-inside:avoid;">
         <a href="{{ project.url | relative_url }}">
-          {{ project.title | escape }}
+          {{ project.title | escape }} {% if project.starred %} <small><i class="far fa-star"></i></small>{%- endif -%}
         </a>
       </li>
   {%- endfor -%}

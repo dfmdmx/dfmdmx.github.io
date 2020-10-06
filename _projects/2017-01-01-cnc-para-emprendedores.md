@@ -17,13 +17,13 @@ albums:
     images:
       - https://lh3.googleusercontent.com/pw/ACtC-3djDorPT3pri800sreiRgvejij1cUC3LQXEJOaqjp9Q706AvtoMLAs3yB0OLO0fnfTU9fYa0qv4K6vl7TDlOkq5RA67L4zBTh2oUL654izgMd2OnmJyBoYaXvXe_goUw2d_UXQW7isxigdrq7gMt8d0rQ=w1600-h632-no?authuser=1
       - https://lh3.googleusercontent.com/pw/ACtC-3f9QZBeeJAf55u-0dYNYpIXMEGS6xByl7M4QpVUUvzla3ibVaxZq7Etqon9-O_KEtVTFDwZktby5ElJvn4xnhgOwippqSRYBDCpc-DmswNREtYWmiV_HMyTgUDjlRnHAdMjkBtpe7gj1Xr6rPihLiUNAA=w2048-h1152-no?authuser=1
+      - https://lh3.googleusercontent.com/pw/ACtC-3ecIMtCyCODcT36O8cV0jESA6-Rkox-45NUpZlnG96VpWsa1qZZznKHObrT6pXiXHoeb_aYplurXc8C5W5u9iw244NJZgs0y212pFoLowhekhWlmgEcmY90PQwvqtyCr2OkgpltKln6jnNY4xvbAzYoHg=w2400-h715-no?authuser=1
   album1:
     cover: true
     images:
       - https://lh3.googleusercontent.com/pw/ACtC-3cqZlsTNTQRe8_h2IxLjAs5FFmhhsJZewMgzl9wavVhdobTaf38qx9CJNk18HlhsfeX2hC9bhYKoHGMBQTB0wLE2x1McefqcnaGDwPaemQqWyspG9c5tM3cLhD1rI__VZaTEo9gJA5KaEOyisQM51tffw=w2048-h1152-no?authuser=1
       - https://lh3.googleusercontent.com/pw/ACtC-3eg9oB3To7QjMEHDBl3CC6GzqKLyYNYCEdgLaVWDdgyAF6c14X-R9afPoUzRIiM-VmW7ogGCA35KfkcCoWiju89e2VC9gy2Up6CPk4a1LcB_Jc7kpB6UPKn7GYl9oiaukWx6x0JZVLkqOV2irU6aV8q3g=w2068-h1163-no?authuser=1
       - https://lh3.googleusercontent.com/pw/ACtC-3ejnBIOByaS1rCIj4YjijgXTkyGga3oXBRbzMvWfmpqqiLTSM-Jj33U__Ivlves1lxMy7lNJx1nkbWvzNB22NabWUl241h4PBoYQWHZS9oBiPtyAks9PlceyKcomyaI3iZYA4YezZt1mRlW5xH2wV_2VA=w2009-h1163-no?authuser=1
-
   album2:
     cover: false
     images:
@@ -42,6 +42,9 @@ albums:
 
 {% include album.html images=page.albums.album2.images cols=3 %}
 ~~Corte de plástico, madera y aluminio~~
+
+![Foto]({{page.albums.album0.images[2]}})
+~~Maquinado en 2.5D~~
 
 {% include youtube.html id='K7j9PWjgEF0'%}
 ~~Corte de aluminio compuesto~~

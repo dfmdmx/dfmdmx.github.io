@@ -1,5 +1,8 @@
-<a style="float:right" href="/">Back to the future</a>
-
+<a style="float:right" href="/"><< Back to the future</a>
+<p>
+<p style="font-size:18px" >Index</p>
+</p>
+<p>
 <marquee scrollamount="2" direction="right">
   <pre class="premarquee">
                            ▄█▄▄▄█▄
@@ -16,9 +19,8 @@
     |___|_| |_|_|_|___|_|_|_|_|_,_|
 
 </pre>
-<p>
-<strong>Index:</strong>
 </p>
+<p>
 Projects:
 <ul>
   {%- assign projects=site.projects | reverse -%}
@@ -30,6 +32,8 @@ Projects:
       </li>
   {%- endfor -%}
 </ul>
+</p>
+<p>
 Blog:
 <ul>
   {%- assign posts=site.posts -%}
@@ -41,7 +45,7 @@ Blog:
       </li>
   {%- endfor -%}
 </ul>
-
+</p>
 <img class="rotating-item" src="/assets/images/icon/inputblink.svg">
 
 <script>

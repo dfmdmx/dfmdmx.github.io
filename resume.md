@@ -10,14 +10,24 @@ permalink: /resume/
 
 {% include utils/page-break.html %}
 
-{% include pages/design-theory.md %}
+{% include pages/form-finding.md %}
 
-{% include pages/starred-projects.md %}
+{% include utils/page-break.html %}
+
+{% include pages/digital-manufacturing.md %}
+
+{% include utils/page-break.html %}
+
+{% include utils/page-break.html %}
 
 ## CV (en)
 
 {% include pages/cv-en.md %}
 
+{% include utils/page-break.html %}
+
 ## CV (es)
 
 {% include pages/cv-es.md %}
+
+{% include utils/page-break.html %}

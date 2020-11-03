@@ -16,8 +16,6 @@ I'm an Architect not a Programmer, so you will find errors in both fields. I was
 
 ### LinCAM 3 Rhino3D plugin transforms 2D geometry into cutting paths for all types of g-code based CNC machines.
 
-![LinCAM3Logo](https://lh3.googleusercontent.com/pw/ACtC-3djVHHrKqjqR1q0gVlI5lA4_pvE-pfhmhrZ0AXvkfHwaC6XBWD178jJJEdnQ06uaWfXwaVahaARoq4QgOb_PuKUB2LjfZQb7yHNj0c6NSoYRT4y_s_RcqXsbOp4FYJAsjY7Pzl4XWbMAdaMXvubvl-SQw=s100-no?authuser=1)
-
 It's currently my most mature stand-alone software and it's available for download as a working plugin at the link below. The source code can be found in the Github list.
 
 [Food4Rhino LinCAM 3](https://www.food4rhino.com/app/lincam3).

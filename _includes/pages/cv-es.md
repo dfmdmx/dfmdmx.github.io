@@ -73,7 +73,7 @@ Me especializo en el diseño y programación de estructuras paramétricas, en el
 
     Firma de arquitectura
 
-    **Dibujante bajo la supervision directa del Arquitecto responsable de la firma**
+    **Dibujante bajo la supervisión directa del Arquitecto responsable de la firma**
 
       - Producción de planos arquitectónicos y ejecutivos para vivienda unifamiliar <i class="fas fa-tag"></i> **#AutoCAD #HandSketching**
       - Diseño de láminas conceptuales para venta y aprobación de diseño <i class="fas fa-tag"></i> **#RhinoRender #Photoshop #Illustrator**

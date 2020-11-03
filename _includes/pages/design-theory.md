@@ -5,7 +5,7 @@
 >Thinking about Architecture as some intrinsic or emergent system of nature allows us to reduce some of its properties into fundamental variables that can be understood through mathematical models. In this sense, architecture should be shaped alongside scientific knowledge. The scale we have reached as humanity and the amount of information we have gathered about ourselves and our surroundings allows us to use some of the most advanced problem solving techniques, such as genetic algorithms and neural networks into real practical design applications.
 
 ### Form finding through generative design
-
+    
 ![grasshopper analogy](https://lh3.googleusercontent.com/pw/ACtC-3fTgKfH2yBpq2KRtaDTZ9nWznMnozT3WIEusqMOFQmd4Th0KS52Apn_uIsBPOJpAUYs2kdL7lssToZTA34omnps-gIKAxWx3PMobD-9FyZDZKh1zcqkv5KtEhjYrvV6VflrONeayh_g22_Rau3oCcE2oQ=w1888-h397-no?authuser=1)
 
 ![form finding analogy](https://lh3.googleusercontent.com/pw/ACtC-3dUk1rBXaEDSHvkc9UNvFxSvafcEQ-PIhP39SyLOUEibq4eNX9EVMLXyVq1tpSQ0jwDTGoHJBjyvAGYXH0q4eFkw0NujISpCUATofhArG-AN7XpBLQasSVxOLEudVJ-eB3NOlEfQkzFT-yowHZ_4QQ4nw=w1126-h750-no?authuser=1)

@@ -17,7 +17,7 @@
         {% include utils/project.html project=post headerlink=include.headerlink  %}
 
         {% capture images %}
-          
+
           {% if post.albums %}
             {% assign albums = post.albums | where:"cover",true %}
             {% for album in albums %}
@@ -29,7 +29,9 @@
 
         {% endcapture %}
         {% assign images = images | strip | split: "," %}
-        {% include album.html images=images cols=6 max_rows=max_rows height=180 %}
+        <p style="page-break-inside:avoid;">
+          {% include album.html images=images cols=6 max_rows=max_rows height=180 %}
+        </p>
 
       </li>
     {%- endif -%}

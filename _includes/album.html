@@ -24,7 +24,7 @@
 {% assign margin-top = include.margin-top | default: 0 %}
 {% assign margin-bottom = include.margin-bottom | default: 0 %}
 
-<div class='pure-g mx-album' style='margin-top:{{margin-top}}px; margin-bottom:{{margin-bottom}}px;'>
+<div class='pure-g mx-album' style='margin-top:{{margin-top}}px; margin-bottom:{{margin-bottom}}px'>
 {% for image in images %}
 
   {% capture style %} border-radius:0px;-webkit-filter:grayscale({{grayscale}}%);filter:grayscale({{grayscale}}%); {% endcapture %}

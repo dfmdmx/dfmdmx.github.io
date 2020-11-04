@@ -16,21 +16,21 @@
     {% endif %}
   {% endfor %}
 {% endif %}
-<div style='margin-left:{{margin}}em;margin-bottom:2em;margin-top:2em'>
-  {% if headerlink %}
-  <a class="post-link" href="{{ project.url | relative_url }}">
+  <div style='margin-left:{{margin}}em;margin-bottom:2em;margin-top:2em;page-break-inside:avoid;'>
+    {% if headerlink %}
+    <a class="post-link" href="{{ project.url | relative_url }}">
+      <h3 class="post-title p-name" itemprop="name headline"><small><i class="fas fa-project-diagram"></i></small> {{ title | escape }}</h3>
+    </a>
+    {% else %}
     <h3 class="post-title p-name" itemprop="name headline"><small><i class="fas fa-project-diagram"></i></small> {{ title | escape }}</h3>
-  </a>
-  {% else %}
-  <h3 class="post-title p-name" itemprop="name headline"><small><i class="fas fa-project-diagram"></i></small> {{ title | escape }}</h3>
-  {% endif %}
-    <b>{{data.type}}</b> | {{data.client}}
-    <br>
-    <i class="far fa-calendar"></i> {{data.date}} <i class="fas fa-map-marker-alt"></i> {{data.location}} <i class="fas fa-link"></i> <a href='{{ data.client_url}}' target="blank">{{ data.client_url}}</a>
-    <br>
-    <div style="margin-top:.5em;">
-    {{data.description}}
-    <br>
-    {% if url %}<a href='{{url}}' target='blank'><i class="fas fa-external-link-square-alt"></i> {{url}} </a>{% endif %}
+    {% endif %}
+      <b>{{data.type}}</b> | {{data.client}}
+      <br>
+      <i class="far fa-calendar"></i> {{data.date}} <i class="fas fa-map-marker-alt"></i> {{data.location}} <i class="fas fa-link"></i> <a href='{{ data.client_url}}' target="blank">{{ data.client_url}}</a>
+      <br>
+      <div style="margin-top:.5em;">
+        {{data.description}}
+        <br>
+        {% if url %}<a href='{{url}}' target='blank'><i class="fas fa-external-link-square-alt"></i> {{url}} </a>{% endif %}
+      </div>
   </div>
-</div>

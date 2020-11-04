@@ -52,7 +52,7 @@ I have experience designing and manufacturing lightweight parametric structures 
       - Start Up Mexico SUM 5th Generation (2015)
 
   - <i class="fas fa-child"></i>
-    **Sietecolores** | Executive production for interactive children's museums
+    **Sietecolores** | Architecture and Design
     {% include utils/cvheader.html date='2012-2013' location='Mexico City' url='http://sietecolores.mx' %}
 
     Office specialized in the creation of interactive children's museums from: conceptualization, financing, design, implementation and subsequent support
@@ -78,24 +78,14 @@ I have experience designing and manufacturing lightweight parametric structures 
 
 ### <i class="fas fa-check"></i> Awards
 
-  - **Universidad Iberoamericana de la CDMX** | Honors | *Degree**
+  - Universidad Iberoamericana de la CDMX | **Honors** | *Degree*
     {% include utils/cvheader.html date='2011' location='Mexico City' url='https://ibero.mx' %}
 
-  - MasisaLabs 2015 **Investment Fund** | Seed investment for the incubation of technology companies
+  - MasisaLabs 2015 | **Investment Fund** | *Seed investment for the incubation of technology companies*
     {% include utils/cvheader.html date='2015' location='Mexico City' url='https://mexico.masisa.com' %}
 
-  - 5th Generation StartUpMexico **Sponsorship** | Sponsorship to obtain financing through risk funds
+  - 5th Generation StartUpMexico | **Sponsorship** | *Campaign financing for investment funds*
     {% include utils/cvheader.html date='2015' location='Mexico City' url='https://www.startupmexico.com' %}
-
-### <i class="fas fa-draw-polygon"></i> Independent projects
-
-    {% include utils/project.html title="printable-3d-system-covid19"  %}
-    {% include utils/project.html title="xcaret-precious-plastics" %}
-    {% include utils/project.html title="cuarto-de-pensar" %}
-    {% include utils/project.html title="geodesia" %}
-    {% include utils/project.html title="king-abdulaziz-center-for-world-culture" %}
-    {% include utils/project.html title="museo-trapiche" %}
-    {% include utils/project.html title="museo-acertijo" %}
 
 ### <i class="fas fa-cloud"></i> Professional published software
 
@@ -106,7 +96,7 @@ I have experience designing and manufacturing lightweight parametric structures 
     {% include utils/cvheader.html date='2019' location='Mexico City' url='https://www.food4rhino.com/app/lincam3' %}
 
   - **HangarMX** | [*Open Source*](https://github.com/dfmdmx/dfmdmx.store.io) | 2.5D CNC Cutting Sales Platform
-    {% include utils/cvheader.html date='2019' location='Estado de México' url='https://www.hangarmx.com' %}     
+    {% include utils/cvheader.html date='2019' location='Estado de México' url='https://www.hangarmx.com' %}
 
 ### <i class="fas fa-tree"></i> Volunteering
 
@@ -115,6 +105,16 @@ I have experience designing and manufacturing lightweight parametric structures 
 
   - **Recovering La Ceiba Park** | Architectural design and tree conservation proposal
     {% include utils/cvheader.html date='2010' location='Quintana Roo' url='https://www.florafaunaycultura.org/proyecto/24/parque-la-ceiba-el-corazon-de-playa/' %}
+
+### <i class="fas fa-draw-polygon"></i> Independent projects
+
+    {% include utils/project.html title="printable-3d-system-covid19"  %}
+    {% include utils/project.html title="xcaret-precious-plastics" %}
+    {% include utils/project.html title="cuarto-de-pensar" %}
+    {% include utils/project.html title="geodesia" %}
+    {% include utils/project.html title="king-abdulaziz-center-for-world-culture" %}
+    {% include utils/project.html title="museo-trapiche" %}
+    {% include utils/project.html title="museo-acertijo" %}
 
 ### *Contact*
 ---

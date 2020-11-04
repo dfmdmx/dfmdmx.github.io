@@ -80,24 +80,14 @@ Me especializo en el diseño y programación de estructuras paramétricas, en el
 
 ### <i class="fas fa-check"></i> Premios
 
-  - **Universidad Iberoamericana de la CDMX** | Mención honorífica | *Licenciatura*
+  - Universidad Iberoamericana de la CDMX | **Mención honorífica** | *Licenciatura*
     {% include utils/cvheader.html date='2011' location='Ciudad de México' url='https://ibero.mx' %}
 
-  - **Fondo MasisaLabs 2015** | Inversión semilla para incubación de empresas promotoras de tecnología
+  - Fondo MasisaLabs 2015 | **Fondo de inversión** | *Incubación de empresa en desarrollo de tecnología para maquinado*
     {% include utils/cvheader.html date='2015' location='Ciudad de México' url='https://mexico.masisa.com' %}
 
-  - **Convocatoria 5a Generación StartUpMexico** | Patrocinio para la obtención de financiamiento a través de fondos de riesgo.
+  - Convocatoria 5a Generación StartUpMexico | **Patrocinio** | *Campaña para la obtención de financiamiento a través de fondos de riesgo*
     {% include utils/cvheader.html date='2015' location='Ciudad de México' url='https://www.startupmexico.com' %}
-
-### <i class="fas fa-draw-polygon"></i> Proyectos independientes
-
-    {% include utils/project.html title="printable-3d-system-covid19"  %}
-    {% include utils/project.html title="xcaret-precious-plastics" %}
-    {% include utils/project.html title="cuarto-de-pensar" %}
-    {% include utils/project.html title="geodesia" %}
-    {% include utils/project.html title="king-abdulaziz-center-for-world-culture" %}
-    {% include utils/project.html title="museo-trapiche" %}
-    {% include utils/project.html title="museo-acertijo" %}
 
 ### <i class="fas fa-cloud"></i> Software profesional publicado
 
@@ -117,6 +107,16 @@ Me especializo en el diseño y programación de estructuras paramétricas, en el
 
   - **Recuperación del Parque la Ceiba** | Diseño arquitectónico y propuesta de conservación de árboles
     {% include utils/cvheader.html date='2010' location='Quintana Roo' url='https://www.florafaunaycultura.org/proyecto/24/parque-la-ceiba-el-corazon-de-playa/' %}
+
+### <i class="fas fa-draw-polygon"></i> Proyectos independientes
+
+  {% include utils/project.html title="printable-3d-system-covid19"  %}
+  {% include utils/project.html title="xcaret-precious-plastics" %}
+  {% include utils/project.html title="cuarto-de-pensar" %}
+  {% include utils/project.html title="geodesia" %}
+  {% include utils/project.html title="king-abdulaziz-center-for-world-culture" %}
+  {% include utils/project.html title="museo-trapiche" %}
+  {% include utils/project.html title="museo-acertijo" %}
 
 ### *Contacto*
 ---

@@ -81,7 +81,7 @@ I have experience designing and manufacturing lightweight parametric structures 
   - **Universidad Iberoamericana de la CDMX** | Honors | *Degree**
     {% include utils/cvheader.html date='2011' location='Mexico City' url='https://ibero.mx' %}
 
-  - MasisaLabs 2015 **Fund** | Seed investment for the incubation of technology companies
+  - MasisaLabs 2015 **Investment Fund** | Seed investment for the incubation of technology companies
     {% include utils/cvheader.html date='2015' location='Mexico City' url='https://mexico.masisa.com' %}
 
   - 5th Generation StartUpMexico **Sponsorship** | Sponsorship to obtain financing through risk funds

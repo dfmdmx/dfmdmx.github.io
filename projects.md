@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 ---
 
-### They aim is to show my work in different stages of the manufacturing process.
+### The aim is to show my work in different stages of the manufacturing process.
 
 The publications in this list may be just in English or Spanish according to the specificity and needs of each presented project.
 

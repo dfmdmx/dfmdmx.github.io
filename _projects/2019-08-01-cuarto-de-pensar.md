@@ -1,12 +1,21 @@
 ---
 layout: project
-information:
+information-es:
+  title: Cuarto de pensar
   date: 2019
   location: Guadalajara
   type: Parametrización, diseño ejecutivo y fabricación de recubrimiento modular
   client: Sietecolores
   client_url: http://wokivia.com
   description: Diseño ejecutivo, producción y montaje de recubrimiento paramétrico maquinado en CNC en forma de escamas para exhibición museográfica infantil
+information-en:
+  title: Meditation Room
+  date: 2019
+  location: Guadalajara
+  type: Parametric design and manufacturing of modular coating
+  client: Sietecolores
+  client_url: http://wokivia.com
+  description: Executive design, production and assembly of CNC machined parametric coating for children's museum exhibition
 
 starred: true
 published: true

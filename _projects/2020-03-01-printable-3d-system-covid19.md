@@ -2,7 +2,7 @@
 layout: project
 
 information-es:
-  title: Printable 3d system covid19
+  title: Printable 3d System Covid19
   date: 2020
   location: Ciudad de México
   type: Diseño de proceso y fabricación de molde
@@ -10,7 +10,7 @@ information-es:
   client_url: https://www.arielrojo.com/en/printable-3d-system-covid19
   description: Diseño ejecutivo y manufactura de molde para la fabricación de la mascarilla auxiliar respiratoria diseñada por Ariel Rojo
 information-en:
-  title: Printable 3d system covid19
+  title: Printable 3d System Covid19
   date: 2020
   location: Mexico City
   type: Process design and mold fabrication

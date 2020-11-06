@@ -120,4 +120,5 @@ Me especializo en el diseño y programación de estructuras paramétricas, en el
 
 ### *Contacto*
 ---
-daniel@dfmd.mx
+daniel@dfmd.mx  
+Carrer de la Granja, 08024 Barcelona, Spain

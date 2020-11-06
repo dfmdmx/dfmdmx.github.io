@@ -1,12 +1,21 @@
 ---
 layout: project
-information:
+information-es:
+  title: Museo Interactivo Trapiche
   date: 2016
   location: Sinaloa
   type: Diseño integral de estructuras autoportantes a través de distintas estrategias de panelización
   client: Sietecolores
   client_url: http://sietecolores.mx/en/Proyectos/trapiche/
-  description: Diseño, manufactura y montaje de tres estructuras paramétricas. La primera en su totalidad de aluminio, Magic Planet,  La segunda Cabina de Radio de madera y aluminio y por último Cama de Clavos en madera únicamente.
+  description: Diseño, manufactura y montaje de tres estructuras paramétricas. La primera en su totalidad de aluminio, Magic Planet,  La segunda Cabina de Radio de madera y aluminio y por último Cama de Clavos en madera únicamente
+information-en:
+  title: Trapiche Interactive Children's Museum
+  date: 2016
+  location: Sinaloa
+  type: Parametric design and manufacture of lightweight auto-sustainable structures
+  client: Sietecolores
+  client_url: http://sietecolores.mx/en/Proyectos/trapiche/
+  description: Design, manufacture and assembly of three parametric structures. The first one in aluminum called 'Magic Planet', The second one called 'Radio Cabin' made of wood and composite aluminum and finally 'Bed of Nails' only in wood
 
 starred: true
 published: true

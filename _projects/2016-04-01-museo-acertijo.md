@@ -1,12 +1,21 @@
 ---
 layout: project
-information:
+information-es:
+  title: Museo Interactivo Acertijo
   date: 2016
   location: Durango
   type: Diseño conceptual, diseño ejecutivo y fabricación de barandal paramétrico
   client: Sietecolores
   client_url: http://sietecolores.mx/en/Proyectos/acertijo/
   description: Diseño, producción y montaje de barandal paramétrico maquinado en CNC para exhibición central del museo estatal de Gomez Palacio, Durango
+information-en:
+  title: Acertijo Interactive Children's Museum
+  date: 2016
+  location: Durango
+  type: Parametric design and manufacture of circular handrail
+  client: Sietecolores
+  client_url: http://sietecolores.mx/en/Proyectos/acertijo/
+  description: Design, production and assembly of CNC machined parametric handrail for the central exhibition of the Gomez Palacio state museum at Durango
 
 starred: true
 published: true

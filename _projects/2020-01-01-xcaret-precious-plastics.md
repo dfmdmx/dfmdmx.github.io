@@ -1,12 +1,21 @@
 ---
 layout: project
-information:
+information-es:
+  title: Xcaret precious plastics
   date: 2020
   location: Quintana Roo
   type: Diseño ejecutivo y conceptual
   client: Lei de Landero Quintana
   client_url: https://www.florafaunaycultura.org/espacios/5/cc-tulum/
   description: Diseño ejecutivo de maquinaria, conceptualización y readaptación en sitio del proyecto https://preciousplastic.com para el reciclado de plástico en las playas de la reserva natural de Tulúm y primer propuesta de producto
+information-en:
+  title: Xcaret Precious Plastics
+  date: 2020
+  location: Quintana Roo
+  type: Machinery and manufacturing design
+  client: Lei de Landero Quintana
+  client_url: https://www.florafaunaycultura.org/espacios/5/cc-tulum/
+  description: Machinery design, conceptualization and site implementation of the project https://preciousplastic.com for the recycling of plastic on the beaches of the natural reserve of Tulúm for a non profit organization
 
 starred: true
 published: true

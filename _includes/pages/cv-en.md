@@ -118,4 +118,5 @@ I have experience designing and manufacturing lightweight parametric structures 
 
 ### *Contact*
 ---
-daniel@dfmd.mx
+daniel@dfmd.mx   
+Carrer de la Granja, 08024 Barcelona, Spain

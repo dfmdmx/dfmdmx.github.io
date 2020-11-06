@@ -1,12 +1,21 @@
 ---
 layout: project
-information:
+information-es:
+  title: King Abdulaziz Center for World Culture
   date: 2017
   location: Arabia Saudita
   type: Diseño ejecutivo y fabricación de estructura paramétrica para museo
   client: Sietecolores
   client_url: http://sietecolores.mx/en/Proyectos/king-abdulaziz-center-for-world-culture
-  description: Parametrización y manufactura en CNC de la estructura principal de la exhibición para la primera infancia del Centro para las Culturas del Mundo de Arabia Saudita diseñado por la firma arquitectónica Snøhetta
+  description: Parametrización y manufactura en CNC de la estructura principal de la exhibición para la primera infancia del Centro para las Culturas del Mundo de Arabia Saudita diseñado por la firma arquitectónica Snøhetta.
+information-en:
+  title: King Abdulaziz Center for World Culture
+  date: 2017
+  location: Saudi Arabia
+  type: Parametric design and manufacture
+  client: Sietecolores
+  client_url: http://sietecolores.mx/en/Proyectos/king-abdulaziz-center-for-world-culture
+  description: Parametric design and manufacture of the main structure of the early childhood exhibition at the Center for World Cultures in Saudi Arabia by Snøhetta
 starred: true
 published: true
 comments: false

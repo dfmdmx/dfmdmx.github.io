@@ -110,13 +110,13 @@ Me especializo en el diseño y programación de estructuras paramétricas, en el
 
 ### <i class="fas fa-draw-polygon"></i> Proyectos independientes
 
-  {% include utils/project.html title="printable-3d-system-covid19"  %}
-  {% include utils/project.html title="xcaret-precious-plastics" %}
-  {% include utils/project.html title="cuarto-de-pensar" %}
-  {% include utils/project.html title="geodesia" %}
-  {% include utils/project.html title="king-abdulaziz-center-for-world-culture" %}
-  {% include utils/project.html title="museo-trapiche" %}
-  {% include utils/project.html title="museo-acertijo" %}
+  {% include utils/project.html title="printable-3d-system-covid19" lang='es' %}
+  {% include utils/project.html title="xcaret-precious-plastics" lang='es' %}
+  {% include utils/project.html title="cuarto-de-pensar" lang='es' %}
+  {% include utils/project.html title="geodesia" lang='es' %}
+  {% include utils/project.html title="king-abdulaziz-center-for-world-culture" lang='es' %}
+  {% include utils/project.html title="museo-trapiche" lang='es'%}
+  {% include utils/project.html title="museo-acertijo" lang='es'%}
 
 ### *Contacto*
 ---

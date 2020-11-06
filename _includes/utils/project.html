@@ -1,16 +1,32 @@
+{% if include.lang %}
+  {% assign lang=include.lang %}
+{% else %}
+  {% assign lang='en' %}
+{% endif %}
+
 {% if include.project %}
   {% assign project=include.project %}
-  {% assign title=project.title %}
+
   {% assign url=false %}
   {% assign margin=0 %}
-  {% assign data=project.information %}
+  {% if lang == 'es' %}
+    {% assign data=project.information-es %}
+  {% else %}
+    {% assign data=project.information-en %}
+  {% endif %}
+  {% assign title=data.title %}
   {% assign headerlink=include.headerlink %}
 {% else %}
   {% for project in site.projects %}
     {% if project.path contains include.title %}
-      {% assign title=project.title %}
+
       {% assign url=site.url | append: project.url %}
-      {% assign data=project.information %}
+      {% if lang == 'es' %}
+        {% assign data=project.information-es %}
+      {% else %}
+        {% assign data=project.information-en %}
+      {% endif %}
+      {% assign title=data.title %}
       {% assign headerlink=include.headerlink %}
       {% assign margin=3 %}
     {% endif %}

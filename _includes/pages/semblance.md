@@ -9,4 +9,4 @@ I have been lucky to implement this approach professionally. First, in structura
 Most of my work has been around designing museography for interactive children's museums, and in the past years also manufacturing structures using digital fabrication techniques for museums, and other public spaces. Besides designing the product and the manufacturing process, I often design, code and build the automated machines that I use for production.
 
 Projects gallery and software at:   
-[https://www.dfmd.mx](https://www.dfmd.mx/)
+[https://www.dfmd.mx](https://www.dfmd.mx/)   

@@ -1,6 +1,15 @@
 ---
 layout: project
-information:
+information-es:
+  title: Cortadora Automatizada de Bandas Industriales
+  date: 2016
+  location: Ciudad de México
+  type: Diseño y fabricación de maquina automatizada para corte dentado de bandas plásticas
+  client: Linarand
+  client_url: http://linarand.com.mx/
+  description: Máquina diseñada para realizar cortes en zig-zag para bandas transportadoras industriales de manera automatizada por medio de un sistema de cuchillas accionadas por un piston neumático y movimiento lineales por medio de banda dentada y motor a pasos.
+information-en:
+  title: Cortadora Automatizada de Bandas Industriales
   date: 2016
   location: Ciudad de México
   type: Diseño y fabricación de maquina automatizada para corte dentado de bandas plásticas

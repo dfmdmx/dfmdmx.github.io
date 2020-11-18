@@ -1,6 +1,15 @@
 ---
 layout: project
-information:
+information-es:
+  title: CNC para Emprendedores
+  date: 2017
+  location: Ciudad de México
+  type: Diseño y fabricación de maquinas CNC especializadas para emprendedores.
+  client: SPK
+  client_url: http://www.spkautomatizacion.com
+  description: El proyecto consistió en diseñar una línea de maquinas CNC, enfocada para emprendedores e industria pequeña, que pudiera cortar plásticos, maderas y metales ligeros.
+information-en:
+  title: CNC para Emprendedores
   date: 2017
   location: Ciudad de México
   type: Diseño y fabricación de maquinas CNC especializadas para emprendedores.

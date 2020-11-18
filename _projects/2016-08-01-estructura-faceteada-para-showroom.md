@@ -1,6 +1,15 @@
 ---
 layout: project
-information:
+information-es:
+  title: Estructura Triangular para Exhibición
+  date: 2016
+  location: Ciudad de México
+  type: Diseño y fabricación de exhibición para presentación de nuevo producto
+  client: Mabe
+  client_url: http://www.mabe.com.mx/
+  description: Manufactura de estructura con teselado triangular aleatorio. Conceptualmente asemejara una patrón cristalino. La estructura se realizó con panel de densidad media y película vinílica reflejante adherida en las caras frontales para efectos escenográficos. El diseño conceptual de la exhibición lo realizó el equipo de ARDS.
+information-en:
+  title: Estructura Triangular para Exhibición
   date: 2016
   location: Ciudad de México
   type: Diseño y fabricación de exhibición para presentación de nuevo producto

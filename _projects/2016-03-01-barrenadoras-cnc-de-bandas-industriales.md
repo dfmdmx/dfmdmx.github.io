@@ -1,6 +1,15 @@
 ---
 layout: project
-information:
+information-es:
+  title: Barrenadora CNC de Bandas Industriales
+  date: 2016
+  location: Ciudad de México
+  type: Diseño y fabricación de maquina CNC para barrenado y corte de bandas plásticas
+  client: Linarand
+  client_url: http://linarand.com.mx/
+  description: El proyecto consistió en rediseñar el proceso de manufactura del departamento de proyectos especiales para la fabricación de bandas especializadas a través del diseño de maquinaria CNC para el corte y barrenado de bandas transportadoras.
+information-en:
+  title: Barrenadora CNC de Bandas Industriales
   date: 2016
   location: Ciudad de México
   type: Diseño y fabricación de maquina CNC para barrenado y corte de bandas plásticas

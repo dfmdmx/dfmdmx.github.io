@@ -1,9 +1,7 @@
 ### Daniel Fernández Marmissolle-Daguerre
-### *Architect*
-
 ---
 
-I have experience designing and manufacturing lightweight parametric structures and the machines involved in the digital manufacturing process.
+I have experience designing and manufacturing lightweight parametric structures and the machines involved in the digital manufacturing process
 
 <i class="fas fa-link"></i> [https://www.dfmd.mx/](https://www.dfmd.mx/)
 

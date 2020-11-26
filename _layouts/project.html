@@ -7,7 +7,8 @@ layout: default
     <p class="post-meta">
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
 
-        {% include utils/information.html title=page.title url=page.url data=page.information  %}
+        {% include utils/information.html title=page.title url=page.url data=page.information-en  %}
+        
       </time>
       {%- if page.author -%}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>

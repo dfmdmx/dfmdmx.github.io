@@ -19,7 +19,6 @@
 {% else %}
   {% for project in site.projects %}
     {% if project.path contains include.title %}
-
       {% assign url=site.url | append: project.url %}
       {% if lang == 'es' %}
         {% assign data=project.information-es %}
@@ -28,25 +27,19 @@
       {% endif %}
       {% assign title=data.title %}
       {% assign headerlink=include.headerlink %}
-      {% assign margin=3 %}
+      {% assign margin=2 %}
     {% endif %}
   {% endfor %}
 {% endif %}
-  <div style='margin-left:{{margin}}em;margin-bottom:2em;margin-top:2em;page-break-inside:avoid;'>
-    {% if headerlink %}
-    <a class="post-link" href="{{ project.url | relative_url }}">
-      <h3 class="post-title p-name" itemprop="name headline">{{ title | escape }}</h3>
-    </a>
-    {% else %}
-    <h3 class="post-title p-name" itemprop="name headline">{{ title | escape }}</h3>
-    {% endif %}
+  <div style='margin-left:{{margin}}em;margin-bottom:.5em;margin-top:1em;page-break-inside:avoid;'>
+      <span style="font-size:16px">{{ title | escape }}</span>
+      <br>
       <b>{{data.type}}</b> | {{data.client}}
       <br>
       <i class="far fa-calendar"></i> {{data.date}} <i class="fas fa-map-marker-alt"></i> {{data.location}} <i class="fas fa-link"></i> <a href='{{ data.client_url}}' target="blank">{{ data.client_url }}</a>
       <br>
-      <div style="margin-top:.5em;">
+      <div style="">
         {{data.description}}
-
         {% if url %}<a href='{{url}}' target='blank'><i class="fas fa-external-link-square-alt"></i></a>{% endif %}
       </div>
   </div>

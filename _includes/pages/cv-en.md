@@ -31,12 +31,15 @@ I have experience designing and manufacturing lightweight parametric structures 
   - **Research and Development** | Linarand
     {% include utils/cvheader.html date='2014-2019' location='Mexico City' url='http://linarand.com.mx' %}
 
-    - Coordination of the Haas machine shop (four-axis lathe and router) for the manufacture of plastic parts for the pharmaceutical and food industry
-    - Research, development and implementation of automated processes in the manufacture of conveyor belts and plastic parts
-    - Design and manufacture of CNC machinery for cutting and drilling of industrial conveyor belts
-    - Development, programming and maintenance of remote control server for automated machinery, order and inventory management
-    - Development, programming and maintenance for internal CAM plugin in Rhino3D, LinCAM3
-    - Training and courses for personnel in the use of new CAD/CAM technologies
+    - Team manager of the automation team in the manufacturing division for industrial conveyors in the pharmaceutical and food sectors
+    - Research and development in new automated manufacturing processes for plastic parts machining and industrial belts
+    - Manager of the plastic and aluminum machining workshop with Haas machinery (four-axis lathe and milling machine) for the manufacture of mechanical parts of machinery used in production lines
+    - Design and manufacture of CNC machinery for cutting and drilling industrial conveyor belts
+    - Architectural design and construction supervision for new workshops
+    - Development, programming and maintenance of the server for automated management of machinery, codes, sales and inventory
+    - Development, programming, and maintenance of the "LinCAM" plug-in for Rhino 3D CAD/CAM
+    - Training and courses for personnel in the use of new CAD/CAM and Automation technologies
+
 
   - **Founding partner - Chief Technology Officer** | SPK Automation
     {% include utils/cvheader.html date='2013-2017' location='Mexico City' url='http://www.spkautomatizacion.com' %}
@@ -62,7 +65,7 @@ I have experience designing and manufacturing lightweight parametric structures 
   - **Architectural design** | Gaxiola Arquitectos
     {% include utils/cvheader.html date='2010-2011' location='Mexico City' url='http://www.gaxiolaarquitectos.com' %}
 
-      - Production of architectural and executive plans for single-family housing
+      - Production of architectural and executive plans for urban housing
       - Design of concept sheets for sale and client design approval
       - Construction supervisor
 

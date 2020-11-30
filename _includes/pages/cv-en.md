@@ -1,7 +1,7 @@
 ### Daniel Fernández Marmissolle-Daguerre
 ---
 
-I have experience designing and manufacturing lightweight parametric structures and the machines involved in the digital manufacturing process
+<!-- I specialize in the design and programming of parametric structures, software development and automated machinery manufacturing -->
 
 <i class="fas fa-link"></i> [https://www.dfmd.mx/](https://www.dfmd.mx/)
 

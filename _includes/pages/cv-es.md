@@ -2,7 +2,7 @@
 ### Daniel Fernández Marmissolle-Daguerre
 ---
 
-Me especializo en el diseño y programación de estructuras paramétricas, en el desarrollo de software y fabricación de maquinaria automatizada
+<!-- Me especializo en el diseño y programación de estructuras paramétricas, en el desarrollo de software y fabricación de maquinaria automatizada -->
 
 <i class="fas fa-link"></i> [https://www.dfmd.mx/](https://www.dfmd.mx/)
 

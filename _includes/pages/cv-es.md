@@ -25,7 +25,7 @@
   - **Suites:** Microsoft Office, Illustrator, Photoshop
 
 ##### Idiomas
-  - Español / Ingles
+  - **Español** (Nativo) / **Ingles** (Profesional)
 
 ### Experiencia profesional
 
@@ -108,8 +108,3 @@
 
   - **Recuperación del Parque la Ceiba** | Diseño arquitectónico y propuesta de conservación de árboles
     {% include utils/cvheader.html date='2010' location='Quintana Roo' url='https://www.florafaunaycultura.org/proyecto/24/parque-la-ceiba-el-corazon-de-playa/' %}
-
-### *Contacto*
----
-daniel@dfmd.mx   
-Carrer de la Granja, 08024 Barcelona, Spain

@@ -16,12 +16,13 @@
 ### Skills
 
 ##### Software / Hardware
-  - **Languages:** Python, JavaScript, C++, HTML (FS)
-  - **CAD/CAM:** Rhino3D, AutoCAD, Fusion, Vectric
-  - **Automation:** Festo, ABB, Haas, Stratasys
-  - **Prototyping:** Processing, Flex-hopper, OpenGL, Unity, Arduino, Raspberry Pi
-  - **Cloud:** Amazon AWS, Google App Engine
-  - **Suites:** Microsoft Office, Illustrator, Photoshop
+  - **Languages:** Python, JavaScript, HTML, C++, (FS)
+  - **CAD/CAM (Primary):** Rhino3D + Grasshopper + RhinoPython, Fusion + Python, Revit
+  - **3D Design (Fluent):** SketchUp, AutoCAD, SolidWorks, Solid-Edge, Blender
+  - **Prototyping:** Processing, Flex-hopper, Unity, OpenGL, Arduino, Raspberry Pi
+  - **Automation:** Festo, Haas, ABB, Stratasys, Dremel, Kuka, Igus
+  - **Cloud APIs:** Amazon AWS, Google Cloud Platform
+  - **Suites:** Microsoft Office, Adobe (Illustrator, Photoshop)
 
 ##### Languages
   - **Spanish** (Native or Bilingual) / **English** (Full Professional)

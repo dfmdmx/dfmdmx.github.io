@@ -17,12 +17,14 @@
 ### Herramientas
 
 ##### Computación
-  - **Lenguajes:** Python, JavaScript, C++, HTML (FS)
-  - **CAD/CAM:** Rhino3D, AutoCAD, Fusion, Vectric
-  - **Automatización:** Festo, ABB, Haas, Stratasys
-  - **Prototipado:** Processing, Flex-hopper, OpenGL, Unity, Arduino, Raspberry Pi
-  - **Cloud:** Amazon AWS, Google App Engine
-  - **Suites:** Microsoft Office, Illustrator, Photoshop
+
+  - **Lenguajes:** Python, JavaScript, HTML, C++, (FS)
+  - **CAD/CAM (Primario):** Rhino3D + Grasshopper + RhinoPython, Fusion + Python, Revit
+  - **Diseño 3D (Fluido):** SketchUp, AutoCAD, SolidWorks, Solid-Edge, Blender
+  - **Prototipado:** Processing, Flex-hopper, Unity, OpenGL, Arduino, Raspberry Pi
+  - **Automation:** Festo, Haas, ABB, Stratasys, Dremel, Kuka, Igus
+  - **Cloud APIs:** Amazon AWS, Google Cloud Platform
+  - **Suites:** Microsoft Office, Adobe (Illustrator, Photoshop)
 
 ##### Idiomas
   - **Español** (Nativo) / **Ingles** (Profesional)

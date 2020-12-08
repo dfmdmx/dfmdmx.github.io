@@ -18,7 +18,6 @@ permalink: /resume/
 
 {% include utils/page-break.html %}
 
-{% include utils/page-break.html %}
 
 ## CV (en)
 
@@ -29,5 +28,3 @@ permalink: /resume/
 ## CV (es)
 
 {% include pages/cv-es.md %}
-
-{% include utils/page-break.html %}

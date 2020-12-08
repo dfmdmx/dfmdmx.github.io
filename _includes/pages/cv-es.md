@@ -19,8 +19,8 @@
 ##### Computación
 
   - **Lenguajes:** Python, JavaScript, HTML, C++, (FS)
-  - **CAD/CAM (Primario):** Rhino3D + Grasshopper + RhinoPython, Fusion + Python, Revit
-  - **Diseño 3D (Fluido):** SketchUp, AutoCAD, SolidWorks, Solid-Edge, Blender
+  - **CAD/CAM (Primario - Diseño):** Rhino3D + Grasshopper + RhinoPython, Fusion + Python, Revit
+  - **Diseño 3D (Fluido - Integración):** SketchUp, AutoCAD, SolidWorks, Solid-Edge, Blender
   - **Prototipado:** Processing, Flex-hopper, Unity, OpenGL, Arduino, Raspberry Pi
   - **Automation:** Festo, Haas, ABB, Stratasys, Dremel, Kuka, Igus
   - **Cloud APIs:** Amazon AWS, Google Cloud Platform

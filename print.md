@@ -3,11 +3,21 @@ layout: print
 title: Print
 permalink: /print/
 ---
+
 {% include utils/blank-space.html height=6 %}
-{% include pages/semblance-engineer.md %}
+{% include pages/semblance.md %}
 {% include pages/contact.md %}
 {% include utils/index-headers.html %}
 {% include utils/page-break.html %}
+
+{% include pages/form-finding.md %}
+
+{% include utils/page-break.html %}
+
+{% include pages/digital-manufacturing.md %}
+
+{% include utils/page-break.html %}
+
 
 ## CV (en)
 {% include pages/cv-en.md %}

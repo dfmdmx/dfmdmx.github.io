@@ -37,6 +37,7 @@
     - Líder del equipo de automatización en la división de fabricación de transportadores industriales para los sectores farmacéuticos y alimenticios
     - Investigación y desarrollo en nuevos procesos de manufactura automatizada para maquinado de piezas plásticas y maquila de bandas industriales
     - Coordinador del taller de maquinado de plástico y aluminio con maquinaría Haas (torno y fresadora de cuatro ejes) para la fabricación de piezas mecánicas para maquinaria utilizada en líneas de producción con grado sanitario  
+    - Coordinador de nuevos clientes y proyectos en el sector productivo paramétrico y de manufactura digital
     - Diseño y fabricación de maquinaria CNC para corte y perforación de bandas transportadoras industriales
     - Encargado de diseño arquitectónico y supervisión de obras para nuevos talleres
     - Desarrollo, programación y mantenimiento del servidor para la gestión automatizada de maquinaria, codigos, pedidos e inventario

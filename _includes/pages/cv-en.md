@@ -35,12 +35,12 @@
     - Team manager of the automation team in the manufacturing division for industrial conveyors in the pharmaceutical and food sectors
     - Research and development in new automated manufacturing processes for plastic parts machining and industrial belts
     - Manager of the plastic and aluminum machining workshop with Haas machinery (four-axis lathe and milling machine) for the manufacture of mechanical parts of machinery used in production lines
+    - Parametric and digital design and manufacturing branch coordinator for new industrial clientele
     - Design and manufacture of CNC machinery for cutting and drilling industrial conveyor belts
     - Architectural design and construction supervision for new workshops
     - Development, programming and maintenance of the server for automated management of machinery, codes, sales and inventory
     - Development, programming, and maintenance of the "LinCAM" plug-in for Rhino 3D CAD/CAM
     - Training and courses for personnel in the use of new CAD/CAM and Automation technologies
-
 
   - **Founding partner - Chief Technology Officer** | SPK Automation
     {% include utils/cvheader.html date='2013-2017' location='Mexico City' url='http://www.spkautomatizacion.com' %}

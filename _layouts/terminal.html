@@ -1,26 +1,14 @@
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+---
+layout: default
+---
+<article class="post">
 
-  {%- include head.html -%}
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+  </header>
 
-  <body class="mx-terminal-body">
+  <div class="mx-terminal post-content">
+    {{ content }}
+  </div>
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-
-        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-
-          <div class="mx-terminal post-content e-content" itemprop="articleBody">
-          
-              {{ content }}
-
-          </div>
-
-          <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
-        </article>
-
-      </div>
-    </main>
-
-  </body>
-
-</html>
+</article>

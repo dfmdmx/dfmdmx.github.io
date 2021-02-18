@@ -1,6 +1,6 @@
 ---
 layout: terminal
-title: terminal
+title: Index  
 permalink: /terminal
 ---
 

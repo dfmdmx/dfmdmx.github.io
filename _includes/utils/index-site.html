@@ -1,12 +1,3 @@
-<marquee scrollamount="2" direction="right">
-  <pre class="premarquee">
-                           ▄█▄▄▄█▄
-                    ▄▀░░░░▄▌─▄─▄─▐▄░░  ▀▄
-                    █▄▄█░░▀▌─▀─▀─▐▀░░█▄▄█
-           ░░░░░░░░░░▐▌░░░░▀▀███▀▀░░░░▐▌
-         ───────░░░░████░▄█████████▄░████
-</pre>
-</marquee>
 <p>
 Projects:
 <ul>
@@ -17,6 +8,21 @@ Projects:
           {{ project.title | escape }} {% if project.starred %} <small><i class="far fa-star"></i></small>{%- endif -%}
         </a>
       </li>
+  {%- endfor -%}
+</ul>
+</p>
+<p>
+Software:
+<ul>
+  {%- assign repos=site.github.public_repositories -%}
+  {%- for repo in repos  -%}
+    {% if repo.fork == false %}
+      <li style="page-break-inside:avoid;">
+        <a href="{{ repo.html_url | relative_url }}">
+          {{ repo.name | escape }}
+        </a>
+      </li>
+    {%- endif -%}
   {%- endfor -%}
 </ul>
 </p>
@@ -34,7 +40,6 @@ Blog:
 </ul>
 </p>
 <img class="rotating-item" src="/assets/images/icon/inputblink.svg">
-
 <script>
 $( document ).ready(function() {
   var InfiniteRotator =

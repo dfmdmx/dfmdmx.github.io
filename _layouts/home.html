@@ -48,7 +48,7 @@ layout: default
           {% assign cols = 4 %}
           {% assign max_images = cols %}
           {% assign images = images | strip | split: "," %}
-          {% include album.html images=images cols=4 max_rows=1 height=160 %}
+          {% include album.html images=images cols=4 max_rows=1 height=160 margin-bottom=80 %}
 
         </li>
         {%- endfor -%}

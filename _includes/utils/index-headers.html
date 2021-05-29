@@ -18,7 +18,7 @@ function create_index() {
   		var title = el.textContent;
   		var link = "#" + el.id;
       if (['dfmdmx', 'About', 'Table of contents','Daniel Fernández Marmissolle-Daguerre'].indexOf(title) == -1)  {
-          ToC += '<li class="pure-menu-item"><a class="pure-menu-link" href="' + link + '">' + title + '</a></li>';
+          ToC += '<li class="pure-menu-item" style="height:inherit"><a class="pure-menu-link" href="' + link + '">' + title + '</a></li>';
         };
     });
 		ToC += '</ul>'

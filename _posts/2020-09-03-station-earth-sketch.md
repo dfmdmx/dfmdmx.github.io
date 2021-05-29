@@ -12,16 +12,9 @@ albums:
       - https://lh3.googleusercontent.com/pw/ACtC-3cz9A15ovYZFeJ_azB52JehU_YDL1GCARmCr5zjmTM51sWO-ak5ZlNpCdE_7mbK-spIJ6ufbYqZ-0NJ03YIm0t4avZe0xDyo1nzrZPISUqS_8RrYNCTiJ2Zh2shcXC25SWcvVUiZ5SpeJsWcoBUam84xg=w1024-h431-no?authuser=1
 ---
 
-### Del aire que compartimos y el futuro que queremos
+### Sketches 1
 
 > The future is already here — it's just not very evenly distributed.   
 [William Gibson](https://en.wikipedia.org/wiki/William_Gibson)
 
-![Idea]({{page.albums.album0.images[0]}})  
-~~El plan~~
-
-![Dilema]({{page.albums.album0.images[1]}})  
-~~El dilema~~
-
-![Decision]({{page.albums.album0.images[2]}})  
-~~La decisión~~
+{% include album.html images=page.albums.album0.images cols=1%}

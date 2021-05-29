@@ -1,4 +1,8 @@
 
+
+
+/* Local */
+
 @import url('https://fonts.googleapis.com/css?family=Inconsolata|Montserrat&display=swap');
 @import url("https://unpkg.com/purecss@1.0.1/build/pure-min.css");
 @import url("https://unpkg.com/purecss@1.0.1/build/grids-responsive-min.css");
@@ -158,9 +162,6 @@ div.print-page-brake{
 .mx-album img {
   object-fit: cover;
   min-height: 100%;
-}
-.mx-album .unround {
-   !important;
 }
 .mx-album .unround-right {
   border-top-right-radius:0px;

@@ -37,6 +37,12 @@
   text-align: right;
   margin-bottom: 20px;
 }
+.post-content del{
+  font-size: 85%;
+  text-align: right;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
 .post-content .blank-space{
   margin-bottom: 0px;
 }

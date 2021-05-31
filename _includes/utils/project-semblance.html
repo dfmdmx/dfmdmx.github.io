@@ -1,0 +1,27 @@
+{% if include.lang %}
+  {% assign lang=include.lang %}
+{% else %}
+  {% assign lang='en' %}
+{% endif %}
+{% if lang == 'es' %}
+  {% assign data=include.project.information-es %}
+{% else %}
+  {% assign data=include.project.information-en %}
+{% endif %}
+{{project}}
+
+  <div class="project-semblance">
+      <h3 class="post-title p-name" itemprop="name headline">{{ include.project.title | escape }}</h3>
+    <div class="info-row">
+      <b>{{data.type}}</b> | {{data.client}}
+    <br>
+    
+      <i class="far fa-calendar"></i> {{data.date}}
+      <i class="fas fa-map-marker-alt"></i> {{data.location}}
+      <i class="fas fa-link"></i> {{ data.client_url }}
+    </div>
+      <div>
+        {{data.description}}
+        {% if url %}<a href='{{url}}' target='blank'><i class="fas fa-external-link-square-alt"></i></a>{% endif %}
+      </div>
+  </div>

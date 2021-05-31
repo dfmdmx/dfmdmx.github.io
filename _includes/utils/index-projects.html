@@ -12,9 +12,9 @@
     {%- endif -%}
 
     {%- if post.starred == filter -%}
-      <li style="page-break-inside:avoid;">
+      <li class='post-list-link' style="page-break-inside:avoid" onclick='location.href="{{post.url | relative}}"'>
 
-        {% include utils/project.html project=post headerlink=include.headerlink  %}
+        {% include utils/project-semblance.html project=post %}
 
         {% capture images %}
 
@@ -30,7 +30,7 @@
         {% endcapture %}
         {% assign images = images | strip | split: "," %}
         <p style="page-break-inside:avoid;">
-          {% include album.html images=images cols=6 max_rows=max_rows height=180 %}
+          {% include single-row-album.html images=images %}
         </p>
 
       </li>

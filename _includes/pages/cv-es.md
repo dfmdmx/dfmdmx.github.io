@@ -1,6 +1,5 @@
 
 ### Daniel Fernández Marmissolle-Daguerre
----
 
 <!-- Me especializo en el diseño y programación de estructuras paramétricas, en el desarrollo de software y fabricación de maquinaria automatizada -->
 
@@ -16,8 +15,7 @@
 
 ### Herramientas
 
-##### Computación
-
+- Computación
   - **Lenguajes:** Python, JavaScript, HTML, C++, (FS)
   - **CAD/CAM (Primario - Diseño):** Rhino3D + Grasshopper + RhinoPython, Fusion + Python, Revit
   - **Diseño 3D (Fluido - Integración):** SketchUp, AutoCAD, SolidWorks, Solid-Edge, Blender
@@ -25,8 +23,9 @@
   - **Automation:** Festo, Haas, ABB, Stratasys, Dremel, Kuka, Igus
   - **Cloud APIs:** Amazon AWS, Google Cloud Platform
   - **Suites:** Microsoft Office, Adobe (Illustrator, Photoshop)
-
-##### Idiomas
+  <p class='blank-space'>&nbsp;</p>
+  
+- Idiomas
   - **Español** (Nativo) / **Ingles** (Profesional)
 
 ### Experiencia profesional
@@ -43,6 +42,7 @@
     - Desarrollo, programación y mantenimiento del servidor para la gestión automatizada de maquinaria, codigos, pedidos e inventario
     - Desarrollo, programación y mantenimiento del plugin “LinCAM” para generación de códigos-g CAD/CAM para Rhino 3D
     - Capacitación y cursos para el personal en el uso de nuevas tecnologías CAD/CAM y Automatización
+    <p class='blank-space'>&nbsp;</p>
 
   - **Socio fundador - Jefe de Tecnología** | SPK Automatización
     {% include utils/cvheader.html date='2013-2017' location='Ciudad de México' url='http://www.spkautomatizacion.com' %}
@@ -55,6 +55,7 @@
       - Instituto Nacional del Emprendedor INADEM (2015)
       - Lean Play MASISA (2015)
       - Start Up México SUM 5a Generación (2015)
+      <p class='blank-space'>&nbsp;</p>
 
   - **Responsable de diseño arquitectónico y diseño paramétrico** | Sietecolores
     {% include utils/cvheader.html date='2012-2013' location='Ciudad de México' url='http://sietecolores.mx' %}
@@ -64,6 +65,7 @@
       - Dibujo de planos ejecutivos arquitectónicos
       - Dibujo de planos técnicos para fabricación de mecanismos industriales
       - Modelado y renderizado conceptual de estructuras y espacios museográficos para venta
+      <p class='blank-space'>&nbsp;</p>
 
   - **Diseño y dibujo arquitectónico** | Gaxiola Arquitectos
     {% include utils/cvheader.html date='2010-2011' location='Ciudad de México' url='http://www.gaxiolaarquitectos.com' %}
@@ -71,6 +73,7 @@
       - Producción de planos arquitectónicos y ejecutivos para vivienda
       - Diseño de láminas conceptuales para venta y aprobación de diseño
       - Supervisión de obra
+      <p class='blank-space'>&nbsp;</p>
 
 ### Proyectos independientes
 

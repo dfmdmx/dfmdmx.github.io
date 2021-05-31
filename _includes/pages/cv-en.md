@@ -1,5 +1,4 @@
 ### Daniel Fernández Marmissolle-Daguerre
----
 
 <!-- I specialize in the design and programming of parametric structures, software development and automated machinery manufacturing -->
 
@@ -15,7 +14,7 @@
 
 ### Skills
 
-##### Software / Hardware
+- Software / Hardware
   - **Languages:** Python, JavaScript, HTML, C++, (FS)
   - **CAD/CAM (Primary - Design):** Rhino3D + Grasshopper + RhinoPython, Fusion + Python, Revit
   - **3D Design (Fluent - Integration):** SketchUp, AutoCAD, SolidWorks, Solid-Edge, Blender
@@ -23,8 +22,9 @@
   - **Automation:** Festo, Haas, ABB, Stratasys, Dremel, Kuka, Igus
   - **Cloud APIs:** Amazon AWS, Google Cloud Platform
   - **Suites:** Microsoft Office, Adobe (Illustrator, Photoshop)
+  <p class='blank-space'>&nbsp;</p>
 
-##### Languages
+- Languages
   - **Spanish** (Native or Bilingual) / **English** (Full Professional)
 
 ### Professional experience
@@ -41,6 +41,7 @@
     - Development, programming and maintenance of the server for automated management of machinery, codes, sales and inventory
     - Development, programming, and maintenance of the "LinCAM" plug-in for Rhino 3D CAD/CAM
     - Training and courses for personnel in the use of new CAD/CAM and Automation technologies
+    <p class='blank-space'>&nbsp;</p>
 
   - **Founding partner - Chief Technology Officer** | SPK Automation
     {% include utils/cvheader.html date='2013-2017' location='Mexico City' url='http://www.spkautomatizacion.com' %}
@@ -53,6 +54,7 @@
       - National Institute of the Entrepreneur INADEM (2015)
       - Lean Play MASISA (2015)
       - Start Up Mexico SUM 5th Generation (2015)
+      <p class='blank-space'>&nbsp;</p>
 
   - **Responsible for architectural and parametric design** | Sietecolores
     {% include utils/cvheader.html date='2012-2013' location='Mexico City' url='http://sietecolores.mx' %}
@@ -62,6 +64,7 @@
       - Drawing of architectural executive plans
       - Drawing of technical drawings for the manufacture of industrial mechanisms
       - Modeling and conceptual rendering for the sales department
+      <p class='blank-space'>&nbsp;</p>
 
   - **Architectural design** | Gaxiola Arquitectos
     {% include utils/cvheader.html date='2010-2011' location='Mexico City' url='http://www.gaxiolaarquitectos.com' %}
@@ -69,6 +72,7 @@
       - Production of architectural and executive plans for urban housing
       - Design of concept sheets for sale and client design approval
       - Construction supervisor
+      <p class='blank-space'>&nbsp;</p>
 
 ### Independent projects
 

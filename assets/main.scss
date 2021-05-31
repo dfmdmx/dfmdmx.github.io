@@ -2,9 +2,10 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 $base-font-family: 'Montserrat', sans-serif;
-$base-font-size:   12px !default;
+$base-font-size:   13px !default;
 $background-color: #fff !default;
 $brand-color:      #2a7ae2 !default;
 
 @import "minima";
-@import 'css/minima-extend.css'
+// @import 'css/temp.css';
+@import 'css/minima-extend.css';

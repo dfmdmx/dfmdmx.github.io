@@ -99,3 +99,12 @@
 .project-info i{
   opacity: 50%;
 }
+/* // reCAPTCHA */
+.grecaptcha-badge { visibility: hidden; }
+
+/* Disqus chat */
+#disqus_thread {
+ filter: grayscale(1) opacity(1);;
+ margin-top: 100px;
+ margin-bottom: 20px;
+}

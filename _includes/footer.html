@@ -1,22 +1,18 @@
 
 
-<footer class="site-footer h-card mx-footer">
+<footer class="site-footer h-card">
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
   <div class="wrapper">
 
     <div class="footer-nav-heading">
-      <a href="#" onclick='HideMenus();return false'><i class="fas fa-print"></i></a>&nbsp;&nbsp;&nbsp;<a href="/"><i class="fas fa-home"></i></a>&nbsp;&nbsp;&nbsp;<a href="#"><i class="fas fa-arrow-circle-up"></i></a>
+      <a href="/"><i class="fas fa-home"></i></a>&nbsp;&nbsp;&nbsp;<a href="#"><i class="fas fa-arrow-circle-up"></i></a>
     </div>
 
     <div class="footer-col-wrapper">
 
       <div class="footer-col footer-col-3">
         <p>{{- site.description | escape -}}</p>
-        <ul class="contact-list no-hover">
-            <li class="p-name"></li>
-            <li><a class="contact-button pure-button" href="/contact">Contact me <i class="fas fa-satellite-dish"></i></a></li>
-        </ul>
       </div>
 
       <div class="footer-col footer-col-2 footer-just">
@@ -25,15 +21,14 @@
 
       <div class="footer-col footer-col-1">
         <div class="copyright">
-          Copyright © 2022 {{ site.title | escape }}.<br>
-          This site is protected by reCAPTCHA and the Google
+          Copyright © 2022 {{ site.title | escape }}.
+          <!-- This site is protected by reCAPTCHA and the Google
           <a href="https://policies.google.com/privacy">Privacy Policy</a> and
-          <a href="https://policies.google.com/terms">Terms of Service</a> apply.
+          <a href="https://policies.google.com/terms">Terms of Service</a> apply. -->
         </div>
       </div>
 
     </div>
 
   </div>
-
 </footer>

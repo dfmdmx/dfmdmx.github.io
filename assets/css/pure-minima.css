@@ -1,3 +1,12 @@
+
+/* removes undeline text in head.html */
 .site-nav a:hover {
+  text-decoration: none;
+}
+/* formatts include/utils/index-headers.html */
+.index-headers {
+  margin-bottom: 15px;
+}
+.index-headers a:hover {
   text-decoration: none;
 }

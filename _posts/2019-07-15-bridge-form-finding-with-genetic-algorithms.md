@@ -29,13 +29,13 @@ The goal is to create a bridge like model that suffices these parameters in the 
 A Rhino Python script will be used to decode the gene sequence into a 3D structure. Then it will be process by Kangaroo (or FlexHopper) to evaluate its deformation. This and the total amount of material used its taken into account in the fitness function that defines the direction of the genetic algorithm run by Galapagos.
 
 
-{% include album.html images=page.albums.album1.images %}
+{% include images.html images=page.albums.album1.images %}
 ~~Concept drawings - Expected geometry~~
 
 ![Grasshopper definition]({{page.albums.album0.images[0]}})
 ~~Grasshopper definition (Was created using an old plugin version, not tested in GH for Rhino6)~~
 
-{% include album.html images=page.albums.album2.images cols=1 %}
+{% include images.html images=page.albums.album2.images cols=1 %}
 ~~Unevolved (random) organism v.s. Evolved and more structurally fit organism~~
 
 {% include file.html filter='bridge' caption='Grasshopper file'%}

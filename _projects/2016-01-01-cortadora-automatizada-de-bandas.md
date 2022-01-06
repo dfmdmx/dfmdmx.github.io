@@ -48,7 +48,7 @@ albums:
 ![Cabezal]({{page.albums.album0.images[1]}})
 ~~Cabezal neumático~~
 
-{% include album.html images=page.albums.album1.images cols=3 %}
+{% include images.html images=page.albums.album1.images cols=3 %}
 ~~Movimiento lineal con banda de tiempo y rieles de plástico auto lubricado~~
 
 ![Lateral]({{page.albums.album0.images[2]}})
@@ -57,7 +57,7 @@ albums:
 {% include youtube.html id='XJkXUPC1PBk' %}
 ~~Concepto de funcionamiento~~
 
-{% include album.html images=page.albums.album2.images cols=3 %}
+{% include images.html images=page.albums.album2.images cols=3 %}
 ~~Diseño de cabezal y caja de electronica en aluminio 6061 para uso industrial~~
 
 {% include youtube.html id='IQVI1drqdTs' %}

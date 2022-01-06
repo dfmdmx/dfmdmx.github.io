@@ -56,20 +56,20 @@ albums:
 ![subdivision paneles](https://lh3.googleusercontent.com/pw/ACtC-3dlO_euaax3YJV8JKRbAfUtFkiuAgslQMRsk4bX_Bn-vhsc8IN6Mi76AuVSeo0Ryl0jvcsTA39hit-DZdJWUUnspTnz0VFZssPJ1YTANtUVUwAhPDrtPmYu2cCoYnZaOrjT8suIQsEU6iyvpcGE9AOW3w=w1543-h762-no?authuser=1)
 ~~Modelado paramétrico~~
 
-{% include album.html images=page.albums.album1.images cols=4 %}
+{% include images.html images=page.albums.album1.images cols=4 %}
 ~~Concepto y manufactura~~
 
-{% include album.html images=page.albums.album2.images cols=2 %}
+{% include images.html images=page.albums.album2.images cols=2 %}
 ~~Implementación~~
 
-{% include album.html images=page.albums.album3.images cols=3 %}
+{% include images.html images=page.albums.album3.images cols=3 %}
 ~~Escamas y estructura interna~~
 
-{% include album.html images=page.albums.album4.images cols=3 %}
+{% include images.html images=page.albums.album4.images cols=3 %}
 ~~Revisión de pintura para polivinilo~~
 
 ## Sketch propuesta estructura con escamas
 
-{% include album.html images=page.albums.album5.images cols=2 %}
+{% include images.html images=page.albums.album5.images cols=2 %}
 ~~Propuesta de sujeción mecánica a soporte vertical de madera con tornillo, tuerca e inserto~~
 <!-- TODO: Agregar propuesta paramétrica de estructura para mandársela a Betty  -->

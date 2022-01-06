@@ -46,10 +46,10 @@ albums:
 
 ![Foto]({{page.albums.album0.images[0]}})
 
-{% include album.html images=page.albums.album1.images cols=3 %}
+{% include images.html images=page.albums.album1.images cols=3 %}
 ~~Exhibición en el Abierto Mexicano de Diseño 2017~~
 
-{% include album.html images=page.albums.album2.images cols=3 %}
+{% include images.html images=page.albums.album2.images cols=3 %}
 ~~Corte de plástico, madera y aluminio~~
 
 ![Foto]({{page.albums.album0.images[2]}})

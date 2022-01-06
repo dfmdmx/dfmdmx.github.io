@@ -44,10 +44,10 @@ albums:
 ![3D context model]({{page.albums.album0.images[0]}})
 ~~Concepto presentado por el cliente~~
 
-{% include album.html images=page.albums.album1.images  cols=3 %}
+{% include images.html images=page.albums.album1.images  cols=3 %}
 ~~Sitio y exhibición~~
 
-{% include album.html images=page.albums.album2.images cols=3 %}
+{% include images.html images=page.albums.album2.images cols=3 %}
 ~~Producción~~
 
 ![Lámina de control]({{page.albums.album0.images[1]}})

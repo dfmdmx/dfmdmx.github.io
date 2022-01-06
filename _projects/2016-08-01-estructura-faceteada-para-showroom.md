@@ -42,7 +42,7 @@ albums:
 ![Armado]({{page.albums.album0.images[2]}})
 ~~El manual~~
 
-{% include album.html images=page.albums.album1.images cols=3 %}
+{% include images.html images=page.albums.album1.images cols=3 %}
 ~~La tortura~~
 
 ![Exhibición]({{page.albums.album0.images[1]}})

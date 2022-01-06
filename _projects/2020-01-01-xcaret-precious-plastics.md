@@ -47,10 +47,10 @@ albums:
 ![Product]({{page.albums.album0.images[0]}})
 ~~Producto de plástico genérico~~
 
-{% include album.html images=page.albums.album1.images cols=3 %}
+{% include images.html images=page.albums.album1.images cols=3 %}
 ~~Conceptualización~~
 
-{% include album.html images=page.albums.album2.images cols=3%}
+{% include images.html images=page.albums.album2.images cols=3%}
 ~~Propuesta y sitio~~
 
 ![Maquinas precious plastic]({{page.albums.album0.images[1]}})

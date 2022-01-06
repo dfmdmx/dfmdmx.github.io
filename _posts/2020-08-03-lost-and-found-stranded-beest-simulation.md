@@ -29,7 +29,7 @@ I'm goin to try and recreate this simulation using Kangaroo 2.0. Judging by the 
 ![TheoJanse'sImagess]({{page.albums.album0.images[0]}})
 ~~Stranded Beest~~
 
-{% include album.html images=page.albums.album1.images cols=3 %}
+{% include images.html images=page.albums.album1.images cols=3 %}
 ~~Screen captures from videos published in the Stranded Beest Webpage~~
 
 {% include youtube.html id='0SEnbHD9k1s' %}

@@ -28,9 +28,9 @@ Esta script lo escribí como parte de un trabajo que requería del reconocimient
 
 ![Lámina]({{page.albums.album0.images[0]}})
 
-{% include album.html images=page.albums.album1.images cols=3 %}
+{% include images.html images=page.albums.album1.images cols=3 %}
 
-{% include album.html images=page.albums.album2.images cols=3 margin-bottom=14 margin-top=14 %}
+{% include images.html images=page.albums.album2.images cols=3 margin-bottom=14 margin-top=14 %}
 
 #### Este es el mismo principio aplicado a un video.
 

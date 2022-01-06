@@ -56,18 +56,18 @@ albums:
 
 ![MCNCRender]({{page.albums.album0.images[0]}})
 
-{% include album.html images=page.albums.cncs.images cols=3 %}
+{% include images.html images=page.albums.cncs.images cols=3 %}
 ~~Modelos CNC: Grande 120cm / Mediana 80cm / Pequeña 35cm~~
 
 Las maquinas están fabricadas con perfiles modulares de aluminio para poderse adaptar a los diversos proyectos del taller. El movimiento lineal es de ruedas sobre riel, motores a paso y banda dentada.
 
-{% include album.html images=page.albums.photos.images cols=3 %}
+{% include images.html images=page.albums.photos.images cols=3 %}
 ~~Fotos fabricación~~
 
-{% include album.html images=page.albums.drilling.images cols=4 %}
+{% include images.html images=page.albums.drilling.images cols=4 %}
 ~~Trabajos de barrenado~~
 
-{% include album.html images=page.albums.cutting.images cols=4 %}
+{% include images.html images=page.albums.cutting.images cols=4 %}
 ~~Trabajos de corte~~
 
 ![Workshop]({{page.albums.album0.images[1]}})

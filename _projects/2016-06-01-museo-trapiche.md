@@ -56,13 +56,13 @@ albums:
 ![Main image]({{page.albums.magicplanet.images[0]}})
 ~~Variables paramétricas para unión~~
 
-{% include album.html images=page.albums.album1.images cols=3 %}
+{% include images.html images=page.albums.album1.images cols=3 %}
 ~~Cople y manufactura~~
 
 ## Cabina de radio
 
-{% include album.html images=page.albums.radio.images %}
+{% include images.html images=page.albums.radio.images %}
 ~~Concepto estructural~~
 
-{% include album.html images=page.albums.album2.images %}
+{% include images.html images=page.albums.album2.images %}
 ~~Exhibición~~

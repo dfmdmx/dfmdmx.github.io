@@ -21,7 +21,7 @@ Here are the videos I made to test the concept as well as the Python script.
 
 {% include utils/index-headers.html %}
 
-{% include album.html images=page.albums.album1.images cols=3%}
+{% include images.html images=page.albums.album1.images cols=3%}
 
 ## Videos
 The videos were merged using [Resolve](https://www.blackmagicdesign.com/products/davinciresolve).

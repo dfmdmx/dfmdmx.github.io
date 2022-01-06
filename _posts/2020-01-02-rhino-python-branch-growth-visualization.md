@@ -24,6 +24,6 @@ The video was merged using [Resolve](https://www.blackmagicdesign.com/products/d
 
 Music by [Verified Picasso](https://www.youtube.com/channel/UCqDmyXPJdrZjwUdWLyhyQRA).
 
-{% include album.html images=page.albums.album1.images %}
+{% include images.html images=page.albums.album1.images %}
 
 {% include youtube.html id='cOllf8fRYaU' %}

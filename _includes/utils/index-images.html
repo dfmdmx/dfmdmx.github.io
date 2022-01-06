@@ -19,4 +19,4 @@
   {%- endfor -%}
 {% endcapture %}
 {% assign images = images | strip | split: "," %}
-{% include album.html images=images cols=include.cols grayscale=true %}
+{% include images.html images=images cols=include.cols grayscale=true %}

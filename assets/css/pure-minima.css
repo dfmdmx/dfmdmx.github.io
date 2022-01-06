@@ -3,10 +3,96 @@
 .site-nav a:hover {
   text-decoration: none;
 }
-/* formatts include/utils/index-headers.html */
+/* text in post info*/
+.post-meta {
+  font-family: 'Inconsolata', sans-serif;
+}
+/* formats include/utils/index-headers.html */
 .index-headers {
   margin-bottom: 15px;
 }
 .index-headers a:hover {
   text-decoration: none;
+}
+/* formats include/utils/index-projects.html */
+.index-projects .index-info {
+  font-family: 'Montserrat', sans-serif;
+}
+.index-projects img{
+  height: 180px;
+  object-fit: cover;
+  min-height: 100%;
+}
+.index-projects .pure-g{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.index-projects .pure-g:hover{
+  cursor: pointer;
+}
+/* formats include/utils/index-repositories.html */
+.index-repositories .pure-u-1 {
+  font-family: 'Inconsolata', sans-serif;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: rgba(157,163,170,.1);
+}
+.index-repositories .pure-u-1:hover {
+  background-color: rgba(157,163,170,.3);
+}
+/* Image Album */
+.img-description {
+  font-size: 11.5px;
+  color: #828282;
+  font-family: 'Inconsolata', sans-serif;
+  text-align: right;
+}
+.img-album {
+  overflow: hidden;
+}
+.img-album img {
+  object-fit: cover;
+  min-height: 100%;
+}
+.img-grayscale {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+/* Video Album */
+.mx-video-album .video-container {
+  position: relative;
+  margin-top: 14px;
+  margin-bottom: 0px;
+  padding-bottom: 56.25%;
+  padding-top: 30px; height: 0; overflow: hidden;
+  width: 100%;
+}
+.mx-video-album .video-container iframe,
+.mx-video-album .video-container object,
+.mx-video-album .video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* Download file */
+.mx-file .file-binder  {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+}
+.mx-file .file-binder .caption {
+  color: #383838;
+  font-size: 12px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.mx-file .file-binder .footer {
+  font-size: 10px;
+  margin-top: 8px;
 }

@@ -1,23 +1,9 @@
-<ul class="post-list">
+<div class="index-projects">
   {%- assign posts=site.projects | reverse -%}
   {%- for post in posts  -%}
-
-    {%- if include.starred -%}
-      {%- assign filter = include.starred -%}
-      <!-- max rows solo se puede cambiar aqui y en el archivo de home.html que enlista los posts -->
-      {%- assign max_rows = 4 -%}
-    {%- else -%}
-      {%- assign filter = false -%}
-      {%- assign max_rows = 2 -%}
-    {%- endif -%}
-
-    {%- if post.starred == filter -%}
-      <li class='post-list-link' style="page-break-inside:avoid" onclick='location.href="{{post.url | relative}}"'>
-
-        {% include utils/project-semblance.html project=post %}
+    {%- if include.starred == post.starred -%}
 
         {% capture images %}
-
           {% if post.albums %}
             {% assign albums = post.albums | where:"cover",true %}
             {% for album in albums %}
@@ -26,14 +12,28 @@
               {% endfor %}
             {% endfor %}
           {% endif %}
-
         {% endcapture %}
         {% assign images = images | strip | split: "," %}
-        <p style="page-break-inside:avoid;">
-          {% include single-row-album.html images=images %}
-        </p>
 
-      </li>
+        <div class="pure-g" onclick='location.href="{{post.url | relative}}"'>
+          <div class="pure-u-1 index-info">
+            <h3>{{ post.title | escape }}</h3>
+            <p class='post-meta'>
+              {{ post.information-en.type }} | {{ post.information-en.client }} <br>
+              <i class="far fa-calendar"></i> {{post.information-en.date}}
+              <i class="fas fa-map-marker-alt"></i> {{post.information-en.location}}
+              <i class="fas fa-link"></i> {{ post.information-en.client_url }}
+            </p>
+            <p> {{ post.information-en.description }} </p>
+          </div>
+          <div class="pure-u-1-6"><img class="pure-img" src="{{images[0]}}" alt="{{post.title}}"></div>
+          <div class="pure-u-1-6"><img class="pure-img" src="{{images[1]}}" alt="{{post.title}}"></div>
+          <div class="pure-u-1-6"><img class="pure-img" src="{{images[2]}}" alt="{{post.title}}"></div>
+          <div class="pure-u-1-6"><img class="pure-img" src="{{images[3]}}" alt="{{post.title}}"></div>
+          <div class="pure-u-1-6"><img class="pure-img" src="{{images[4]}}" alt="{{post.title}}"></div>
+          <div class="pure-u-1-6"><img class="pure-img" src="{{images[5]}}" alt="{{post.title}}"></div>
+        </div>
+
     {%- endif -%}
   {%- endfor -%}
-</ul>
+</div>

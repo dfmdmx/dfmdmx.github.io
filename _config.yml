@@ -20,6 +20,7 @@ disqus:
 
 # social links
 # twitter_username: utitanka
+googleplus_username: daniel@dfmd.mx
 github_username:  dfmdmx
 rss: rss
 youtube_id: UCmE9lXlBWF8ZyUJjX-W29ww
@@ -29,7 +30,7 @@ youtube_username: dfmd
 # linkedin_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: jekyll
-# googleplus_username: +jekyll
+
 
 # Mastodon instances
 # mastodon:

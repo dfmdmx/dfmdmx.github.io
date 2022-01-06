@@ -1,0 +1,13 @@
+{% assign titles = include.alt | split: ', ' %}
+<div class='pure-g img-album'>
+  {% for image in include.images %}
+  <div class="pure-u-1-{{include.cols}} ">
+    <img class="{% if include.grayscale %}img-grayscale{% endif %}" src='{{image}}' alt='{{include.alt}}'>
+  </div>
+  {% endfor %}
+  <div class='pure-u-2-5'>
+  </div>
+  <div class='pure-u-3-5'>
+    <p class="img-description">{% for title in titles %}{{ title }}<br>{% endfor %}</p>
+  </div>
+</div>

@@ -7,7 +7,6 @@ albums:
   album0:
     cover: true
     images:
-      - https://lh3.googleusercontent.com/pw/ACtC-3c7lT4Ux_3OUxQHPvCipH3JkhSq8rryZF5g8csAxhXod0xEAya23LRti3gVHj0vd7DkOqBiec6re820JdlRLrZdyEbkptXNlwUGd6FUC0sucvGtqFZAANMJ-vQ_LVpkxYUTMlWshZc-evyRvXkA1oNzRw=w1170-h754-no?authuser=1
       - https://lh3.googleusercontent.com/pw/ACtC-3d06RTkMdvCRlcUZZuysdeZIZnBn9DkVsJS86EiOrk5IY_ds-puoFy3GJkaO7IfVvpmPWLoC-jQncGBWAfns7oJymqC2W6mgffoxGbSCqZlyTgCdxR68jKhVO03awrOJ_zMMeDDx-xhmXoOQTDxcga9Lg=w1831-h818-no?authuser=1
   album1:
     cover: true
@@ -27,13 +26,14 @@ I'm goin to try and recreate this simulation using Kangaroo 2.0. Judging by the 
 [Stranded Beest Webpage](https://www.strandbeest.com/)  
 
 ![TheoJanse'sImagess]({{page.albums.album0.images[0]}})
-~~Stranded Beest~~
+Stranded Beest
 
-{% include images.html images=page.albums.album1.images cols=3 %}
-~~Screen captures from videos published in the Stranded Beest Webpage~~
+{% include image.html alt='Tessellation script in Python' src='https://lh3.googleusercontent.com/pw/ACtC-3c7lT4Ux_3OUxQHPvCipH3JkhSq8rryZF5g8csAxhXod0xEAya23LRti3gVHj0vd7DkOqBiec6re820JdlRLrZdyEbkptXNlwUGd6FUC0sucvGtqFZAANMJ-vQ_LVpkxYUTMlWshZc-evyRvXkA1oNzRw=w1170-h754-no?authuser=1' %}
 
+{% include images.html images=page.albums.album1.images cols=3 alt='Screen captures from videos published in the Stranded Beest Webpage'%}
+
+#### Stranded Beest 2D simulation in Kangaroo
 {% include youtube.html id='0SEnbHD9k1s' %}
-~~Stranded Beest 2D simulation in Kangaroo~~
 
 ## Software
 
@@ -41,8 +41,8 @@ For the modeling I plan to use Rhino3D and Grasshopper, same as before. Octopus 
 
 > Octopus outputs some good looking graphics.
 
+#### Octopus genetic algorithm solver graphic example
 ![Octopus graphic]({{page.albums.album0.images[1]}})
-~~Octopus genetic algorithm solver graphic example~~
 
 #### Downloads:
   - [https://www.rhino3d.com](https://www.rhino3d.com)
@@ -52,5 +52,5 @@ For the modeling I plan to use Rhino3D and Grasshopper, same as before. Octopus 
 
 ## TODO
 
-  - [ ]  Recreate 2D rigid model with Kangaroo2
-  - [ ]  Define parameters to use as genes
+  - Recreate 2D rigid model with Kangaroo2
+  - Define parameters to use as genes

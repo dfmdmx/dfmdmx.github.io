@@ -23,10 +23,8 @@ albums:
 ### Propuesta de stand en CNC para exhibición temporal
 Stand de fácil armado y desarmado para exposición de productos cerveceros.
 
-{% include images.html images=page.albums.album1.images cols=3 %}
-~~Posibles arreglos~~
+{% include images.html images=page.albums.album1.images cols=3 alt='Posibles arreglos'%}
 
-{% include images.html images=page.albums.album2.images cols=4 %}
-~~Sistema de armado~~
+{% include images.html images=page.albums.album2.images cols=4 alt='Sistema de armado' %}
 
 <!-- Añadir las fotos -->

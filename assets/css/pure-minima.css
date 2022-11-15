@@ -1,3 +1,16 @@
+p, img{
+  page-break-inside: avoid;
+}
+
+table {
+  font-size: 12px;
+  font-family: monospace;
+}
+
+table td, th  {
+  padding: 4px 15px !important;
+
+}
 
 /* removes undeline text in head.html */
 .site-nav a:hover {

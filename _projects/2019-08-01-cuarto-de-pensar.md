@@ -53,23 +53,16 @@ albums:
 
 ---
 
-![subdivision paneles](https://lh3.googleusercontent.com/pw/ACtC-3dlO_euaax3YJV8JKRbAfUtFkiuAgslQMRsk4bX_Bn-vhsc8IN6Mi76AuVSeo0Ryl0jvcsTA39hit-DZdJWUUnspTnz0VFZssPJ1YTANtUVUwAhPDrtPmYu2cCoYnZaOrjT8suIQsEU6iyvpcGE9AOW3w=w1543-h762-no?authuser=1)
-~~Modelado paramétrico~~
+{% include image.html alt='Modelado paramétrico' src='https://lh3.googleusercontent.com/pw/ACtC-3dlO_euaax3YJV8JKRbAfUtFkiuAgslQMRsk4bX_Bn-vhsc8IN6Mi76AuVSeo0Ryl0jvcsTA39hit-DZdJWUUnspTnz0VFZssPJ1YTANtUVUwAhPDrtPmYu2cCoYnZaOrjT8suIQsEU6iyvpcGE9AOW3w=w1543-h762-no?authuser=1' %}
 
-{% include images.html images=page.albums.album1.images cols=4 %}
-~~Concepto y manufactura~~
+{% include images.html images=page.albums.album1.images cols=4 alt='Concepto y manufactura' %}
 
-{% include images.html images=page.albums.album2.images cols=2 %}
-~~Implementación~~
+{% include images.html images=page.albums.album2.images cols=2 alt='Implementación' %}
 
-{% include images.html images=page.albums.album3.images cols=3 %}
-~~Escamas y estructura interna~~
+{% include images.html images=page.albums.album3.images cols=3 alt='Escamas y estructura interna' %}
 
-{% include images.html images=page.albums.album4.images cols=3 %}
-~~Revisión de pintura para polivinilo~~
+{% include images.html images=page.albums.album4.images cols=3 alt='Revisión de pintura para polivinilo' %}
 
-## Sketch propuesta estructura con escamas
+{% include images.html images=page.albums.album5.images cols=2 alt='Propuesta de sujeción mecánica a soporte vertical de madera con tornillo, tuerca e inserto' %}
 
-{% include images.html images=page.albums.album5.images cols=2 %}
-~~Propuesta de sujeción mecánica a soporte vertical de madera con tornillo, tuerca e inserto~~
 <!-- TODO: Agregar propuesta paramétrica de estructura para mandársela a Betty  -->

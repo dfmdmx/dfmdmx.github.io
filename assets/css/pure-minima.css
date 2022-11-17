@@ -1,14 +1,16 @@
-p, img{
+p, img, li, include-image{
   page-break-inside: avoid;
 }
 
 table {
   font-size: 12px;
   font-family: monospace;
+  page-break-inside: avoid;
 }
 
 table td, th  {
   padding: 4px 15px !important;
+  page-break-inside: avoid;
 
 }
 

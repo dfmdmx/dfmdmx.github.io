@@ -25,9 +25,24 @@
   <p class='blank-space'>&nbsp;</p>
 
 - Languages
-  - **Spanish** (Native or Bilingual) / **English** (Full Professional)
+  - **Spanish** (Native) / **English** (Full Professional)
 
 ### Professional experience
+
+  - **Project Manager in the Research, Development and Engineering Department** | Rierge
+  {% include utils/cvheader.html date='2020-2022' location='Barcelona' url='http://rierge.com' %}
+
+    - Conceptual and executive design of grand scale automated machinery for all types of industry
+    - Machining shop coordinator (4 and 5 axis lathes and milling machines).
+    - Structural analysis and tensile simulations in Solid Edge
+    - Steel workshop coordinator (CNC Plasma, CNC Laser, Bending Machines, Welding)
+    - Shop floor assistance for machine integration and startup
+    - CAD/CAM training sessions with customers
+    - Conceptualization and development of web platform for production control (Python + VB + Solid Edge)
+      - Preprocessing of CAD files for production
+      - Inventory and production control
+      - Automated daily nesting files for production (DXF + Python)   
+      <p class='blank-space'>&nbsp;</p>
 
   - **Research and Development** | Linarand
     {% include utils/cvheader.html date='2014-2019' location='Mexico City' url='http://linarand.com.mx' %}

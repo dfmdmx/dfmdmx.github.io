@@ -36,14 +36,10 @@ albums:
 
 ---
 
-![Estructura]({{page.albums.album0.images[0]}})
-~~La estructura base~~
+{% include image.html alt='Estructura base' src='https://lh3.googleusercontent.com/pw/ACtC-3eKY7NrmV2WcPcKaO9uCYYAlPABEZF0-qMR6PrvrMNyM9ihTyPP-Fl6upD_i_jMgYnBIdjxZ-yrH6Q6Eq-3ezvc37bbCAA3jAiaU1ZxCPwW2L7brkl0xhbZZ3DzehTAvmqe-uhXADScwxwBZIMjAUCqnA=w1551-h1163-no?authuser=1' %}
 
-![Armado]({{page.albums.album0.images[2]}})
-~~El manual~~
+{% include image.html alt='Planos de armado 3D' src='https://lh3.googleusercontent.com/pw/ACtC-3dEKn2gvGoht7SnxCT9hdt9oiXRe37vRjgGsvU4xmneYGiEORZysHT3jMwfF-Iuv4LfxEjw8_xkizRPXnnfPtxQ1shn46gRVCMW1wR84KhIHdey5qJlen9J0Zg81jQjZMdQoayGtNHbz7xZAq0X9lQWBQ=w1920-h1080-no?authuser=1' %}
 
-{% include album.html images=page.albums.album1.images cols=3 %}
-~~La tortura~~
+{% include images.html images=page.albums.album1.images cols=3 alt='Proceso' %}
 
-![Exhibición]({{page.albums.album0.images[1]}})
-~~El respiro~~
+{% include image.html alt='Exhibición' src='https://lh3.googleusercontent.com/pw/ACtC-3cXCSMvbbt0FaaB729rnohFOjURabxL6HuvMtRoskciVlLZvVeE3BKCuwsALimpqPR9jE-g1xtYau_pyQy9QddFZF3OhCcDCyzwaHXIEKj-3qv3X4d9XztpnG9g8MdmpJ2K2K07LmRTRJIyCwdvk0D8tA=w1280-h978-no?authuser=1' %}

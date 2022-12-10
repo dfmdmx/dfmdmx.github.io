@@ -4,17 +4,20 @@ layout: default
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
     <p class="post-meta">
-      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-
-        {% include utils/information.html title=page.title url=page.url data=page.information-en  %}
-        
-      </time>
+          {{ page.information-en.type }} | {{ page.information-en.client }} <br>
+          <i class="far fa-calendar"></i> {{page.information-en.date}}
+          <i class="fas fa-map-marker-alt"></i> {{page.information-en.location}}
+          <i class="fas fa-link"></i> {{ page.information-en.client_url }}
       {%- if page.author -%}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
-      {%- endif -%}</p>
+      {%- endif -%}
+
+    </p>
   </header>
   <div class="post-content e-content" itemprop="articleBody">
+    <h3>{{ page.information-en.description }}</h3>
 
     {{ content }}
 

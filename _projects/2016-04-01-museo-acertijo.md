@@ -38,13 +38,10 @@ albums:
       - https://lh3.googleusercontent.com/pw/ACtC-3cZBe2j1HXxY1YmngoAUDtKOAx58vL0yntsgQdLpSviuY9ODuKqKdHps8vWhlrArx86ZTDDmQHNoLMlXTagc7dD_ZbXnvXqXsRc3GNFRsonCamtKILdjD5UXVr5ccGRZQIHnwB4UnTUhZy14P1Qf0wclw=w772-h405-no?authuser=1
 ---
 
-![Render]({{page.albums.album0.images[0]}})
-~~Render conceptual~~
+{% include image.html alt='Render conceptual' src='https://lh3.googleusercontent.com/pw/ACtC-3evFp49pctSjVQVsyWz_PmFCxUz2VfIOABsPCz8pJqXj0v5w5mKVH0U8dKGQeFeIcm4JlvLXPhZ-JrPzUZx6_NBk6MHVsmY9B-6KuKcujMB4GhK5tYyxglkZt9DFLKd2AYSDXJLeAE6X18Z6QR-WD--FA=w1250-h750-no?authuser=1' %}
 
-{% include album.html images=page.albums.album1.images cols=3 margin-bottom=16 %}
+{% include images.html images=page.albums.album1.images cols=3 margin-bottom=16 %}
 
-![PhotoTop]({{page.albums.album2.images[0]}})
-~~Producción y montaje~~
+{% include image.html alt='Producción y montaje' src='https://lh3.googleusercontent.com/pw/ACtC-3djVoAjrZzLvBctPrTOyzOVuMPKSVcdqbWmOm1_SSutcOPDIDlGVIEuyxS8pmOiHI1M1WBM11Uv3ZbgPGRB2tBltbipugwclzhBxawaas-LdqMtapwwwO7AVgIOUaZ8lYOniZcPLBXxNFqFJvntEr6akQ=w1023-h626-no?authuser=1' %}
 
-![PhotoContext]({{page.albums.album2.images[1]}})
-~~Foto de contexto~~
+{% include image.html alt='Foto de contexto' src='https://lh3.googleusercontent.com/pw/ACtC-3cZBe2j1HXxY1YmngoAUDtKOAx58vL0yntsgQdLpSviuY9ODuKqKdHps8vWhlrArx86ZTDDmQHNoLMlXTagc7dD_ZbXnvXqXsRc3GNFRsonCamtKILdjD5UXVr5ccGRZQIHnwB4UnTUhZy14P1Qf0wclw=w772-h405-no?authuser=1' %}

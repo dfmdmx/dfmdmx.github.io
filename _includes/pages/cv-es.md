@@ -24,11 +24,29 @@
   - **Cloud APIs:** Amazon AWS, Google Cloud Platform
   - **Suites:** Microsoft Office, Adobe (Illustrator, Photoshop)
   <p class='blank-space'>&nbsp;</p>
-  
+
 - Idiomas
   - **Español** (Nativo) / **Ingles** (Profesional)
 
 ### Experiencia profesional
+
+  - **Jefe de Proyectos en el Departamento de Investigación Desarrollo e Ingenieria** | Rierge
+  {% include utils/cvheader.html date='2020-2022' location='Barcelona' url='http://rierge.com' %}
+
+    - Diseño conceptual y ejecutivo de maquinaria automatizada de grandes dimensiones para industria específica
+    - Coordinador del taller de mecanizados (Tornos y Fresadoras de 4 y 5 ejes)
+    - Cálculo estructural y simulación de esfuerzos tensiles en Solid Edge
+    - Coordinador de corte del taller de soldadura en acero (CNC Plasma, CNC Laser, Dobladoras, Soldadura)
+    - Asistencia en taller para la integración y puesta en marcha de maquinaria
+    - Capacitaciones de dibujo CAD/CAM con clientes
+    - Actualización y homologación de la librería de diseños 3D para fabricación digital
+    - Conceptualización y programación de la plataforma web para el control de producción (Python + VB + Solid Edge)
+        - Preprocesado de archivos CAD para producción
+        - Control de inventario y producción
+        - Preparación automática de nestings en DXF + Python
+        - Vinculación con la plataforma administrativa
+        <p class='blank-space'>&nbsp;</p>
+
 
   - **Gerente de Investigación y Desarrollo en Automatización de Procesos** | Linarand
     {% include utils/cvheader.html date='2014-2019' location='Ciudad de México' url='http://linarand.com.mx' %}

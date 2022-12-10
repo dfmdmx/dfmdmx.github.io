@@ -1,8 +1,14 @@
 
 {% assign titles = include.alt | split: ', ' %}
-<div class='image-container'>
-<img src='{{include.src}}' alt='{{include.alt}}'>
-  {%for title in titles%}
-    {{title}}<br>
-  {% endfor %}
+<div class='include-image'>
+  <div class='pure-g'>
+    <div class='pure-u-1'>
+      <img class="pure-img" src='{{include.src}}' alt='{{include.alt}}'>
+    </div>
+    <div class='pure-u-2-5'>
+    </div>
+    <div class='pure-u-3-5'>
+      <p  class="img-description">{% for title in titles %}{{ title }}<br>{% endfor %}</p>
+    </div>
+  </div>
 </div>

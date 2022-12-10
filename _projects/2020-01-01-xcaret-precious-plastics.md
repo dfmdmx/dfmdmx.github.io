@@ -21,13 +21,11 @@ starred: true
 published: true
 comments: false
 
-
 albums:
   album0:
-    cover: ture
+    cover: true
     images:
       - https://lh3.googleusercontent.com/pw/ACtC-3eeDQk7RvN5sR6NQ39tqDEKJiFGc9nvEu73mHTJvaily39S42xLF4Uvg9FggzP2bhKrmblm_ZQKqO9IcuJU6LjWnIY3pX2Pvy2J8JFEh_4q8LnIGgfXylJkGSlA9mBreT5jFYJHxrK0KrYB3iPMQ5bfqg=w1810-h1018-no?authuser=1
-      - https://lh3.googleusercontent.com/pw/ACtC-3e5qWngl5WI4mVsxL9S8IKQWsZCvo96waDzKnuIaVXkO6fdXM78BLR2Hch02vw1cQsQfzN4k8D_Qz0wNWgSOG1BYEAPQrvgMIzua8AkJyDX2RRevNUnQQ3reLxcgXKOt9CWWVEELKfuoL2uOuettaJ0oA=w1819-h732-no?authuser=1
       - https://lh3.googleusercontent.com/pw/ACtC-3fdWft0XLrp64bh7_pzLsl-qPJDXp3UhMSZX97XrQDl-vikKY_1xT-RFlregxZAyITaDhxfQxU7TiXoYeIUVVl-nmSqQ2Agqx1ol9HYZEFZKysfxJhrzGNzywqhbLRBQX0EuojRPQ9U8dC4MUhcDLpDug=w940-h529-no?authuser=1
   album1:
     cover: true
@@ -44,19 +42,15 @@ albums:
 
 ---
 
-![Product]({{page.albums.album0.images[0]}})
-~~Producto de plástico genérico~~
 
-{% include album.html images=page.albums.album1.images cols=3 %}
-~~Conceptualización~~
+{% include image.html src='https://lh3.googleusercontent.com/pw/ACtC-3eeDQk7RvN5sR6NQ39tqDEKJiFGc9nvEu73mHTJvaily39S42xLF4Uvg9FggzP2bhKrmblm_ZQKqO9IcuJU6LjWnIY3pX2Pvy2J8JFEh_4q8LnIGgfXylJkGSlA9mBreT5jFYJHxrK0KrYB3iPMQ5bfqg=w1810-h1018-no?authuser=1' alt='Producto de plástico genérico' %}
 
-{% include album.html images=page.albums.album2.images cols=3%}
-~~Propuesta y sitio~~
+{% include images.html images=page.albums.album1.images cols=3 alt='Conceptualización' %}
 
-![Maquinas precious plastic]({{page.albums.album0.images[1]}})
-~~Máquinas del proyecto Open-Source [https://preciousplastic.com](https://preciousplastic.com/)~~
+{% include images.html images=page.albums.album2.images cols=3 alt='Propuesta y sitio' %}
 
-![Maquinas precious plastic]({{page.albums.album0.images[2]}})
-~~Justificación geográfica  [Tiny Tulum goes from beach paradise to eco nightmare](https://www.dw.com/en/tiny-tulum-goes-from-beach-paradise-to-eco-nightmare/a-43231319)~~
+{% include image.html src='https://lh3.googleusercontent.com/pw/ACtC-3e5qWngl5WI4mVsxL9S8IKQWsZCvo96waDzKnuIaVXkO6fdXM78BLR2Hch02vw1cQsQfzN4k8D_Qz0wNWgSOG1BYEAPQrvgMIzua8AkJyDX2RRevNUnQQ3reLxcgXKOt9CWWVEELKfuoL2uOuettaJ0oA=w1819-h732-no?authuser=1' alt='Máquinas del proyecto Open-Source, https://preciousplastic.com' %}
+
+{% include image.html src='https://lh3.googleusercontent.com/pw/ACtC-3fdWft0XLrp64bh7_pzLsl-qPJDXp3UhMSZX97XrQDl-vikKY_1xT-RFlregxZAyITaDhxfQxU7TiXoYeIUVVl-nmSqQ2Agqx1ol9HYZEFZKysfxJhrzGNzywqhbLRBQX0EuojRPQ9U8dC4MUhcDLpDug=w940-h529-no?authuser=1' alt='Justificación geográfica, Tiny Tulum goes from beach paradise to eco nightmare,  https://www.dw.com/en/tiny-tulum-goes-from-beach-paradise-to-eco-nightmare/a-43231319' %}
 
 <!-- TODO: Agregar propuesta de maquinaria para tejas extruidas, panel ranurado hueco térmico para fachadas (radiadores de fachada) y sistema de protección contra huracanes - Urge saber el tipo de plástico (pedos con el sol) -->

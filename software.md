@@ -12,6 +12,8 @@ I'm an Architect not a Programmer, so you will find errors in both fields. I was
 
 > I have been convinced that the only way we can survive as humanity is by producing and sharing information. Here is my part on sharing.
 
+{% include utils/index-headers.html %}
+
 ## LinCAM3.2 - Rhino3D CAM plugin
 
 ### LinCAM 3 Rhino3D plugin transforms 2D geometry into cutting paths for all types of g-code based CNC machines.

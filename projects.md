@@ -5,15 +5,11 @@ permalink: /projects/
 ---
 
 ### The aim is to show my work in different stages of the manufacturing process.
-
 Generative Design & Digital Manufacturing
-
-<!-- The [starred projects](#starred-projects) are shown with no specific order. in contrast to the [all projects](#all-projects) section that is listed in chronological order. -->
+{% include utils/index-headers.html %}
 
 ## Starred projects
-
-{% include utils/index-projects.html starred=true headerlink=true  %}
+{% include utils/index-projects.html starred=true %}
 
 ## Other projects
-
-{% include utils/index-projects.html headerlink=true %}
+{% include utils/index-projects.html starred=false %}

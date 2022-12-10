@@ -1,0 +1,39 @@
+<ul class="post-list">
+  {%- assign posts=site.projects | reverse -%}
+  {%- for post in posts  -%}
+
+    {%- if include.starred -%}
+      {%- assign filter = include.starred -%}
+      <!-- max rows solo se puede cambiar aqui y en el archivo de home.html que enlista los posts -->
+      {%- assign max_rows = 4 -%}
+    {%- else -%}
+      {%- assign filter = false -%}
+      {%- assign max_rows = 2 -%}
+    {%- endif -%}
+
+    {%- if post.starred == filter -%}
+      <li class='post-list-link' style="page-break-inside:avoid" onclick='location.href="{{post.url | relative}}"'>
+
+        {% include utils/project-semblance.html project=post %}
+
+        {% capture images %}
+
+          {% if post.albums %}
+            {% assign albums = post.albums | where:"cover",true %}
+            {% for album in albums %}
+              {% for image in album.images %}
+                {{ image }},
+              {% endfor %}
+            {% endfor %}
+          {% endif %}
+
+        {% endcapture %}
+        {% assign images = images | strip | split: "," %}
+        <p style="page-break-inside:avoid;">
+          {% include single-row-album.html images=images %}
+        </p>
+
+      </li>
+    {%- endif -%}
+  {%- endfor -%}
+</ul>

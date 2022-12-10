@@ -22,8 +22,6 @@ albums:
 ### Roofing concept utilizing relaxing meshes to force reverse catenary curves
 This is a concept of a lightweight roof to explain how complex structural designs can be achieved with simple compression and tension structural rules.
 
-{% include album.html images=page.albums.album1.images cols=2%}
-~~Mesh relaxation example~~
+{% include images.html images=page.albums.album1.images cols=2 alt='Mesh relaxation example'%}
 
-{% include album.html images=page.albums.album2.images cols=3%}
-~~Case study proposal~~
+{% include images.html images=page.albums.album2.images cols=3 alt='Case study proposal'%}

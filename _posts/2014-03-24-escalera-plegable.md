@@ -28,6 +28,6 @@ El concepto se realizo como parte de un proyecto de rehabilitación para el inte
 
 ![Concept image]({{page.albums.album0.images[0]}})
 
-{% include album.html images=page.albums.album1.images %}
+{% include images.html images=page.albums.album1.images %}
 
-{% include album.html images=page.albums.album2.images cols=3 %}
+{% include images.html images=page.albums.album2.images cols=3 %}

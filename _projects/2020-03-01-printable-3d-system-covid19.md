@@ -36,10 +36,8 @@ albums:
       - https://lh3.googleusercontent.com/pw/ACtC-3f9iIZEOOKfyr4jeG51whX77LKJ7k1fdgYMQki3C9FQoaxlIW_KvYMpGgTOo1j1o0Gr1Ac7hz0YFOegVZKKbkEOxawuJpmr99w4Nu0RNl2I-bXryb4QmzaVscWSag4YHO-VwoAfUvFNEqMhUKOYUmdTGw=w1748-h1018-no?authuser=1
 ---
 
-{% include album.html images=page.albums.album0.images cols=3 %}
-~~Prototipo plástico~~
+{% include images.html images=page.albums.album0.images cols=3 alt='Prototipo plástico' %}
 
-{% include album.html images=page.albums.album1.images cols=3 %}
-~~Diseño de maquinado CNC de molde para termoformado plástico especifico para fabricación con maquinaria universitaria~~
+{% include images.html images=page.albums.album1.images cols=3 alt='Diseño de maquinado CNC de molde para termoformado plástico especifico para fabricación con maquinaria universitaria'%}
 
 <!-- TODO: Agregar archivos para corte en GitHub y mandárselos a Ariel  -->

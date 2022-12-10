@@ -14,4 +14,4 @@ albums:
 
 Algunas images y capturas de pantalla del día a día
 
-{% include album.html images=page.albums.album0.images cols=4 %}
+{% include images.html images=page.albums.album0.images cols=4 %}

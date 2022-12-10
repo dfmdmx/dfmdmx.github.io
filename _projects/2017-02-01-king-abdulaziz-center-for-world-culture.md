@@ -41,14 +41,10 @@ albums:
 
 ---
 
-![3D context model]({{page.albums.album0.images[0]}})
-~~Concepto presentado por el cliente~~
+{% include image.html src='https://lh3.googleusercontent.com/pw/ACtC-3duuqG4JenHMtEwRHfMdB2YBQbfFx7R7yL_N2yHTtDPgKm3af5q47YPCzfrJVA51ytB-ZmGkESChEIgNpykXMcnyUOgXQHeTKTeYTLZmlZ37xGAIjJNR3-LAJOqW-fitVZTEUpxbmiN2pbsRg6gmx11Pg=w1239-h926-no?authuser=1' alt='Concepto presentado por el cliente' %}
 
-{% include album.html images=page.albums.album1.images  cols=3 %}
-~~Sitio y exhibición~~
+{% include images.html images=page.albums.album1.images  cols=3 alt='Sitio y exhibición' %}
 
-{% include album.html images=page.albums.album2.images cols=3 %}
-~~Producción~~
+{% include images.html images=page.albums.album2.images cols=3 alt='Producción' %}
 
-![Lámina de control]({{page.albums.album0.images[1]}})
-~~Lámina de control para producción paramétrica~~
+{% include image.html src='https://lh3.googleusercontent.com/pw/ACtC-3flHgIZi0AOzziAdGTAos9ylw24kWLVJUlRd0b8EuH8YN9RKJB8vqc1U4MSh0-dwv_sFTO9d7hHG0PMAvLWzVsTJnjYEz2vloMPPl_nunzKvCo7pRJThabDp0io0M0IxOMIaZJkG-JnU0XghVbjQfnmvA=w1377-h916-no?authuser=1' alt='Lámina de control para producción paramétrica' %}

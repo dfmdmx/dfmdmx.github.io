@@ -41,19 +41,15 @@ albums:
       - https://lh3.googleusercontent.com/pw/ACtC-3fzK5mh3bW33uR9mZX4v1KO5FNxqiMtWA3dafaZ6BuAMSmS7-TQAbcdu8eEvjPgqg0Mfpg5Nby_yb41RPIMsaXJ1piuhlvQWIWf0joUFuqpcwQ7UdYdHOqHW7J26xe0cQGj4Rcni__i93TRuapAx0_MXw=w1566-h887-no?authuser=1
 ---
 
-![Foto]({{page.albums.album0.images[1]}})
-~~Máquina mediana con 85cm de corte~~
+{% include image.html alt='Máquina mediana con 85cm de corte' src='https://lh3.googleusercontent.com/pw/ACtC-3f9QZBeeJAf55u-0dYNYpIXMEGS6xByl7M4QpVUUvzla3ibVaxZq7Etqon9-O_KEtVTFDwZktby5ElJvn4xnhgOwippqSRYBDCpc-DmswNREtYWmiV_HMyTgUDjlRnHAdMjkBtpe7gj1Xr6rPihLiUNAA=w2048-h1152-no?authuser=1' %}
 
-![Foto]({{page.albums.album0.images[0]}})
+{% include image.html src='https://lh3.googleusercontent.com/pw/ACtC-3djDorPT3pri800sreiRgvejij1cUC3LQXEJOaqjp9Q706AvtoMLAs3yB0OLO0fnfTU9fYa0qv4K6vl7TDlOkq5RA67L4zBTh2oUL654izgMd2OnmJyBoYaXvXe_goUw2d_UXQW7isxigdrq7gMt8d0rQ=w1600-h632-no?authuser=1' %}
 
-{% include album.html images=page.albums.album1.images cols=3 %}
-~~Exhibición en el Abierto Mexicano de Diseño 2017~~
+{% include images.html images=page.albums.album1.images cols=3 alt='Exhibición en el Abierto Mexicano de Diseño 2017' %}
 
-{% include album.html images=page.albums.album2.images cols=3 %}
-~~Corte de plástico, madera y aluminio~~
+{% include images.html images=page.albums.album2.images cols=3 alt='Corte plástico - madera - aluminio' %}
 
-![Foto]({{page.albums.album0.images[2]}})
-~~Maquinado en 2.5D~~
+{% include image.html alt='Maquinado en 2.5D' src='https://lh3.googleusercontent.com/pw/ACtC-3ecIMtCyCODcT36O8cV0jESA6-Rkox-45NUpZlnG96VpWsa1qZZznKHObrT6pXiXHoeb_aYplurXc8C5W5u9iw244NJZgs0y212pFoLowhekhWlmgEcmY90PQwvqtyCr2OkgpltKln6jnNY4xvbAzYoHg=w2400-h715-no?authuser=1' %}
 
 {% include youtube.html id='K7j9PWjgEF0'%}
 ~~Corte de aluminio compuesto~~

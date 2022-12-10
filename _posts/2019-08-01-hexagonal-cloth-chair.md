@@ -33,9 +33,10 @@ HEX 2.0 is a concept chair design I've been working for a few years now. I first
 
 My start approach will be to use to use a mesh relaxation algorithm in Grasshopper's Kangaroo physic's engine and try to design in a more realistic environment. I have a slight intuition of what is wrong with the cloth based on siting in the prototype.
 
-{% include album.html images=page.albums.album1.images cols=4%}
+{% include images.html images=page.albums.album1.images cols=4%}
 
 ![Concept]({{page.albums.album0.images[0]}})
 
-{% include album.html images=page.albums.album2.images cols=4%}
-~~This is the current state of the chair. Sorry for the bad photos, had a backup problem. Unpardonable... I think NASA did the same things with the original film of the lunar landing.~~
+{% include images.html images=page.albums.album2.images cols=4%}
+
+This is the current state of the chair. Sorry for the bad photos, had a backup problem. Unpardonable... I think NASA did the same things with the original film of the lunar landing.

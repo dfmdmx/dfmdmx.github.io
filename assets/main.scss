@@ -1,11 +1,17 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url("https://unpkg.com/purecss@1.0.1/build/pure-min.css");
+
 $base-font-family: 'Montserrat', sans-serif;
 $base-font-size:   13px !default;
 $background-color: #fff !default;
 $brand-color:      #2a7ae2 !default;
 
 @import "minima";
+@import 'css/pure-minima.css';
+
 // @import 'css/temp.css';
-@import 'css/minima-extend.css';
+// @import 'css/minima-extend.css';

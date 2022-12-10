@@ -43,8 +43,7 @@ layout: default
 
         {% endcapture %}
         {% assign images = images | strip | split: "," %}
-        {% include album.html images=images cols=8 max_rows=1 grayscale=true %}
-
+        {% include images.html images=images cols=8 max_rows=1 grayscale=true %}
       </li>
       {%- endfor -%}
     </ul>

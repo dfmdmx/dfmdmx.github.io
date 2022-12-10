@@ -50,19 +50,15 @@ albums:
 
 ## Magic Planet
 
-![Main image]({{page.albums.album0.images[0]}})
-~~Exhibición~~
 
-![Main image]({{page.albums.magicplanet.images[0]}})
-~~Variables paramétricas para unión~~
+{% include image.html alt='Exhibición' src='https://lh3.googleusercontent.com/pw/ACtC-3f8QSwxYZ65g3VYk7RPP3DUB9nLMH6s81JQao-vAutG6D9A1cBNmRabm7E_aKd9MR4NJgjI59l56hXpDPFylWhVh_QopZBI-fjwv8JZYc8dedquzCZlUL5oyij-eX4kNRyKISn94Sfur8WS9LPNF2wQFg=w1527-h1018-no?authuser=1' %}
 
-{% include album.html images=page.albums.album1.images cols=3 %}
-~~Cople y manufactura~~
+{% include image.html alt='Variables paramétricas para unión' src='https://lh3.googleusercontent.com/pw/ACtC-3eqoN6Uir9Mm1Rlk1nEBNTTqZKuzFO72O5RwjhLedBNIcwY5o6occrcYUzxwj0KDa4RfslBoHW6PDpuufLx5PJzDV1yB00I_KJSHXTedgfhzKUC9wEz6cLuJ1UVm-qmVN5VR8dtBbEfaAj5cDmzqqfOyQ=w1006-h144-no?authuser=1' %}
+
+{% include images.html images=page.albums.album1.images cols=3 alt='Cople y manufactura' %}
 
 ## Cabina de radio
 
-{% include album.html images=page.albums.radio.images %}
-~~Concepto estructural~~
+{% include images.html images=page.albums.radio.images alt='Concepto estructural' %}
 
-{% include album.html images=page.albums.album2.images %}
-~~Exhibición~~
+{% include images.html images=page.albums.album2.images alt='Exhibición' %}

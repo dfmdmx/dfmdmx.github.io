@@ -54,24 +54,19 @@ albums:
       - https://lh3.googleusercontent.com/pw/ACtC-3fhjyU9lhGDbFcYKKTOdAxOhZa5l6zqJv_2JKekWb79kUMz0ynbuwbRgACXps5FT-YWOVfi7a6-zv_IGgsctg4gZ96QCz6lm1khIYheD2g0wYiqh_ciyaAoZ_qGO_f_ymEyn1T6eqU5aN4PbPCLwVhhlA=w1191-h893-no?authuser=1
 ---
 
-![MCNCRender]({{page.albums.album0.images[0]}})
+{% include image.html src='https://lh3.googleusercontent.com/pw/ACtC-3eWvSVHszRDgs_uxTEMhlBItR0uAg0QzNeMAMdfafVg6vUhyCnXjxFa9s943-OZjI5RijbA5_qDlhnBsu_k6MDOFgfZ2UHE7tuXv_HfS1WfD0YPJp6Nt3BJcp6URb8bcM78rlAJGmgP-cvydziKZ4Ql9g=w1920-h736-no?authuser=1' %}
 
-{% include album.html images=page.albums.cncs.images cols=3 %}
-~~Modelos CNC: Grande 120cm / Mediana 80cm / Pequeña 35cm~~
+{% include images.html images=page.albums.cncs.images cols=3 alt='Modelos CNC: Grande 120cm / Mediana 80cm / Pequeña 35cm' %}
 
 Las maquinas están fabricadas con perfiles modulares de aluminio para poderse adaptar a los diversos proyectos del taller. El movimiento lineal es de ruedas sobre riel, motores a paso y banda dentada.
 
-{% include album.html images=page.albums.photos.images cols=3 %}
-~~Fotos fabricación~~
+{% include images.html images=page.albums.photos.images cols=3 alt='Fotos fabricación'%}
 
-{% include album.html images=page.albums.drilling.images cols=4 %}
-~~Trabajos de barrenado~~
+{% include images.html images=page.albums.drilling.images cols=4 alt='Trabajos de barrenado'%}
 
-{% include album.html images=page.albums.cutting.images cols=4 %}
-~~Trabajos de corte~~
+{% include images.html images=page.albums.cutting.images cols=4 alt='Trabajos de corte'%}
 
-![Workshop]({{page.albums.album0.images[1]}})
-~~Taller prototipo~~
+{% include image.html alt='Taller prototipo' src='https://lh3.googleusercontent.com/pw/ACtC-3cZDWYzlJZ_7ECQb7J1K65gh9yYWyMAu4Ew2okLU9l9-caHs1XQozxnHsDxhHSpMXOG9DL-qqruGWNRFgv8ibjLfxc4ZjkuTgECerB5aYFk_jOTthQbosF0VvJ9uE3xweoCGFBIPiBYQKJlG1q1ymUwcQ=w1572-h884-no?authuser=1' %}
 
 {% include youtube.html id='j_RAY6azyPs' %}
-~~Prueba de concepto en una maquina basada en el diseño Shapeoko~~
+Prueba de concepto en una maquina basada en el diseño Shapeoko

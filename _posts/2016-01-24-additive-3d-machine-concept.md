@@ -20,4 +20,4 @@ This was a design exercise at the beginning of the incubation period of SPK. The
 
 ![Main image]({{page.albums.album0.images[0]}})
 
-{% include album.html images=page.albums.album1.images cols=2 %}
+{% include images.html images=page.albums.album1.images cols=2 %}

@@ -20,4 +20,4 @@ Esta lampara se realizó en el marco del [Abierto Mexicano de Diseño](https://a
 
 ![Concept image]({{page.albums.album0.images[0]}})
 
-{% include album.html images=page.albums.album1.images %}
+{% include images.html images=page.albums.album1.images %}

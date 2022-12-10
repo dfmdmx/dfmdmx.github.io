@@ -42,23 +42,20 @@ albums:
 
 ---
 
-![Render]({{page.albums.album0.images[0]}})
-~~Render conceptual~~
 
-![Cabezal]({{page.albums.album0.images[1]}})
-~~Cabezal neumático~~
+{% include image.html alt='Render conceptual' src='https://lh3.googleusercontent.com/pw/ACtC-3dXcz-Vzjy-CmGOiqOc2RN--0Itpsf1hwxuIqGkDt4q-yXjYBKYxb8XxjLkjwAd7deIOPu-AiKeV2KjzFP4zT-rJp7uCcZAkwyzkCaYRI8fS8ItDhpqsr7JLuLfVsV-PowC9rWYmOST11pdehjwIoZj7g=w2000-h817-no?authuser=1' %}
 
-{% include album.html images=page.albums.album1.images cols=3 %}
-~~Movimiento lineal con banda de tiempo y rieles de plástico auto lubricado~~
+{% include image.html alt='Cabezal neumático' src='https://lh3.googleusercontent.com/pw/ACtC-3czwEtBNQ9eClE-RDjXHLy84Feck4sY1zikWTj_kbyEl3DyFttH19Qndbt-6zVvUwLd-_PMtE1XFjQUVtqAvkjZSRUZxfxcbQfqIvP50dber1d1_k-7_Mpn01NAAEAIZlcHkmJfcnWojGQG05jMNsSgEA=w2410-h1240-no?authuser=1' %}
 
-![Lateral]({{page.albums.album0.images[2]}})
-~~Mesa de trabajo~~
+{% include images.html images=page.albums.album1.images cols=3 alt=''%}
+Movimiento lineal con banda de tiempo y rieles de plástico auto lubricado
+
+{% include image.html alt='Mesa de trabajo' src='https://lh3.googleusercontent.com/pw/ACtC-3dbs7KsAZVi4pdNcvAqtXlUUAb5YBYPxmvbwf0C7SBwp-s_OjXkdY33TXbRPdfdYMjIs37rlZ_TBg7Bgp89BvsMIK-4Z9d6ZzDQzntz1AfCO5YkwhiJUvfH5QnJ5oUQFQK8QYe4e4lLJIoU9ZShjzLjPA=w1836-h1224-no?authuser=1' %}
 
 {% include youtube.html id='XJkXUPC1PBk' %}
-~~Concepto de funcionamiento~~
+Concepto de funcionamiento
 
-{% include album.html images=page.albums.album2.images cols=3 %}
-~~Diseño de cabezal y caja de electronica en aluminio 6061 para uso industrial~~
+{% include images.html images=page.albums.album2.images cols=3 alt='Diseño de cabezal y caja de electronica en aluminio 6061 para uso industrial'%}
 
 {% include youtube.html id='IQVI1drqdTs' %}
-~~Demostración de corte~~
+Demostración de corte

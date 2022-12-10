@@ -17,4 +17,4 @@ albums:
 > The future is already here — it's just not very evenly distributed.   
 [William Gibson](https://en.wikipedia.org/wiki/William_Gibson)
 
-{% include album.html images=page.albums.album0.images cols=1%}
+{% include images.html images=page.albums.album0.images cols=1%}

@@ -275,6 +275,7 @@ GEM
     unf_ext (0.0.8)
     unf_ext (0.0.8-x64-mingw32)
     unicode-display_width (1.8.0)
+    wdm (0.1.1)
     zeitwerk (2.5.2)
 
 PLATFORMS
@@ -284,6 +285,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   kramdown (>= 2.3.1)
+  wdm (>= 0.1.0)
 
 BUNDLED WITH
    2.3.3

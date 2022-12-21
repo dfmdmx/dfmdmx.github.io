@@ -1,5 +1,6 @@
 p, img, li, include-image{
   page-break-inside: avoid;
+  width: 100%;
 }
 
 table {

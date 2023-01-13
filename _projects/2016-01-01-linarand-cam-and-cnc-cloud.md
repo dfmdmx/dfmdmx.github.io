@@ -35,7 +35,3 @@ albums:
 ---
 
 {% include images.html images=page.albums.album0.images cols=1 alt='Prototipo plástico'%}
-
-
-
-<!-- TODO: Agregar archivos para corte en GitHub y mandárselos a Ariel  -->

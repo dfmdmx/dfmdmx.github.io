@@ -109,6 +109,9 @@
 
   -  **Sponsorship** | 5th Generation StartUp Mexico | *Campaign financing for investment funds*
     {% include utils/cvheader.html date='2015' location='Mexico City' url='https://www.startupmexico.com' %}
+    
+  - **Award h3o+DFMD** | Barcelona Architectures Festival | *Ayuntamiento de Barcelona + Colegio de Arquitectos de Cataluña (COAC) + Fundació Mies van der Rohe*
+    {% include utils/cvheader.html date='2023' location='Barcelona' url='https://www.model.barcelona/edicio2023/en' %}
 
 ### Professional published software
 

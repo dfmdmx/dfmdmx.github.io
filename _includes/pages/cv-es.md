@@ -113,6 +113,9 @@
 
   - **Patrocinio** | Convocatoria 5a Generación StartUp Mexico | *Campaña para la obtención de financiamiento a través de fondos de riesgo*
     {% include utils/cvheader.html date='2015' location='Ciudad de México' url='https://www.startupmexico.com' %}
+  
+  - **Mención h3o+DFMD** | Barcelona Architectures Festival | *Ayuntamiento de Barcelona + Colegio de Arquitectos de Cataluña (COAC) + Fundació Mies van der Rohe*
+    {% include utils/cvheader.html date='2023' location='Barcelona' url='https://www.model.barcelona/edicio2023/en' %}
 
 ### Software profesional publicado
 

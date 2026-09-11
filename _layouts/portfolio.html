@@ -1,0 +1,626 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daniel Fernández Marmissolle-Daguerre — Portfolio</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background: #f3f3f0;
+      color: #1f1f1f;
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.6;
+    }
+
+    nav.sticky {
+      position: sticky;
+      top: 0;
+      background: #ffffff;
+      border-bottom: 1px solid #d8d8d8;
+      padding: 12px 0;
+      z-index: 100;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+    }
+
+    nav.sticky .nav-links {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 0 24px;
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    nav.sticky a {
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #1f1f1f;
+      text-decoration: none;
+      padding: 4px 0;
+      border-bottom: 2px solid transparent;
+      transition: border-color 0.2s ease;
+    }
+
+    nav.sticky a:hover,
+    nav.sticky a.active {
+      border-bottom-color: #1f1f1f;
+    }
+
+    section {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 60px 24px;
+      border-bottom: 1px solid #e8e8e8;
+    }
+
+    section:first-of-type {
+      padding-top: 80px;
+    }
+
+    section:last-of-type {
+      border-bottom: none;
+    }
+
+    h1 {
+      margin: 0 0 12px 0;
+      font-size: clamp(28px, 6vw, 40px);
+      font-weight: 400;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    .tagline {
+      font-size: 13px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: #444444;
+      margin: 0 0 16px 0;
+    }
+
+    .intro {
+      font-size: 15px;
+      text-align: justify;
+      margin: 0 0 16px 0;
+      max-width: 720px;
+    }
+
+    .contact {
+      font-size: 13px;
+      line-height: 1.7;
+      color: #444444;
+      margin: 0 0 20px 0;
+    }
+
+    .contact a {
+      color: #1f1f1f;
+      text-decoration: none;
+      border-bottom: 1px solid #b8b8b8;
+    }
+
+    .contact a:hover {
+      border-bottom-color: #1f1f1f;
+    }
+
+    h2 {
+      margin: 0 0 20px 0;
+      font-size: 18px;
+      font-weight: 400;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding-bottom: 12px;
+      border-bottom: 1px solid #d8d8d8;
+    }
+
+    h3 {
+      margin: 20px 0 8px 0;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    p {
+      margin: 0 0 12px 0;
+      text-align: justify;
+    }
+
+    .profile-intro {
+      max-width: 720px;
+      margin-bottom: 24px;
+    }
+
+    blockquote {
+      font-style: italic;
+      color: #555555;
+      margin: 16px 0;
+      padding-left: 16px;
+      border-left: 2px solid #d8d8d8;
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 24px;
+      margin: 24px 0;
+    }
+
+    .skill-block {
+      margin-bottom: 0;
+    }
+
+    .skill-title {
+      font-weight: 600;
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+
+    .skill-text {
+      font-size: 13px;
+      line-height: 1.6;
+      color: #444444;
+    }
+
+    .tools-category {
+      margin-top: 20px;
+    }
+
+    .tools-category:first-child {
+      margin-top: 0;
+    }
+
+    .tools-category-title {
+      font-weight: 600;
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .tools-list {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      column-gap: 24px;
+      row-gap: 6px;
+      margin: 16px 0;
+      padding: 0;
+      list-style-position: inside;
+    }
+
+    .tools-list li {
+      font-size: 13px;
+    }
+
+    .tools-list a {
+      color: #1f1f1f;
+      text-decoration: none;
+      border-bottom: 1px solid #b8b8b8;
+    }
+
+    .tools-list a:hover {
+      border-bottom-color: #1f1f1f;
+    }
+
+    .experience-item {
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid #e8e8e8;
+    }
+
+    .experience-item:last-child {
+      border-bottom: none;
+    }
+
+    .experience-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 16px;
+      margin-bottom: 4px;
+    }
+
+    .experience-title {
+      font-weight: 600;
+      font-size: 14px;
+    }
+
+    .experience-title a {
+      color: #1f1f1f;
+      text-decoration: none;
+      border-bottom: 1px solid #b8b8b8;
+    }
+
+    .experience-title a:hover {
+      border-bottom-color: #1f1f1f;
+    }
+
+    .experience-dates {
+      font-size: 12px;
+      color: #666666;
+      white-space: nowrap;
+    }
+
+    .experience-company {
+      font-size: 12px;
+      color: #555555;
+      margin-bottom: 6px;
+    }
+
+    .experience-item ul {
+      margin: 8px 0 0 18px;
+      padding: 0;
+    }
+
+    .experience-item li {
+      margin-bottom: 4px;
+      font-size: 13px;
+    }
+
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 24px;
+      margin: 24px 0;
+    }
+
+    .project {
+      border: 1px solid #d8d8d8;
+      padding: 0;
+      overflow: hidden;
+      transition: box-shadow 0.2s ease, border-color 0.2s ease;
+    }
+
+    .project:hover {
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+      border-color: #b8b8b8;
+    }
+
+    .project-image {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .project-content {
+      padding: 16px;
+    }
+
+    .project-title {
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    .project-title a {
+      color: #1f1f1f;
+      text-decoration: none;
+      border-bottom: 1px solid #b8b8b8;
+    }
+
+    .project-title a:hover {
+      border-bottom-color: #1f1f1f;
+    }
+
+    .project-meta {
+      font-size: 11px;
+      color: #888888;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+
+    .project-description {
+      font-size: 13px;
+      line-height: 1.5;
+      margin: 0 0 10px 0;
+      color: #444444;
+    }
+
+    .project-skills {
+      font-size: 11px;
+      color: #666666;
+      padding-top: 10px;
+      border-top: 1px solid #e8e8e8;
+    }
+
+    footer {
+      background: #ffffff;
+      padding: 32px 24px;
+      text-align: center;
+      font-size: 11px;
+      color: #888888;
+      border-top: 1px solid #d8d8d8;
+    }
+
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 24px;
+      }
+
+      h2 {
+        font-size: 16px;
+      }
+
+      section {
+        padding: 40px 16px;
+      }
+
+      .skills-grid,
+      .projects-grid,
+      .tools-list {
+        grid-template-columns: 1fr;
+      }
+
+      .experience-header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      nav.sticky .nav-links {
+        padding: 0 16px;
+        gap: 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav class="sticky">
+    <div class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#portfolio">Portfolio</a>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home">
+    <h1>Daniel Fernández Marmissolle-Daguerre</h1>
+    <div class="tagline">Computational Designer · Architect · Rhino / Grasshopper · CAD/CAM · Digital Fabrication</div>
+    <p class="intro">Architect and computational designer based in Barcelona, with 10+ years of experience across architecture, parametric design, industrial automation, CAD/CAM workflows, and digital fabrication.</p>
+    <div class="contact">
+      Barcelona, Spain · <a href="mailto:daniel@dfmd.mx">daniel@dfmd.mx</a><br />
+      <a href="https://github.com/dfmdmx">github.com/dfmdmx</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About</h2>
+    <div class="profile-intro">
+      <p>Architect and computational designer based in Barcelona, with 10+ years of experience across architecture, parametric design, industrial automation, CAD/CAM workflows, and digital fabrication.</p>
+      <p>Work focuses on fabrication-aware geometry and computation as a production interface: geometry rationalization, panelization and discretization, CNC-ready detailing, and custom software tools for design and manufacturing workflows. Construction logic, means and methods, and assembly sequencing are treated as first-class design constraints—developed alongside, not after, the form.</p>
+      
+    </div>
+
+    <h3>Core Skills</h3>
+    <div class="skills-grid">
+      <div class="skill-block">
+        <div class="skill-title">Computational &amp; Parametric Design</div>
+        <div class="skill-text">Rhino 3D, Grasshopper, RhinoPython, generative systems, form-finding, panelization, geometry optimization, design automation.</div>
+      </div>
+      <div class="skill-block">
+        <div class="skill-title">Architecture &amp; Design Development</div>
+        <div class="skill-text">Concept design, architectural modeling, executive drawings, technical detailing, spatial systems, museography, exhibition design.</div>
+      </div>
+      <div class="skill-block">
+        <div class="skill-title">Digital Fabrication &amp; CAD/CAM</div>
+        <div class="skill-text">CNC-ready geometry, 2.5D and 3D machining workflows, DXF preparation, nesting automation, fabrication drawings, BOMs, assembly documentation.</div>
+      </div>
+      <div class="skill-block">
+        <div class="skill-title">Mechanical &amp; Industrial Design</div>
+        <div class="skill-text">Machine design, automated production systems, conveyor systems, industrial mechanisms, Solid Edge, Fusion, structural and tensile simulation workflows.</div>
+      </div>
+      <div class="skill-block">
+        <div class="skill-title">Software &amp; Automation</div>
+        <div class="skill-text">Python, JavaScript, RhinoScript, custom CAD tools, production-control platforms, CNC file management, workflow automation.</div>
+      </div>
+      <div class="skill-block">
+        <div class="skill-title">Languages</div>
+        <div class="skill-text">Spanish — Native; English — Full professional proficiency</div>
+      </div>
+    </div>
+
+    <h3>Software and Tools</h3>
+    <ul class="tools-list">
+      <!-- Repeat list items as needed -->
+          <li><a href="https://www.rhino3d.com/">Rhino 3D</a></li>
+      <li><a href="https://www.rhino3d.com/grasshopper/">Grasshopper</a></li>
+      <li><a href="https://developer.rhino3d.com/guides/rhinopython/">RhinoPython</a></li>
+      <li><a href="https://developer.rhino3d.com/guides/rhinoscript/">RhinoScript</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Python_(programming_language)">Python</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/JavaScript">JavaScript</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/HTML">HTML</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/C%2B%2B">C++</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Solid_Edge">Solid Edge</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Fusion_360">Fusion 360</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Autodesk_Revit">Revit</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/AutoCAD">AutoCAD</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/SketchUp">SketchUp</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/SolidWorks">SolidWorks</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Blender_(software)">Blender</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Processing_(programming_language)">Processing</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Arduino">Arduino</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Raspberry_Pi">Raspberry Pi</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Unity_(game_engine">Unity</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/OpenGL">OpenGL</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Adobe_Illustrator">Adobe Illustrator</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Adobe_Photoshop">Adobe Photoshop</a></li>
+    </ul>
+
+    <h3>Published / Professional Software</h3>
+    <div>
+          <div class="skill-block">
+      <div class="skill-title"><a href="https://www.food4rhino.com/en/app/lincam3?lang=en">LinCAM</a></div>
+      <div class="skill-text">Rhino 6 CAM plug-in for 2.5D G-code generation.</div>
+    </div>
+    <div class="skill-block">
+      <div class="skill-title"><a href="https://github.com/dfmdmx">Production Cloud Server</a></div>
+      <div class="skill-text">Remote CAD/CAM file-management and CNC machine-control platform.</div>
+    </div>
+    <div class="skill-block">
+      <div class="skill-title"><a href="https://github.com/dfmdmx">HangarMX</a></div>
+      <div class="skill-text">2.5D CNC cutting sales and production platform.</div>
+    </div>
+
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="projects-grid">
+          <div class="project">
+      <img class="project-image" src="{{ '/media/projects_images/barcelona-architectures-festival-award/00.png' | relative_url }}" alt="Barcelona Festival Parametric Pavilion" />
+      <div class="project-content">
+        <div class="project-title">Barcelona Festival Parametric Pavilion</div>
+        <div class="project-meta">Technical Assessor and Design Collaborator | Rhino, Grasshopper</div>
+        <p class="project-description">Contributed to the award-winning Asamblea Nómada pavilion, an experimental architectural installation presented at the 2023 Model Festival in Barcelona. Work focused on technical assessment, parametric design development, and fabrication-aware coordination—translating design intent into a buildable architectural system with CNC-ready geometry and production documentation.</p>
+        <div class="project-skills">Parametric design development · Rhino/Grasshopper workflow support · Technical assessment for buildability · Fabrication-aware coordination · Architectural design collaboration</div>
+      </div>
+    </div>
+    <div class="project">
+      <img class="project-image" src="{{ '/media/projects_images/king-abdulaziz-center-for-world-culture/00.png' | relative_url }}" alt="Ithra Exhibition Structure for Snøhetta" />
+      <div class="project-content">
+        <div class="project-title">Ithra Exhibition Structure for Snøhetta</div>
+        <div class="project-meta">Parametric Designer and Fabrication Engineer | Rhino, Grasshopper</div>
+        <p class="project-description">Designed and manufactured the main structural system for the early childhood exhibition at the King Abdulaziz Center for World Culture — Ithra, designed by Snøhetta. Work focused on parametric geometry, structural rationalization, and fabrication-ready component detailing—connecting architectural design intent to workshop production through assembly-sequence documentation and part families.</p>
+        <div class="project-skills">Parametric structural modeling · Grasshopper-based geometry rationalization · Fabrication-ready component development · Architectural system coordination · Production documentation</div>
+      </div>
+    </div>
+    <div class="project">
+      <img class="project-image" src="{{ '/media/projects_images/museo-trapiche-A/00.png' | relative_url }}" alt="Parametric Aluminum Structures for Museo Trapiche" />
+      <div class="project-content">
+        <div class="project-title">Parametric Aluminum Structures for Museo Trapiche</div>
+        <div class="project-meta">Parametric Designer and Fabrication Specialist | Rhino, Assembly</div>
+        <p class="project-description">Designed, manufactured, and assembled the Magic Planet parametric exhibition structure for Museo Trapiche, using an aluminum frame system with modular panel families. Work focused on parametric development, structural rationalization, fabrication-ready detailing for metal components, and assembly-sequence coordination—delivering CNC-ready geometry, part families, and installation documentation.</p>
+        <div class="project-skills">Parametric structural modeling for modular frames · Aluminum component detailing and tolerancing · Part-family definition and labeling logic · Fabrication-ready drawings and cut lists · Assembly sequence and installation coordination</div>
+      </div>
+    </div>
+    <div class="project">
+      <img class="project-image" src="{{ '/media/projects_images/museo-trapiche-B/00.png' | relative_url }}" alt="Parametric Composite Structures for Museo Trapiche" />
+      <div class="project-content">
+        <div class="project-title">Parametric Composite Structures for Museo Trapiche</div>
+        <div class="project-meta">Parametric Designer and Fabrication Specialist | Rhino, CNC</div>
+        <p class="project-description">Designed, manufactured, and assembled two mixed-material parametric exhibition structures for Museo Trapiche: Radio Cabin (wood + aluminum composite panels) and Bed of Nails (wood). Work focused on parametric development, CNC-ready panelization, joinery logic across materials, and on-site assembly coordination—delivering production drawings, part families, and installation documentation.</p>
+        <div class="project-skills">Parametric exhibit design for mixed materials · CNC-ready panelization and nesting preparation · Joinery and interface detailing (wood / composite) · Material-aware fabrication logic and tolerances · Part families, labeling, and assembly diagrams</div>
+      </div>
+    </div>
+    <div class="project">
+      <img class="project-image" src="{{ '/media/projects_images/museo-acertijo/00.png' | relative_url }}" alt="CNC Parametric Handrail for Museo Acertijo" />
+      <div class="project-content">
+        <div class="project-title">CNC Parametric Handrail for Museo Acertijo</div>
+        <div class="project-meta">Parametric Designer and Production Lead | CNC, CAD</div>
+        <p class="project-description">Designed, produced, and assembled a CNC-machined parametric circular handrail for the central exhibition of the Gómez Palacio state museum in Durango. Work focused on parametric modeling, 3D CAD development, toolpath generation, fabrication-aware geometry rationalization, and production coordination—from CNC-ready geometry through to assembly documentation.</p>
+        <div class="project-skills">CNC-oriented parametric modeling · 3D CAD development · Toolpath generation and CNC machining preparation · Handrail geometry rationalization · Fabrication documentation</div>
+      </div>
+    </div>
+    <div class="project">
+      <img class="project-image" src="{{ '/media/projects_images/geodesia/00.png' | relative_url }}" alt="Geodesic Sphere for Natural History Museum" />
+      <div class="project-content">
+        <div class="project-title">Geodesic Sphere for Natural History Museum</div>
+        <div class="project-meta">Structural Designer and Modular Systems Developer | Analysis, CAD</div>
+        <p class="project-description">Developed the design and manufacturing proposal for a geodesic sphere submitted to the rehabilitation competition for the Natural History Museum of Mexico City. Work focused on geodesic geometry rationalization, structural analysis, modular component strategy, assembly logic, and workshop-oriented documentation—addressing discretization and part-family coordination for a competition-ready manufacturing proposal.</p>
+        <div class="project-skills">Geodesic system design · Structural analysis support · Modular component strategy · Assembly diagram development · Workshop-oriented documentation</div>
+      </div>
+    </div>
+    <div class="project">
+      <img class="project-image" src="{{ '/media/projects_images/cuarto-de-pensar/00.png' | relative_url }}" alt="Parametric Cladding for Children’s Museum" />
+      <div class="project-content">
+        <div class="project-title">Parametric Cladding for Children’s Museum</div>
+        <div class="project-meta">Parametric Designer and Fabrication Lead | Rhino, CNC</div>
+        <p class="project-description">Led the executive design, production, and assembly of CNC-machined parametric cladding for a children&#x27;s museum exhibition. Work focused on parametric modeling, modular panel logic, fabrication planning, CNC-ready detailing, and installation coordination—producing nesting layouts, fabrication drawings, and assembly documentation for the complete cladding system.</p>
+        <div class="project-skills">Parametric cladding design · CNC fabrication preparation · Modular panel organization · Rhino-based production modeling · Installation-ready documentation</div>
+      </div>
+    </div>
+    <div class="project">
+      <img class="project-image" src="{{ '/media/projects_images/estructura-faceteada-para-showroom/00.png' | relative_url }}" alt="Faceted Showroom Structure for Mabe" />
+      <div class="project-content">
+        <div class="project-title">Faceted Showroom Structure for Mabe</div>
+        <div class="project-meta">Parametric Designer and Fabrication Specialist | Rhino, Grasshopper</div>
+        <p class="project-description">Designed and manufactured a faceted display structure for a product launch showroom by Mabe. The structure used randomized triangular tessellation with MDF panels and reflective vinyl, developed through parametric modeling, panelization logic, and CNC fabrication preparation—including nesting layouts and DXF preparation for direct workshop production.</p>
+        <div class="project-skills">Parametric tessellation design · Rhino/Grasshopper modeling · CNC panelization and nesting strategy · MDF fabrication preparation · Technical documentation</div>
+      </div>
+    </div>
+    <div class="project">
+      <img class="project-image" src="{{ '/media/projects_images/mobiliario-de-oficina/00.png' | relative_url }}" alt="Modular Office Furniture Design" />
+      <div class="project-content">
+        <div class="project-title">Modular Office Furniture Design</div>
+        <div class="project-meta">Furniture Designer and Fabrication Lead | CAD, Product Design</div>
+        <p class="project-description">Designed and fabricated modular office furniture in aluminum and plywood, with clean assembly logic and repeatable component families. Work focused on product design, component rationalization, fabrication detailing, assembly sequence planning, and production-ready documentation using Solid Edge and Rhinoceros 3D—with fabrication constraints and part-family logic developed in parallel with the design.</p>
+        <div class="project-skills">Modular furniture design · Product development · Solid Edge and Rhino modeling · Aluminum and plywood detailing · Component rationalization</div>
+      </div>
+    </div>
+    <div class="project">
+      <img class="project-image" src="{{ '/media/projects_images/printable-3d-system-covid19/00.png' | relative_url }}" alt="Open-Source COVID-19 Mask Production System" />
+      <div class="project-content">
+        <div class="project-title">Open-Source COVID-19 Mask Production System</div>
+        <div class="project-meta">Process Designer and Mold Fabrication Specialist | CAD/CAM</div>
+        <p class="project-description">Designed production processes and fabricated molds for a replicable open-source COVID-19 auxiliary respiratory mask system. Work covered CAD/CAM process design, mold fabrication, rapid prototyping, and scalable production planning—developing reproducible workflows and documentation suitable for distributed fabrication.</p>
+        <div class="project-skills">CAD/CAM process design · Mold fabrication · Rapid prototyping · Open-source production workflow development · Manufacturing optimization</div>
+      </div>
+    </div>
+    <div class="project">
+      <img class="project-image" src="{{ '/media/projects_images/xcaret-precious-plastics/00.png' | relative_url }}" alt="Xcaret Plastic Recycling Machinery" />
+      <div class="project-content">
+        <div class="project-title">Xcaret Plastic Recycling Machinery</div>
+        <div class="project-meta">Machinery Designer and Implementation Lead | CAD, Prototyping</div>
+        <p class="project-description">Designed machinery, developed the project concept, and supervised on-site implementation for a Precious Plastic recycling initiative focused on recovering beach plastic in the Tulum natural reserve. Work combined mechanical design, prototyping, fabrication planning, and implementation support—developing recycling equipment and production workflows suited to a coastal environmental recovery program.</p>
+        <div class="project-skills">Recycling machinery design · Industrial prototyping · Mechanical design development · Fabrication planning · On-site implementation support</div>
+      </div>
+    </div>
+    <div class="project">
+      <img class="project-image" src="{{ '/media/projects_images/linarand-cam-and-cnc-cloud/00.jpg' | relative_url }}" alt="LinCAM Plugin and CNC Cloud Platform" />
+      <div class="project-content">
+        <div class="project-title">LinCAM Plugin and CNC Cloud Platform</div>
+        <div class="project-meta">CAD/CAM Developer and Automation Engineer | Rhino3D, Python</div>
+        <p class="project-description">Developed LinCAM 3, a Rhino3D CAD/CAM plugin for converting 2D geometry into G-code toolpaths, and CNC Cloud, a networked IoT system for distributed CNC workshop management. Work combined CAD/CAM software development, toolpath programming, Python and RhinoScript automation, and production control workflows—connecting geometry preparation directly to shop-floor execution across distributed machines.</p>
+        <div class="project-skills">CAD/CAM software development · Rhino3D plugin development · Python and RhinoScript automation · G-code generation workflows · CNC programming logic</div>
+      </div>
+    </div>
+    <div class="project">
+      <img class="project-image" src="{{ '/media/projects_images/cortadora-automatizada-de-bandas/00.jpg' | relative_url }}" alt="Automated Zigzag Belt Cutting Machine" />
+      <div class="project-content">
+        <div class="project-title">Automated Zigzag Belt Cutting Machine</div>
+        <div class="project-meta">Mechanical Designer and Automation Engineer | CAD, Motion Systems</div>
+        <p class="project-description">Designed and built an automated zigzag cutting machine for industrial plastic belts. The machine combined pneumatic actuation, linear motion systems, timing belt transmission, and stepper motor control. Work focused on special-purpose machine design, mechanical development, automation logic, and production-ready manufacturing documentation—covering the complete path from CAD detailing to workshop commissioning.</p>
+        <div class="project-skills">Special-purpose machine design · Motion system development · Pneumatic actuation integration · Stepper motor and timing belt transmission logic · CAD-based mechanical detailing</div>
+      </div>
+    </div>
+    <div class="project">
+      <img class="project-image" src="{{ '/media/projects_images/cnc-para-emprendedores/00.png' | relative_url }}" alt="CNC Machine Line for Entrepreneurs" />
+      <div class="project-content">
+        <div class="project-title">CNC Machine Line for Entrepreneurs</div>
+        <div class="project-meta">Mechanical Designer and CNC Systems Developer | CAD/CAM</div>
+        <p class="project-description">Designed a line of CNC machines for entrepreneurs and small-scale industry, capable of cutting plastics, wood, and light metals. Work focused on machine architecture, mechanical design for manufacturability, CNC system development, technical documentation, and compact workshop-scale production workflows—from structural CAD detailing through to fabrication and commissioning.</p>
+        <div class="project-skills">CNC machine architecture · Mechanical design for manufacturability · CAD/CAM workflow development · Product design for small workshops · Technical documentation</div>
+      </div>
+    </div>
+    <div class="project">
+      <img class="project-image" src="{{ '/media/projects_images/barrenadoras-cnc-de-bandas-industriales/00.png' | relative_url }}" alt="CNC Drilling Machine for Industrial Belts" />
+      <div class="project-content">
+        <div class="project-title">CNC Drilling Machine for Industrial Belts</div>
+        <div class="project-meta">Mechanical Designer and CNC Machine Developer | CAD, Manufacturing</div>
+        <p class="project-description">Developed CNC machinery for drilling and cutting conveyor belts, redesigning the manufacturing process for specialized industrial belts in a production environment. Work focused on mechanical design, CNC system development, process optimization, and manufacturing documentation—replacing manual operations with repeatable, machine-controlled fabrication workflows.</p>
+        <div class="project-skills">Special-purpose CNC machine design · Mechanical design for industrial production · CNC drilling and cutting workflows · Manufacturing process optimization · CAD-based machine development</div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <footer>&copy; 2026 Daniel Fernández Marmissolle-Daguerre</footer>
+</body>
+</html>
